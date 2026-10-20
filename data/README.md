@@ -1,17 +1,24 @@
 # Source data and acquisition
 
-The reporting route works from the bundled compact predictions, derived manifests and reference tables. No raw legacy DNA strings or model weights are stored in Git; they are separately inventoried for the prepared artifact deposit.
+This repository tracks the compact hashes, manifests, split/group assignments, predictions and derived records needed to reproduce and audit the manuscript. It does not place all raw DNA sequences, pretrained weights or large fitted checkpoints in Git history.
 
-ENCODE source files:
-- https://www.encodeproject.org/files/ENCFF774DYO/ (HepG2; ENCSR022GQD)
-- https://www.encodeproject.org/files/ENCFF631LHA/ (K562; ENCSR382BVV)
+## ENCODE lentiMPRA
 
-DHS-natural source: Gosai et al. (2024), DOI https://doi.org/10.1038/s41586-024-08070-z, Supplementary Table 12. Use the measured activity columns and the frozen inclusion/split records; the retained cohort has 8,399 elements per cell.
+- HepG2: https://www.encodeproject.org/files/ENCFF774DYO/ (experiment `ENCSR022GQD`)
+- K562: https://www.encodeproject.org/files/ENCFF631LHA/ (experiment `ENCSR382BVV`)
 
-Legacy iEnhancer benchmark files: obtain the exact source version and compare sequence hashes with data/manifests/legacy_hashes.csv before a sequence-level audit. The original source filenames and identities are in the derived manifests. A live download location is not a guarantee of byte identity.
+These measurements are described by Agarwal et al. (2025), DOI `10.1038/s41586-024-08430-9`.
 
-configs/activity_input_manifest.csv records exact derived training-input filenames, hashes and sizes; configs/pretrained_file_manifest.csv records pinned model files. Some derived historical inputs/checkpoints require a separate artifact deposit. No DOI or public artifact URL is invented here. The original local study contains these files; the versioned Zenodo data/checkpoint upload plan is now prepared locally, pending actual deposit publication. See [docs/ZENODO_RELEASE.md](../docs/ZENODO_RELEASE.md).
+## DHS-natural external cohort
 
-scripts/prepare_training_workspace.py copies an authenticated, separately obtained study-input tree into a new data/training_workspace directory. It never edits the supplied input tree. scripts/retrain.py is an explicit opt-in wrapper around byte-identical frozen training source; it refuses to start if required inputs are missing or mismatched. See docs/REPRODUCIBILITY.md.
+The external DHS-natural elements come from Gosai et al. (2024), DOI `10.1038/s41586-024-08070-z`, Supplementary Table 12. The manuscript's fixed filtering yields 8,399 evaluation elements per cell type.
 
-The preparation artifact list also includes the exact legacy FASTA-only repack, original exhaustive-audit sources, hg38 reference and publisher external-source workbook. [REPRODUCTION_GUIDE.md](../docs/REPRODUCTION_GUIDE.md) describes content-verified reconstruction. The original final legacy audit used scikit-learn 1.6.1; install requirements-preparation.txt in its separate environment to reproduce its final folds.
+## Legacy enhancer benchmark
+
+Obtain the legacy iEnhancer benchmark source files from the cited benchmark sources and authenticate the sequence content against `data/manifests/legacy_hashes.csv` before a fresh sequence-level audit. A live download location is not, by itself, evidence of byte identity with the supplied copies audited in the manuscript.
+
+## Reconstruction and larger artifacts
+
+`configs/activity_input_manifest.csv`, the model/pretrained manifests and the run locks record the exact study inputs/configuration expected by the optional reconstruction, checkpoint-inference and retraining scripts. See `docs/REPRODUCTION_GUIDE.md` for those deeper routes.
+
+Third-party data/model terms remain with their original providers; see `THIRD_PARTY_NOTICES.md`. A stable Zenodo manuscript release can archive the public repository and larger authenticated artifacts separately where redistribution is permitted.

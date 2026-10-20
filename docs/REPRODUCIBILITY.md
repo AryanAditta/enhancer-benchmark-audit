@@ -1,39 +1,29 @@
 # Reproduction scope
 
-## Original source history
+## Manuscript-facing reporting
 
-[PHASE_INDEX.md](PHASE_INDEX.md) maps all four work stages, all 62 main original notebooks and five additional saved/recovery versions to the current six reproduction notebooks. `ORIGINAL_SOURCE_INVENTORY.json` accounts for all 145 notebook source paths and 129 supporting-code source paths. Byte-identical backups share an archive destination; every differing version is retained, together with its source path, SHA-256 and byte size. Original notebook code, explanatory text, metadata and saved outputs are unchanged.
+The six notebooks in `notebooks/` and the stages exposed by `scripts/reproduce.py` operate on fixed scored records, protocol locks, manifests and compact result files. They reproduce the benchmark audit/count checks, classification and MPRA metrics, validation-only recipe choices, the 14 headline statistical contrasts and the manuscript tables/figures without retraining models.
 
-This archive includes superseded statistical/reporting snapshots, historical test evaluations, early short-duration recipes, the separate 9C locus branch and failed/interrupted attempts. Their historical output/status text is preserved and must be interpreted using the index and [Phase 38 reporting erratum](history/ERRATUM_collapse_count.md). Original scripts retain their machine-specific paths and dependencies. Archive validation checks file identity, notebook schemas and Python syntax; it does not assert that every historical notebook executes in this public reporting environment or validates every historical result anew.
+Generated outputs are written outside the bundled reference inputs, primarily under `results/reproduced/` and `.runtime/`.
 
-`scripts/restore_historical_sources.py` recreates every inventoried path, including duplicate backup paths, into a new empty directory outside the repository. It checks hashes before and after copying and executes no historical source. Full historical execution additionally needs the original authenticated input/model artifacts and original path/environment assumptions. The six current entry notebooks remain the tested saved-result reproduction workflow. Additional raw-preparation, checkpoint-inference and fitting commands are in [REPRODUCTION_GUIDE.md](REPRODUCTION_GUIDE.md).
+## Data reconstruction
 
-## CPU reporting
+Git contains the manifests, hashes, fold/split assignments, saved predictions and derived records needed for manuscript auditing, but it does not contain every raw DNA sequence or large model artifact. Source acquisition is documented in `data/README.md`.
 
-The six ordered notebooks operate on bundled scored records, frozen settings and compact results. They reproduce benchmark hash/count checks, classification and activity metrics, validation-only recipe choice, the headline statistical family, and publication assets without training. Outputs go to results/reproduced and .runtime, which are ignored by Git.
+A fresh sequence-level rebuild therefore requires separately obtaining the source data and running the preparation route described in `REPRODUCTION_GUIDE.md`. Exact legacy grouped-fold recreation uses the recorded preparation environment rather than assuming that later scikit-learn versions generate identical shuffled folds.
 
-Public benchmark manifests omit raw DNA. Hash/GC fields are derived from the authenticated original sequence strings. Audit/count and fixed-group isolation checks are rerunnable from those fields. A fresh all-pairs sequence-similarity search requires obtaining the original DNA. Source snapshots show the original sequence-based implementation; do not describe a hash audit as a fresh exhaustive LCS rescan.
+## Checkpoint inference and retraining
 
-DNA-valued MPRA group IDs are replaced by ordinal opaque labels preserving membership and sorted order, so the exact resampling assignment is retained. See docs/public_copy_transformations.json. Source hashes and public-copy hashes are different where this documented transformation occurs.
+`src/frozen/` preserves the final training/evaluation implementations used for the principal fitted models. Fitted checkpoints and pretrained weights are intentionally not kept in Git history. Fresh checkpoint inference or full retraining requires the separately authenticated artifacts, a compatible GPU environment and the explicit optional scripts described in the reproduction guide.
 
-The primary statistical reproduction uses the preserved 2,000 bootstrap and 9,999 permutation draws for each of 14 headline comparisons. The own-prefix secondary sensitivity has its separate 1,000-draw protocol. Conditional intervals exclude retraining and recipe-search uncertainty; three seeds, dependent folds, previous cohort examination and limited candidate grids remain disclosed. No outcome selects new training or alters a grid.
+These GPU routes are not required to regenerate the manuscript tables and figures from the released predictions.
 
-## Full training and checkpoint inference
+## Validation record
 
-Byte-identical frozen training, architecture and evaluation sources are included under src/frozen. The public source copy does not bundle pretrained/fitted weights, raw datasets, optimizer states or every historical source archive. Full training therefore requires the exact separately obtained artifacts, authenticated by the supplied manifests. It is not claimed to have been rerun during repository preparation.
+`docs/VALIDATION.json` summarizes the release-preparation checks. The six manuscript-facing notebooks were executed; all 14 headline statistical contrasts reproduced with zero recorded discrepancy; checkpoint inference checks covered 60 classification fold sets and 60 activity evaluation sets with no new optimizer steps; and raw legacy/activity/external reconstruction checks passed.
 
-The original implementation expects a study-shaped working directory and an environment named enhancer. prepare_training_workspace.py constructs a separate directory with those paths from supplied authentic artifacts. The frozen source is never patched in place. Classification uses 60 fixed two-epoch fits; MPRA uses all 54 fixed candidate/seed fits and preserves DNABERT-2 own two-epoch prefix checkpoints. Fresh GPU runs can vary across hardware/software; the fixed-prediction reporting route targets the recorded results.
+A fresh rerun of the complete training campaign was not performed during repository preparation. The validation therefore should not be interpreted as adding retraining, model-selection or pretraining uncertainty to the reported inferential intervals.
 
-## Figure reproduction
+## Statistical and evaluation scope
 
-The current manuscript has eight main groups as 14 separate figure objects and eight supplementary figure images. Current figure exports and captions are in figures/. The drawing sources for the current main figures are retained and invoked through a portable adapter. Original historical plotting sources are retained separately for provenance. Supplied supplementary image extraction is an exact-copy operation, not a claim that a new model or new data were generated.
-
-## Attribution and publication
-
-README and LICENSE distinguish public code availability from an author-selected permissive license. CITATION.cff transcribes the five authors, order, affiliations and supplied ORCID from the current final manuscript under the user's instruction; see CITATION_PROVENANCE.json. No Zenodo record, DOI, release tag or acceptance status is claimed. Use the reviewed combined software/data/model handoff in [ZENODO_RELEASE.md](ZENODO_RELEASE.md).
-
-## Complete scored-prediction records
-
-The public copy includes all 72 MPRA validation-prediction sets, all 60 selected/control seed evaluation sets and the 20 ensemble sets. Notebook 03 independently recomputes the validation correlations, seed metrics and ensemble means/SDs without loading model checkpoints. Classification includes all 12 pooled single-seed sets as well as the 18 ensemble/archived-model rows.
-
-The seven historical classification baselines remain archived single-run predictions. [BASELINE_PROVENANCE.md](BASELINE_PROVENANCE.md) distinguishes preserved fitting code from missing authenticated fitted artifacts. Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.
+The released analyses preserve the manuscript's stated limits. Inference is conditional on fixed fitted models and the evaluated cohorts. Previously examined internal/external cohorts are not described as prospectively untouched confirmatory tests. Single-seed and ensemble results remain distinct, and positive external rank correlation is not treated as evidence of calibrated absolute reporter activity.

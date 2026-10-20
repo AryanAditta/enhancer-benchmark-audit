@@ -1,9 +1,0 @@
-[
-  {
-    "source": "Shafin's Contribution/phase38_outputs/ERRATUM_collapse_count.md",
-    "archive_path": "docs/history/ERRATUM_collapse_count.md",
-    "source_sha256": "11573de0c0df1990f0c0d711873df55453c7e5ad080bb241dd238cf36fff7694",
-    "archive_sha256": "11573de0c0df1990f0c0d711873df55453c7e5ad080bb241dd238cf36fff7694",
-    "purpose": "Historical collapse-count reporting correction; no training or selection change."
-  }
-]
