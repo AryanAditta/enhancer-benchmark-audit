@@ -2,7 +2,7 @@
 
 Original study code is supplied under the root LICENSE notice; a permissive license remains an author decision. Citation metadata follows the current manuscript by user instruction; this does not change any contributor's rights.
 
-The historical notebook/source archive records the handoff sequence supplied by Shafin Ahmed: Aditta's initial DNABERT notebooks, Arshee's subsequent notebooks, Aditta's Phases 1–11C3, and Shafin's Phases 12–49 and subsequent presentation scripts. This organizational attribution does not determine final paper author order or sole authorship of code. The original LegNet/MPRAnn source snapshots in `src/archive/` retain the upstream terms listed below; archiving them makes no new copyright claim or license grant. Installed dependency libraries, model-library caches and pretrained weights are obtained separately.
+The historical notebook/source archive is organized by research stage: legacy DNABERT experiments, legacy Longformer experiments, Phases 1–11C3 benchmark audit and model studies, and Phases 12–49 validation, statistics and reporting, followed by presentation scripts. These organizational labels describe research scope and do not define authorship or ownership. The original LegNet/MPRAnn source snapshots in `src/archive/` retain the upstream terms listed below; archiving them makes no new copyright claim or license grant. Installed dependency libraries, model-library caches and pretrained weights are obtained separately.
 
 ## Model code
 

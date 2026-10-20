@@ -21,13 +21,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 7904,
-    "sha256": "e673015de712fd9c117939e3e0301b579575612f35c91d446f86e41fde344ca7"
+    "bytes": 7956,
+    "sha256": "1337629a2435bde947f5ce993add79f3b479519f96ca77e8b57cc3b03ae62f5d"
   },
   {
     "path": "THIRD_PARTY_NOTICES.md",
-    "bytes": 4118,
-    "sha256": "0f33860abb56adb645f5361a53d07bee5d3d85e73084436ea678f36075cd5a1f"
+    "bytes": 4129,
+    "sha256": "cd18d52753e5152a836c811068dd709966f3a01bd9f68a74ee840351e669638b"
   },
   {
     "path": "configs/activity_input_manifest.csv",
@@ -97,7 +97,7 @@
   {
     "path": "configs/zenodo_artifacts.json",
     "bytes": 169112,
-    "sha256": "90c580c290b909ec1a2335e4833750768280a3ca1c49a656ffcaee790f352308"
+    "sha256": "5648db98220e6dba62018b55da17ebaf4020b7bb121564193c4acaa2b319d7cb"
   },
   {
     "path": "data/README.md",
@@ -141,23 +141,23 @@
   },
   {
     "path": "docs/HISTORICAL_ARCHIVE_VALIDATION.json",
-    "bytes": 50179,
-    "sha256": "fdff3192996cd53d274e99034bdab374e33d22fa4cad71b6b9674d35638b2d27"
+    "bytes": 52005,
+    "sha256": "036d2035c0e90b37d88fb509d3a50466100ac63cbf9398bbfed3917fd0f639a2"
   },
   {
     "path": "docs/NOTEBOOK_AND_FIGURE_MAP.md",
-    "bytes": 1504,
-    "sha256": "7f6c100cb7e72c6a93f7f061d5dea5ac0f5ce3ddfca04a648f12506171ac0c7d"
+    "bytes": 1576,
+    "sha256": "d6f099eaae01442be29f2fc3bcbe29173b6261fc8dadacb948b9f1f8bc0f9819"
   },
   {
     "path": "docs/ORIGINAL_SOURCE_INVENTORY.json",
-    "bytes": 218345,
-    "sha256": "3ea5800ee825e388c5df58d69109eef6ebe68708b46a5a8bb86a9e68afca9f84"
+    "bytes": 222827,
+    "sha256": "bf76078a2a6efc2cf88346cb2ce58bb10761a495f5c33c5beac9896959106530"
   },
   {
     "path": "docs/PHASE_INDEX.md",
-    "bytes": 22361,
-    "sha256": "56b03c139e562edcf7dba01c34d700c63d802c4ce1a84e3afd1249fc3492cdca"
+    "bytes": 22380,
+    "sha256": "d687a5f1ef33e87a636d52375cabe47b56c6e35e03b3ec4a86bb53e4f31a0fe6"
   },
   {
     "path": "docs/PREPARATION_SOURCE_INDEX.json",
@@ -296,8 +296,8 @@
   },
   {
     "path": "docs/release_checks/tested_code_identity.json",
-    "bytes": 25517,
-    "sha256": "c5ca29d98c03cc35a9cf7e0d7752156a1d9906e9026f9b04091d52684177c8da"
+    "bytes": 27299,
+    "sha256": "454d0e7310bc23d2a78f6d44a4637cff31affce851ddf4080755f818ac9f5358"
   },
   {
     "path": "docs/release_checks/unit_tests.txt",
@@ -1106,8 +1106,8 @@
   },
   {
     "path": "notebooks/original_phases/README.md",
-    "bytes": 1104,
-    "sha256": "12b11b79f9b1d46a9a4acc813d28d5412460f554474749d0f8413cb5e3f53bc2"
+    "bytes": 1139,
+    "sha256": "b2997b45e87d5b236c10ca0f789e9e83b71a271e96a52f318751120b49dcad17"
   },
   {
     "path": "requirements-preparation.txt",
@@ -2961,421 +2961,421 @@
   },
   {
     "path": "src/archive/README.md",
-    "bytes": 1543,
-    "sha256": "71c30cd2962266fe2751f4938b78ce1db02be75f8563e8a4640f7a3c7b56e73a"
+    "bytes": 1665,
+    "sha256": "6a2b34a10933a723ad04cb31a5c88270bac4add77f22a87e4f0bf0fb9a8dc75b"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/audit_csv_precision.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/audit_csv_precision.py",
     "bytes": 2496,
     "sha256": "a0ce61648b9f0cead860f15cd30348400f153d4e9cca0ff8ec3ea9809a49eb16"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/audit_parent_selection_and_external.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/audit_parent_selection_and_external.py",
     "bytes": 5137,
     "sha256": "e2a056f68c4308d7439d224aae7fb58b42df0ba1d3dcacf884a7d918def1a49f"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_final_synthesis_notebooks.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_final_synthesis_notebooks.py",
     "bytes": 1543,
     "sha256": "b91a28705186ed32cdbe03f462d395221461ede891fa1f824eefc124e12d81ca"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_followups.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_followups.py",
     "bytes": 52563,
     "sha256": "1b8725fb7a444b72b109983b512b41ba9a467e23373a58afcc602f0facdf42fb"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_mpra_fairness_notebooks.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_mpra_fairness_notebooks.py",
     "bytes": 4476,
     "sha256": "5d531587c20252cdba2bcaa4377ed78f1a274d161d80a534b38408b160f08833"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_phase16.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_phase16.py",
     "bytes": 23798,
     "sha256": "2b35ff2ad2103d8e3a3c1c6c8b7cff3c7a04e60dca334a8d605d454435588a95"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_phase17.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_phase17.py",
     "bytes": 18016,
     "sha256": "99272d029a812c20b162f9de6981537c3de233d59d26f9da3e3a7468494fbf99"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_phase18.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_phase18.py",
     "bytes": 15015,
     "sha256": "0cdda0c5346a6a42e95084d0aa2df51ae09db87cf3a86d3993b6cd22d1fd9c0c"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_phase19.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_phase19.py",
     "bytes": 40515,
     "sha256": "bd0825d50296ae22e57ba165bbf5847a8553af8dfcc51e21e8942a6f6bb7aa71"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/build_readiness_notebooks.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/build_readiness_notebooks.py",
     "bytes": 4363,
     "sha256": "fc3755e4c38d344d486b7826453c44b5cf175eab1e5f244c154ebf725bcf9edc"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/capture_phase19_sources.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/capture_phase19_sources.py",
     "bytes": 1652,
     "sha256": "ac1a8752ee1d80df436c3b33d716e760a398618617052cde9e22f973dd9bcec8"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/complete_reference_batches.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/complete_reference_batches.py",
     "bytes": 2197,
     "sha256": "67f852cca0ac6f2236a5ebea5c4e63739525c16326906dc686c182f18dbb0de8"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/download_phase11c_models.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/download_phase11c_models.py",
     "bytes": 4071,
     "sha256": "b9a4b5b682f359b48153c0ccacc0a1e7254e7458de3c7a8134f7eaa504073066"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/execute_followup.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/execute_followup.py",
     "bytes": 1791,
     "sha256": "df363768878da28eb504e24994eed0f3ca3510ddc917be076d59472cd8a05f30"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/export_final_docx_word.ps1",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/export_final_docx_word.ps1",
     "bytes": 2276,
     "sha256": "21e3db34f7f48bb7468b360e2a50734cc1542b0760833a4beac74bc15f3b2437"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_claims.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_claims.py",
     "bytes": 13583,
     "sha256": "cf6a4321bbde5f27228c09f448010e70c675cc9cf3d81a19b7d3f46ca96ee9bc"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_delivery.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_delivery.py",
     "bytes": 62208,
     "sha256": "18818093deb713b7e445cd6cff58ae5cb7fafbbbed1e4fe10d8f46ae1ce07e38"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_documents.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_documents.py",
     "bytes": 24280,
     "sha256": "b527feed32d62ad603a17fee92284f0bd85eb5a6050818ac696de92f6ba67c18"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_manuscript.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_manuscript.py",
     "bytes": 43348,
     "sha256": "4bf7de94963e0f2c502581ba428dbcfe1fb0155d65656d3ec184b15e50c3405d"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_presentation.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_presentation.py",
     "bytes": 45938,
     "sha256": "2527d404281a2a12411d2abe01e78aebea742ad58176089cb5ca789a28737bdc"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/final_synthesis.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/final_synthesis.py",
     "bytes": 43236,
     "sha256": "d3a3c60b47aecd68abfa851ca855dc6d90efd2c989f1f49dcdfe643d01c399e2"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/finalize_contribution.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/finalize_contribution.py",
     "bytes": 6369,
     "sha256": "b1b72ec399f882e11ef9142065bbf4a2b1f6692c0b0d1db23ec7423f07b9f7d9"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/finalize_phases16_19.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/finalize_phases16_19.py",
     "bytes": 12343,
     "sha256": "3d24d565eadf2a4cbb4b5d93a6eb5b6eb0da2e6f9f1efd5e1804f38663dd84d9"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/finalize_revision49.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/finalize_revision49.py",
     "bytes": 12704,
     "sha256": "75ef03e37b8067ad6e603a03d6ef341aa8e6530ce093e1cfe459e884dafd4d76"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/finish_reference_download.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/finish_reference_download.py",
     "bytes": 1600,
     "sha256": "add422e783a40c37304691386db9064b576c732af68852336081548974924723"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/mpra_fairness_analysis.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/mpra_fairness_analysis.py",
     "bytes": 38344,
     "sha256": "ed017c0d10e118bf57cf9d724c54308c85ab07ae61852326456f802054f32a6a"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/mpra_fairness_training.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/mpra_fairness_training.py",
     "bytes": 18943,
     "sha256": "83a1ae9a9e03361e4fe517044ee7b3cc76f580db04878e4a12f1f7873c60d311"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/phase11c_completion.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/phase11c_completion.py",
     "bytes": 32054,
     "sha256": "e81d87d761d1abd50479dbe54a9d2bacefd5b6478fcb1a9175915c8adbed097f"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/phase11c_verification.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/phase11c_verification.py",
     "bytes": 41381,
     "sha256": "b0358b455fb9c63e395d7478b7cb93739bf0d260071493fc32a6ef2e64ebadcf"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/prepare_mpra_fairness.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/prepare_mpra_fairness.py",
     "bytes": 13513,
     "sha256": "cfb2b4a5e2a45b6efa01c055be22504539df91e6d27c750a24e64e5defcae846"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/readiness_packaging.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/readiness_packaging.py",
     "bytes": 39859,
     "sha256": "06919e529f0f34cba5043da92adaa725bb444ae196772bc90fcf3119c79bc2b2"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/readiness_pipeline.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/readiness_pipeline.py",
     "bytes": 97676,
     "sha256": "c77feb969acbd73716e530f15f33c0f412a18bbcc1d4c544c51a7df8f5cfcd38"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/record_verified_results.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/record_verified_results.py",
     "bytes": 4616,
     "sha256": "d97ce6630e4dcfd3994f4afcbb46174cd16a1c3b00d42361ec5b64bdaa055cd1"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/refine_filtering.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/refine_filtering.py",
     "bytes": 2395,
     "sha256": "15fc66ae0b59842a9736763fa604060d4f253193076bc36eed290a0c69736b7d"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/refine_verification.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/refine_verification.py",
     "bytes": 8912,
     "sha256": "c523488eb29f85ff3faab5550293295f93f86760ed784dc951292c7ef9ff436a"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/regression_architectures.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/regression_architectures.py",
     "bytes": 7164,
     "sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/retrieve_sources.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/retrieve_sources.py",
     "bytes": 1399,
     "sha256": "80174732922a7276b51015f7a49ddebbb00421303962c956ee6788743c7e509d"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/review_aditta_handoff.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/review_aditta_handoff.py",
     "bytes": 40971,
     "sha256": "51f1068081e252ed48a2823ac0f86abde5118a7080988455bca45085f84e7446"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/revise_manuscript49.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/revise_manuscript49.py",
     "bytes": 77720,
     "sha256": "117509584a8f200a77e8604cdd915a016fd4dceede45e529ff1f59e81d4bcf05"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/run_mpra_fairness_sequence.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/run_mpra_fairness_sequence.py",
     "bytes": 820,
     "sha256": "b01c17ec97e311742b1c0c566eada12ce483f5a1dc00e44d971cb12e4b711f3a"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/run_phase11c_sequence.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/run_phase11c_sequence.py",
     "bytes": 1137,
     "sha256": "4240e452f5ef18d05e615c0a569aa533d1e3920ef91cc716fe9b903975b68eec"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/small_reference_ranges.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/small_reference_ranges.py",
     "bytes": 1725,
     "sha256": "2b3b0605e29f51c735318e3578270263cd74a9a27e4930fc8f9686aa0d1ff345"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/test_phase11c_resume.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/test_phase11c_resume.py",
     "bytes": 2105,
     "sha256": "8531907367ad942d1c65d2c407fe42b16ec260b1d13edf9b763a5ec56ed905fc"
   },
   {
-    "path": "src/archive/shafin/analysis_tools/validate_final_artifacts.py",
+    "path": "src/archive/phases12_49_and_presentation/analysis_tools/validate_final_artifacts.py",
     "bytes": 4095,
     "sha256": "9af215d7274542cc67d23d09ece044a56bdd5e41f994d0664f0376eb8b695b07"
   },
   {
-    "path": "src/archive/shafin/presentation/caption_font_20261020_v1/edit_captions.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/caption_font_20261020_v1/edit_captions.py",
     "bytes": 3613,
     "sha256": "740ae52e5ee0179259253eddc9390530dbb72db2ef417e61542eb5ed094bede9"
   },
   {
-    "path": "src/archive/shafin/presentation/caption_font_20261020_v1/render_review.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/caption_font_20261020_v1/render_review.py",
     "bytes": 2863,
     "sha256": "c2c297fb2a06377f3858e839aebdc156681a63c92a442ceda7398d7e590a8a30"
   },
   {
-    "path": "src/archive/shafin/presentation/figure1_redesign_proposal_20261018_v1/build_figure1.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure1_redesign_proposal_20261018_v1/build_figure1.py",
     "bytes": 13033,
     "sha256": "79c297d91c945b73d38bee124066290d87fd9a3dd577305b52cd7eab6e581176"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/build_diagrams.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/build_diagrams.py",
     "bytes": 6672,
     "sha256": "5a1c769c82f55d2420ef65415135ac0c0bd9aa4ccd3609477d0770c202588df8"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/build_plots.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/build_plots.py",
     "bytes": 12455,
     "sha256": "1cb43b3893a13514a7a58669b03ce60ef7dd8405acad5cd17bbb9f4a46fa6639"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/figure_common.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/figure_common.py",
     "bytes": 6221,
     "sha256": "08f6ba76e3d9725209509216fc8e469246ee3be78067029a4bbf70bad09d8c1c"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/publish_revision.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/publish_revision.py",
     "bytes": 12456,
     "sha256": "d06a92c4468a758ed36f9bdcdf2c77ce15cfb494beacff5e03bb7fb8a6bdadfb"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/render_figure_proofs.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/render_figure_proofs.py",
     "bytes": 1429,
     "sha256": "41b9b02874d7f7a26ef79709964cabd09fa89798aa4dd2af9087fd3c6b230de5"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/render_manuscript.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/render_manuscript.py",
     "bytes": 2252,
     "sha256": "d7d3db13a7cae0af14b152bb3a03206013abd2b21d082fa46a523a321e07c2b7"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/update_manuscript.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/update_manuscript.py",
     "bytes": 14499,
     "sha256": "681e2d82acd9bc9a5bd41c9c61ad6eb191e99f99e7fd6cd32cb58208f9acfd9b"
   },
   {
-    "path": "src/archive/shafin/presentation/figure_revision_20261018_v1/validate_assets.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/figure_revision_20261018_v1/validate_assets.py",
     "bytes": 5405,
     "sha256": "1bc12b7deb4f528ad4bb411997cbc0aea4daa696212c58092a08f72cf9eea7a0"
   },
   {
-    "path": "src/archive/shafin/presentation/sharing_package_refresh_20261020_v1/refresh_package.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/sharing_package_refresh_20261020_v1/refresh_package.py",
     "bytes": 11564,
     "sha256": "af31d66596a05fd101d02585065c545898bd569ef2aa1c1b5e9fee906933b814"
   },
   {
-    "path": "src/archive/shafin/presentation/table2_formatting_20261020_v1/edit_table2.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/table2_formatting_20261020_v1/edit_table2.py",
     "bytes": 6764,
     "sha256": "309577ea75f3e3a00a72fc88962fe8254472ae4a321dd02c208fcced5c53fa06"
   },
   {
-    "path": "src/archive/shafin/presentation/table2_formatting_20261020_v1/render_review.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/table2_formatting_20261020_v1/render_review.py",
     "bytes": 2897,
     "sha256": "f5e5190b53cab815c69c7897334d6a62ca619c36c934f3db3f5484824d4c2c52"
   },
   {
-    "path": "src/archive/shafin/presentation/table3_formatting_20261020_v1/edit_table3.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/table3_formatting_20261020_v1/edit_table3.py",
     "bytes": 7006,
     "sha256": "928ab8c6c80120cd0950bfb9a42df0aea29f8a18b02bd53f112689e52e2e2b23"
   },
   {
-    "path": "src/archive/shafin/presentation/table3_formatting_20261020_v1/render_review.py",
+    "path": "src/archive/phases12_49_and_presentation/presentation/table3_formatting_20261020_v1/render_review.py",
     "bytes": 2963,
     "sha256": "cb4bc178b292e597cc354a5e22932d6c91f028c2751738708060290606b482c7"
   },
   {
-    "path": "src/archive/shafin/runtime_validation/runtime_and_resume_check.py",
+    "path": "src/archive/phases12_49_and_presentation/runtime_validation/runtime_and_resume_check.py",
     "bytes": 3112,
     "sha256": "3c5ddf7c5e10e8925e17c74b9bbe030971a1e1fee77f5ca814bdf78d2c7e2eae"
   },
   {
-    "path": "src/archive/shafin/snapshots/04f0bd25de45_final_presentation.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/04f0bd25de45_final_presentation.py",
     "bytes": 58482,
     "sha256": "04f0bd25de45c03ba5e1c0396f7017519625f9eb9b3e6f0f562179305522728d"
   },
   {
-    "path": "src/archive/shafin/snapshots/167aaa59547d_grouping.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/167aaa59547d_grouping.py",
     "bytes": 2348,
     "sha256": "167aaa59547d935fae10dea70d44744a49c86c92abeb7fca33244edc14bca7de"
   },
   {
-    "path": "src/archive/shafin/snapshots/1d5ee56e29d6_audit.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/1d5ee56e29d6_audit.py",
     "bytes": 1532,
     "sha256": "1d5ee56e29d638779360556423913ce1e83c61cde6840af66b65cdac1d92595f"
   },
   {
-    "path": "src/archive/shafin/snapshots/1e5aff109356_metrics.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/1e5aff109356_metrics.py",
     "bytes": 4008,
     "sha256": "1e5aff10935620676051a8879339cc0318796ef82422e3101ef2aa24b0b9699f"
   },
   {
-    "path": "src/archive/shafin/snapshots/2495a3aa2626_mprann_model.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/2495a3aa2626_mprann_model.py",
     "bytes": 6771,
     "sha256": "2495a3aa2626f3754c071e53cf691a1543bc35a91fdf3e1dde68475ff4bd160a"
   },
   {
-    "path": "src/archive/shafin/snapshots/26c73336ca2a_final_synthesis.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/26c73336ca2a_final_synthesis.py",
     "bytes": 1127,
     "sha256": "26c73336ca2abf78dbf1cf17d344276ea1a1938291ede41cfcdeeb6995215c4e"
   },
   {
-    "path": "src/archive/shafin/snapshots/4092c3717a9e_final_synthesis.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/4092c3717a9e_final_synthesis.py",
     "bytes": 42123,
     "sha256": "4092c3717a9e170e72f8f26a70425a033403a8d1eef93606b8d38a535f0beab8"
   },
   {
-    "path": "src/archive/shafin/snapshots/4ad1dff569a4_export_final_docx_word_before.ps1",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/4ad1dff569a4_export_final_docx_word_before.ps1",
     "bytes": 1797,
     "sha256": "4ad1dff569a4a990a1510fd9b1a037fb2ccc9c64b571bc0fbf12c257ff13b957"
   },
   {
-    "path": "src/archive/shafin/snapshots/618a76315c92_manuscript_before_table_layout_fix.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/618a76315c92_manuscript_before_table_layout_fix.py",
     "bytes": 41977,
     "sha256": "618a76315c92111d6d78af560c9a4ff3fbfae8b97892385500747d810a1330e4"
   },
   {
-    "path": "src/archive/shafin/snapshots/65f8759944a0_figures.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/65f8759944a0_figures.py",
     "bytes": 855,
     "sha256": "65f8759944a0dff14bd8dfd677026afcdd7d3418bfc45cb2810ef3c8cb68ee61"
   },
   {
-    "path": "src/archive/shafin/snapshots/68cda8ba6cda_mprann_workflow_scripts_train.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/68cda8ba6cda_mprann_workflow_scripts_train.py",
     "bytes": 7709,
     "sha256": "68cda8ba6cdabb98855e7035aa0d8e2b3f0765606dcc3c93ddb7e9a151bbb147"
   },
   {
-    "path": "src/archive/shafin/snapshots/6be644eba659_fetch_assay_sources.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/6be644eba659_fetch_assay_sources.py",
     "bytes": 2342,
     "sha256": "6be644eba659dd51e24afd35ad406ced9fc1c51b74193311196c2b6f963c3f6c"
   },
   {
-    "path": "src/archive/shafin/snapshots/7eb70257593d___init__.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/7eb70257593d___init__.py",
     "bytes": 2,
     "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
   },
   {
-    "path": "src/archive/shafin/snapshots/86a99e148584_build_legacy_notes.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/86a99e148584_build_legacy_notes.py",
     "bytes": 30803,
     "sha256": "86a99e148584eea13949d1a424e31ee4b3592456204462aa96099a174776fd5e"
   },
   {
-    "path": "src/archive/shafin/snapshots/8a5650b78866_human_legnet_model.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/8a5650b78866_human_legnet_model.py",
     "bytes": 6400,
     "sha256": "8a5650b788662db07fda0e82566697b0aa1b81a1e6ff7a53448f138d00c40975"
   },
   {
-    "path": "src/archive/shafin/snapshots/9ad461e9ade3_single_seed_comparison.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/9ad461e9ade3_single_seed_comparison.py",
     "bytes": 1481,
     "sha256": "9ad461e9ade3d45a30243294bb44a192559baf50cb43f29eab386d2545d3a3d5"
   },
   {
-    "path": "src/archive/shafin/snapshots/a341e44f6417_human_legnet_core.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/a341e44f6417_human_legnet_core.py",
     "bytes": 6584,
     "sha256": "a341e44f64176ad794064f47d7380aea17eaad444e2d32016506d14594ba6b5e"
   },
   {
-    "path": "src/archive/shafin/snapshots/bfa3ee712230_final_synthesis.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/bfa3ee712230_final_synthesis.py",
     "bytes": 25332,
     "sha256": "bfa3ee71223011fff31ecfe49f3cc7598b5244fcef43dc7dc47c9057b1bcd754"
   },
   {
-    "path": "src/archive/shafin/snapshots/cf6b5b7eaa1a_revised_word_builder.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/cf6b5b7eaa1a_revised_word_builder.py",
     "bytes": 44146,
     "sha256": "cf6b5b7eaa1ad0e09bc511766ce5bb60fd6045021c50954431390b62433a4717"
   },
   {
-    "path": "src/archive/shafin/snapshots/d1e7079c1b1c_final_delivery.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/d1e7079c1b1c_final_delivery.py",
     "bytes": 60064,
     "sha256": "d1e7079c1b1c47f4cb5b84110d9fa9f3a95c16cf5da8ef6f1327176d0619ed51"
   },
   {
-    "path": "src/archive/shafin/snapshots/e12de3c5146a_mpra_fairness_analysis.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/e12de3c5146a_mpra_fairness_analysis.py",
     "bytes": 35967,
     "sha256": "e12de3c5146ad12d3a5985aae6eb0103c115034d33e202c647f82263ac56eb2d"
   },
   {
-    "path": "src/archive/shafin/snapshots/ebfcc6ecda5e_metric_functions.py",
+    "path": "src/archive/phases12_49_and_presentation/snapshots/ebfcc6ecda5e_metric_functions.py",
     "bytes": 4300,
     "sha256": "ebfcc6ecda5e9380410a4cce5d90fabfa1d596d9de0433fd0e9c958512da9a60"
   },

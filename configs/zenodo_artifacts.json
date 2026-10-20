@@ -4001,8 +4001,8 @@
     },
     {
       "key": "artifact_metadata.zip",
-      "bytes": 44668,
-      "sha256": "5542a59f849237aa0bffe21f9aaeadeeaea3bf1f22fff1c79c8d0f3f7971b0f6",
+      "bytes": 44676,
+      "sha256": "ddc090b2da51b6f597ae31b64879f098396078ba1b7af1d19fa6b50f9bf13fb9",
       "category": "metadata",
       "members": []
     }

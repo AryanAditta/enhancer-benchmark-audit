@@ -2,14 +2,14 @@
 
 This index preserves the project history alongside the six current reproduction notebooks. The six notebooks at the top of `notebooks/` remain the starting point for current manuscript results.
 
-The handoff sequence below was supplied by Shafin Ahmed on 20 October 2026. It records work stages and does not assert a final manuscript author order or sole authorship of every line.
+The archive is organized by research stage and phase range. These labels describe the work performed; authorship is recorded separately in the citation metadata.
 
 | Work stage | Main notebooks | Archive |
 |---|---:|---|
-| Aditta: initial DNABERT work | 4 | `notebooks/original_phases/01_legacy_dnabert_experiments/` |
-| Arshee: subsequent work | 3 | `notebooks/original_phases/02_legacy_longformer_experiments/` |
-| Aditta: Phases 1–11C3 | 17 | `notebooks/original_phases/03_phases01_11c3_audit_and_models/` |
-| Shafin Ahmed: Phases 12–49 | 38 | `notebooks/original_phases/04_phases12_49_validation_and_reporting/` |
+| Legacy DNABERT experiments | 4 | `notebooks/original_phases/01_legacy_dnabert_experiments/` |
+| Legacy Longformer experiments | 3 | `notebooks/original_phases/02_legacy_longformer_experiments/` |
+| Phases 1–11C3: benchmark audit and model studies | 17 | `notebooks/original_phases/03_phases01_11c3_audit_and_models/` |
+| Phases 12–49: validation, statistics and reporting | 38 | `notebooks/original_phases/04_phases12_49_validation_and_reporting/` |
 
 There are **62 main original notebooks plus five distinct saved/recovery versions**, and **83 distinct supporting code files**. All **145 original notebook paths and 129 code paths** are accounted for in [ORIGINAL_SOURCE_INVENTORY.json](ORIGINAL_SOURCE_INVENTORY.json). Byte-identical backup copies share an archive destination; differing versions are retained.
 
@@ -21,19 +21,19 @@ Archived notebooks have not been rerun as complete historical workflows for this
 
 The [collapse-count erratum](history/ERRATUM_collapse_count.md) accompanies Phase 38. Its relative handoff-diagnostic paths refer to the original review bundle. The repository also supplies the full fit logs, metadata and validation-prediction records used by the current reporting route.
 
-## Aditta and Arshee: original model notebooks
+## Legacy model experiments
 
 | Work stage | Original notebook | Historical role |
 |---|---|---|
-| Aditta | [DNABERT - Ind Test (Base, BiLSTM).ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT%20-%20Ind%20Test%20%28Base%2C%20BiLSTM%29.ipynb) | Independent-test DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
-| Aditta | [DNABERT- Ind Test (1).ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-%20Ind%20Test%20%281%29.ipynb) | Independent-test DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
-| Aditta | [DNABERT-10 Fold.ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-10%20Fold.ipynb) | Ten-fold DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
-| Aditta | [DNABERT-5.ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-5.ipynb) | Five-fold DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
-| Arshee | [10 fold final.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/10%20fold%20final.ipynb) | Ten-fold Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
-| Arshee | [5 fold final.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/5%20fold%20final.ipynb) | Five-fold Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
-| Arshee | [ind-test.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/ind-test.ipynb) | Independent-test Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
+| Legacy DNABERT | [DNABERT - Ind Test (Base, BiLSTM).ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT%20-%20Ind%20Test%20%28Base%2C%20BiLSTM%29.ipynb) | Independent-test DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
+| Legacy DNABERT | [DNABERT- Ind Test (1).ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-%20Ind%20Test%20%281%29.ipynb) | Independent-test DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
+| Legacy DNABERT | [DNABERT-10 Fold.ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-10%20Fold.ipynb) | Ten-fold DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
+| Legacy DNABERT | [DNABERT-5.ipynb](../notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-5.ipynb) | Five-fold DNABERT architecture experiments; historical evaluation, preceding the overlap audit. |
+| Legacy Longformer | [10 fold final.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/10%20fold%20final.ipynb) | Ten-fold Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
+| Legacy Longformer | [5 fold final.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/5%20fold%20final.ipynb) | Five-fold Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
+| Legacy Longformer | [ind-test.ipynb](../notebooks/original_phases/02_legacy_longformer_experiments/ind-test.ipynb) | Independent-test Longformer architecture experiments; historical 200-bp setting, preceding the overlap audit. |
 
-## Aditta: Phases 1–11C3
+## Phases 1–11C3: benchmark audit and model studies
 
 | Phase | Original notebook / purpose | Current entry notebook(s) | Historical/current relationship |
 |---|---|---|---|
@@ -55,7 +55,7 @@ The [collapse-count erratum](history/ERRATUM_collapse_count.md) accompanies Phas
 | 11C2 | [Additional historical seed shard](../notebooks/original_phases/03_phases01_11c3_audit_and_models/%5B11C2%5D%20Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb) | 02 | Keep as a separate supplied shard; do not infer full completion or equivalence from its filename. |
 | 11C3 | [Additional historical seed shard](../notebooks/original_phases/03_phases01_11c3_audit_and_models/%5B11C3%5D%20Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb) | 02 | Keep as a separate supplied shard; current consistent results come from Phases 31–33. |
 
-## Shafin Ahmed: Phases 12–49
+## Phases 12–49: validation, statistics and reporting
 
 | Phase | Original notebook / purpose | Current entry notebook(s) | Historical/current relationship |
 |---|---|---|---|
@@ -102,11 +102,11 @@ The [collapse-count erratum](history/ERRATUM_collapse_count.md) accompanies Phas
 
 | Source context | Archived notebook | Status |
 |---|---|---|
-| `Shafin's Contribution/.ipynb_checkpoints/[12] Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb` | [checkpoint_2c03994a8d_[12] Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb](../notebooks/original_phases/05_saved_versions/checkpoint_2c03994a8d_%5B12%5D%20Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb) | Saved checkpoint snapshot; distinguish from the main executed notebook. |
-| `Shafin's Contribution/.ipynb_checkpoints/[13] Enhancer_Independent_Result_Verification-checkpoint.ipynb` | [checkpoint_01373f0b54_[13] Enhancer_Independent_Result_Verification-checkpoint.ipynb](../notebooks/original_phases/05_saved_versions/checkpoint_01373f0b54_%5B13%5D%20Enhancer_Independent_Result_Verification-checkpoint.ipynb) | Saved checkpoint snapshot; distinguish from the main executed notebook. |
-| `Shafin's Contribution/phase35_outputs/recovery_20261013T231246Z/[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb` | [recovery_57b9131ad1_[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb](../notebooks/original_phases/05_saved_versions/recovery_57b9131ad1_%5B35%5D%20Enhancer_MPRA_Training_Adequacy_and_Search.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
-| `Shafin's Contribution/phase46_outputs/recovery/first_render_attempt_failed.ipynb` | [recovery_04f6356f9e_first_render_attempt_failed.ipynb](../notebooks/original_phases/05_saved_versions/recovery_04f6356f9e_first_render_attempt_failed.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
-| `Shafin's Contribution/revision49_outputs/recovery/label_adapter_failed_notebook.ipynb` | [recovery_4ba1320e56_label_adapter_failed_notebook.ipynb](../notebooks/original_phases/05_saved_versions/recovery_4ba1320e56_label_adapter_failed_notebook.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
+| `.ipynb_checkpoints/[12] Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb` | [checkpoint_2c03994a8d_[12] Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb](../notebooks/original_phases/05_saved_versions/checkpoint_2c03994a8d_%5B12%5D%20Enhancer_Kaggle_Phase12_Strong_Baselines-checkpoint.ipynb) | Saved checkpoint snapshot; distinguish from the main executed notebook. |
+| `.ipynb_checkpoints/[13] Enhancer_Independent_Result_Verification-checkpoint.ipynb` | [checkpoint_01373f0b54_[13] Enhancer_Independent_Result_Verification-checkpoint.ipynb](../notebooks/original_phases/05_saved_versions/checkpoint_01373f0b54_%5B13%5D%20Enhancer_Independent_Result_Verification-checkpoint.ipynb) | Saved checkpoint snapshot; distinguish from the main executed notebook. |
+| `phase35_outputs/recovery_20261013T231246Z/[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb` | [recovery_57b9131ad1_[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb](../notebooks/original_phases/05_saved_versions/recovery_57b9131ad1_%5B35%5D%20Enhancer_MPRA_Training_Adequacy_and_Search.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
+| `phase46_outputs/recovery/first_render_attempt_failed.ipynb` | [recovery_04f6356f9e_first_render_attempt_failed.ipynb](../notebooks/original_phases/05_saved_versions/recovery_04f6356f9e_first_render_attempt_failed.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
+| `revision49_outputs/recovery/label_adapter_failed_notebook.ipynb` | [recovery_4ba1320e56_label_adapter_failed_notebook.ipynb](../notebooks/original_phases/05_saved_versions/recovery_4ba1320e56_label_adapter_failed_notebook.ipynb) | Preserved interrupted/failed attempt; not a replacement for the completed main phase. |
 
 ## Supporting scripts and restoration
 
