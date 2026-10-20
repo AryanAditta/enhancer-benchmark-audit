@@ -1,9 +1,11 @@
 {
   "cff-version": "1.2.0",
-  "message": "Please cite this versioned software and the associated manuscript. Add the actual Zenodo DOI after archival publication.",
+  "message": "Please cite this versioned software and the associated manuscript.",
   "type": "software",
   "title": "Benchmark audit and model evaluation for enhancer prediction: data overlap, training adequacy and assay transfer",
   "version": "1.0.0",
+  "date-released": "2026-10-20",
+  "doi": "10.5281/zenodo.23503625",
   "authors": [
     {
       "family-names": "Aditta",
