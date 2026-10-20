@@ -1,33 +1,15 @@
 # Enhancer benchmark audit
 
-Code and compact results supporting **Benchmark audit and model evaluation for enhancer prediction: data overlap, training adequacy and assay transfer**.
+Reproducibility materials for **Benchmark audit and model evaluation for enhancer prediction: data overlap, training adequacy and assay transfer**.
 
-The study audits the supplied iEnhancer-2L train/test overlap, evaluates grouped Stage 1/Stage 2 classification, compares DNABERT-2, MPRA-LegNet and MPRAnn on measured lentiMPRA activity, tests DNABERT-2 training duration against its own two-epoch prefix, and evaluates DHS-natural assay transfer.
+This repository contains the manuscript-facing code, fixed manifests, predictions, statistics and figure/table generation used for the final study.
 
-## Full original research history
-
-The complete notebook/source history is in [notebooks/original_phases/](notebooks/original_phases/) and indexed in [docs/PHASE_INDEX.md](docs/PHASE_INDEX.md). The archive follows the research sequence: **Legacy DNABERT experiments → Legacy Longformer experiments → Phases 1–11C3: benchmark audit and model studies → Phases 12–49: validation, statistics and reporting**.
-
-The archive preserves **62 main notebooks plus five distinct saved/recovery versions**, including superseded analyses and failed attempts, and **83 distinct supporting code files**. All **145 original notebook paths and 129 code paths** are inventoried; identical backups share a stored copy. Every archived source is byte-identical, including saved outputs. The phase index distinguishes historical findings from current manuscript evidence and links the Phase 38 collapse-count erratum.
-
-The six notebooks below organize current saved-result reproduction. The archived original notebooks preserve how the research developed; they have not been rerun as part of this upload and retain their original environment, input and path assumptions. Supporting script history is in [src/archive/](src/archive/). A restoration command in the phase index recreates every inventoried source path in a new empty directory without executing it.
-
-## Reproduction routes
-
-See [docs/REPRODUCTION_GUIDE.md](docs/REPRODUCTION_GUIDE.md) for tested commands covering CPU reporting, raw data reconstruction, fresh fitted-checkpoint inference and explicit full training. The six entry notebooks default to reporting; the complete original history remains archived. Release validation is in [docs/VALIDATION.json](docs/VALIDATION.json).
-
-## Setup
+## Quick start
 
 ```bash
 conda env create -f environment.yml
 conda activate enhancer-audit
-```
 
-Tested reporting versions are pinned in environment.yml and requirements.txt. The original GPU study environment is documented separately in configs/training_environment.yml; it requires the appropriate CUDA PyTorch build and authenticated model/data artifacts.
-
-## Reproduce saved-result analyses
-
-```bash
 python -B -X utf8 scripts/reproduce.py audit
 python -B -X utf8 scripts/reproduce.py classification
 python -B -X utf8 scripts/reproduce.py activity
@@ -36,53 +18,55 @@ python -B -X utf8 scripts/reproduce.py statistics --full-statistics
 python -B -X utf8 scripts/reproduce.py figures-and-tables
 ```
 
-Alternatively, run notebooks/01_benchmark_audit.ipynb through 06_figures_and_tables.ipynb. The full statistical command repeats the declared Monte Carlo calculations and can take substantially longer than checking point estimates. Generated output stays in results/reproduced; the supplied reference files are read-only inputs.
+These commands reproduce the manuscript-facing analyses from the saved, locked predictions and reference results. They do not retrain models.
 
-## Structure
+## Manuscript notebooks
+
+| Notebook | Main purpose |
+|---|---|
+| `notebooks/01_benchmark_audit.ipynb` | Benchmark overlap and fixed-group checks |
+| `notebooks/02_classification.ipynb` | Enhancer classification evaluation |
+| `notebooks/03_activity_models.ipynb` | MPRA activity-model evaluation and training-duration control |
+| `notebooks/04_external_transfer.ipynb` | DHS-natural external transfer |
+| `notebooks/05_statistics.ipynb` | Bootstrap, permutation and Holm-adjusted headline contrasts |
+| `notebooks/06_figures_and_tables.ipynb` | Main/supplementary figures and tables |
+
+## Repository structure
 
 ```text
-configs/       fixed recipes, seeds, grids, selection and input/model locks
-data/          source URLs, checksums, opaque identity/fold manifests and acquisition notes
-src/           reporting functions, statistics, exact frozen training sources and drawing code
-notebooks/     six current reproduction notebooks + full original notebook archive
-scripts/       commands for reporting and explicit, authenticated optional retraining
-results/       derived manifests, small prediction files, all main/supplementary tables and fit logs
-figures/       current main and supplementary figures with captions
-docs/          full phase index, source inventory, reproduction limits and provenance
+configs/       fixed protocols, seeds, recipes and model/input locks
+data/          acquisition notes, hashes, duplicate/fold manifests and MPRA splits
+docs/          provenance, validation and reproduction guidance
+figures/       manuscript figure exports
+notebooks/     six manuscript-facing notebooks
+results/       compact predictions, reference inputs, tables and fit summaries
+scripts/       reproduction, reconstruction and checkpoint/training wrappers
+src/           reporting/statistical code and frozen implementation sources
 tests/         numerical and provenance checks
 ```
 
-## Notebook map
+## Validation
 
-| Notebook | Coverage |
-|---|---|
-| 01_benchmark_audit | Exact/RC hash overlap, fixed group isolation; classification part of Tables 2-3 and Figure 4 |
-| 02_classification | Three-seed and archived single-run classification; Table 4 and Figures 5-6 |
-| 03_activity_models | All 54 fit records, validation-only recipes, internal metrics and own-prefix duration; Table 5 and Figure 7 |
-| 04_external_transfer | DHS-natural transfer; Table 7 and Figure 8 |
-| 05_statistics | Fourteen headline contrasts, conditional bootstrap/permutation tests and Holm adjustment; Table 6 and S18 |
-| 06_figures_and_tables | Reproduce current main figure drawings and assemble all seven main/19 supplementary tables and supplementary images |
+The release-preparation validation record is in [`docs/VALIDATION.json`](docs/VALIDATION.json). It documents execution of the six manuscript notebooks, reproduction of the 14 headline statistical contrasts, checkpoint-based classification/activity evaluation checks and source-data reconstruction checks.
 
-Table 1 and S19 are built from preserved, cited literature records. Table 2 combines both classification and activity populations.
+The validation record also states the limits of release preparation. In particular, it does not claim a fresh rerun of the complete training campaign.
 
-## Data and models
+## Data and larger model artifacts
 
-Read data/README.md and THIRD_PARTY_NOTICES.md. Original legacy DNA and large model weights are not stored in Git history. Their separately prepared artifact plan is documented in [docs/ZENODO_RELEASE.md](docs/ZENODO_RELEASE.md). The public copy retains hashes/folds and derived results. DNA-valued resampling groups are replaced by opaque labels in identical sorted order. Full GPU retraining requires separate authenticated artifacts; see docs/REPRODUCIBILITY.md and the opt-in preparation/training scripts. No new training is performed by the reporting notebooks.
+Large raw/source artifacts and fitted checkpoints are not stored in Git history. The repository keeps the compact manifests, hashes, splits, predictions and derived results needed to audit the study. Source acquisition details are in [`data/README.md`](data/README.md), with third-party terms in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-## Interpretation
+A versioned Zenodo archive will provide the stable manuscript release and larger authenticated artifacts where redistribution is permitted. The manuscript should use the final published Zenodo DOI once available.
 
-Previously examined cohorts are not fresh confirmatory tests. Intervals condition on fitted models; equal candidate counts do not imply equal compute or exhaustive tuning. Retain undefined metrics, all fit records, epoch/grid-boundary flags and the two descriptive near-constant fits. Positive external ranking does not establish calibrated absolute activity or native enhancer function.
+## Reproduction details
 
-## License, citation and archive
+For raw-data reconstruction, checkpoint inference or explicit retraining, see [`docs/REPRODUCTION_GUIDE.md`](docs/REPRODUCTION_GUIDE.md). The reporting environment is defined by `environment.yml` / `requirements.txt`; legacy preparation requirements are separated where exact historical package behavior matters.
 
-Original code currently retains all rights reserved until the authors select a reuse license. Upstream MIT/Apache notices remain in third_party/licenses; data retain their source terms. See LICENSE and CITATION.cff. Author order and affiliations in CITATION.cff come from the current manuscript under the user's instruction. A real Zenodo DOI will be added after the reviewed artifact deposit is published; no DOI or release is invented.
+## Interpretation limits
 
-## Complete scored-prediction records
+The repository preserves the manuscript's stated evaluation limits: previously examined cohorts are not described as prospectively untouched confirmatory tests, bootstrap intervals condition on fixed fitted models/evaluation cohorts, ensemble and single-seed results are kept distinct and positive external rank correlation is not treated as calibrated absolute activity prediction.
 
-The public copy includes all 72 MPRA validation-prediction sets, all 60 selected/control seed evaluation sets and the 20 ensemble sets. Notebook 03 independently recomputes the validation correlations, seed metrics and ensemble means/SDs without loading model checkpoints. Classification includes all 12 pooled single-seed sets as well as the 18 ensemble/archived-model rows.
+## Citation and rights
 
-The seven historical classification baselines remain archived single-run predictions. Available fitting sources and incomplete historical fitted-artifact provenance are distinguished in [docs/BASELINE_PROVENANCE.md](docs/BASELINE_PROVENANCE.md). Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.
+Citation metadata are in [`CITATION.cff`](CITATION.cff). The root [`LICENSE`](LICENSE) applies to original study code. Third-party software, pretrained models and datasets retain their own terms; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-## Release checks added on 20 October 2026
-
-All six current notebooks passed actual isolated Jupyter-kernel execution with full headline resampling. Fresh GPU inference matched all 60 classification fold and 60 activity evaluation sets exactly. Raw legacy groups/folds, ENCODE activity rows/splits and the frozen external cohort were rebuilt and checked. The legacy fold builder requires its recorded scikit-learn 1.6.1 environment; reporting/training retain their own pinned versions. The launcher authenticates all 54 activity fits before selection/inference. Full retraining and a separately installed GPU environment were not repeated. See the detailed validation reports for the tested scope.
+**Repository:** https://github.com/AryanAditta/enhancer-benchmark-audit

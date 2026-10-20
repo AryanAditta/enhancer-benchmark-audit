@@ -1,197 +1,32 @@
 {
   "passed": true,
   "date_local": "2026-10-20",
-  "checks_directory": "release_checks",
   "current_entry_notebooks_executed": 6,
-  "clean_reporting_install": "Private pinned packages; host site-packages excluded from Jupyter kernels; same Windows host and Python executable.",
-  "full_headline_statistics": {
+  "headline_statistics": {
     "passed": true,
-    "classification_rows": 18,
-    "MPRA_ensemble_rows": 20,
-    "weighted_literal_checks": 75,
-    "point_contrasts": 14,
-    "max_metric_error": 0.0,
-    "max_point_difference_error": 0.0,
-    "full_statistics_contrasts": 14,
-    "max_interval_pvalue_error": 0.0,
+    "contrasts": 14,
     "bootstrap_draws": 2000,
     "permutation_draws": 9999,
-    "scope": "fixed fitted models and previously examined cohorts; no selection, hyperparameter-search, training-algorithm, pretraining-membership or fresh-test uncertainty"
+    "max_metric_error": 0.0,
+    "max_point_difference_error": 0.0,
+    "max_interval_pvalue_error": 0.0
   },
   "checkpoint_inference": {
     "passed": true,
     "classification_fold_sets": 60,
     "activity_evaluation_sets": 60,
     "max_prediction_difference": 0.0,
-    "mean_difference_limit": 1e-06,
-    "maximum_difference_limit": 2e-05,
-    "new_training_steps": 0,
-    "prior_prediction_caches_used_for_inference": false,
-    "scope": "Fresh checkpoint inference; saved predictions read only for comparison after inference.",
-    "seconds": 758.8910000000033,
-    "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:16:45) [MSC v.1942 64 bit (AMD64)]",
-    "torch": "2.11.0+cu128",
-    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+    "new_training_steps": 0
   },
-  "raw_legacy": {
+  "raw_reconstruction": {
     "passed": true,
-    "tasks": [
-      "legacy"
-    ],
-    "checks": {
-      "legacy_stage1": {
-        "rows": 3268,
-        "columns": 13,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "ed8493e2e9b4e7c8b0ea642b5d9614571154d8b72b29a86c7a67fcbe7374502d",
-        "reference_sha256": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3"
-      },
-      "legacy_stage2": {
-        "rows": 1584,
-        "columns": 13,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "40537cd1fe5d744a6bec82cb4df7fb97bb22299c032dabe821b8a2e66718c7d5",
-        "reference_sha256": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952"
-      },
-      "fresh_exhaustive_LCS": {
-        "passed": true,
-        "pairs_ge150": 425,
-        "pairs_ge160": 75,
-        "gapped_candidates": 75
-      }
-    },
-    "seconds": 35.719000000011874,
-    "new_training_steps": 0,
-    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
-    "private_legacy_documents_included": false
-  },
-  "raw_activity_external": {
-    "passed": true,
-    "tasks": [
-      "activity",
-      "external"
-    ],
-    "checks": {
-      "phase9_full_activity_all_cells.csv": {
-        "rows": 76833,
-        "columns": 19,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "cc53722155462acf40697d5762b860ad9032162f76d0c79922a62caabfebba0c",
-        "reference_sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76"
-      },
-      "phase9_frozen_splits.csv": {
-        "rows": 76833,
-        "columns": 8,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "50d633513e6f920d1bec1521be109fd4b33190cb7fdd110c37eb8cfcd7f20c2e",
-        "reference_sha256": "1ecc2d271817edd3000890be718a3f3a9bcc6b63a71550dfa718dbed84d0ff61"
-      },
-      "external_frozen_cohort": {
-        "rows": 29330,
-        "columns": 15,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "2479e96b8fb3a08b138c08465a81b3fbcd0a91fccb75c487bb61ad6e53fa22c5",
-        "reference_sha256": "00d3521b5f087df56e97b792e7b961ffcb9a80e346fdb4c8360dc0182dc273f8"
-      }
-    },
-    "seconds": 60.96899999999732,
-    "new_training_steps": 0,
-    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
-    "private_legacy_documents_included": false
-  },
-  "completed_job_reuse": {
-    "passed": true,
-    "reports": [
-      {
-        "task": "classification",
-        "jobs": 60,
-        "completion_authenticated": true
-      },
-      {
-        "task": "activity",
-        "jobs": 54,
-        "completion_authenticated": true,
-        "evaluation_requested": false
-      }
-    ],
-    "new_optimizer_steps": 0,
-    "optimizer_steps_forbidden": true,
-    "actual_frozen_setup_job_authentication_and_finish_executed": true,
-    "scope": "Authenticated existing completed-job reuse; synthetic setup probes only, not a fresh full training run.",
-    "original_checkpoint_hashes_unchanged": 132,
-    "seconds": 131.15599999998813
+    "legacy_stage1_rows": 3268,
+    "legacy_stage2_rows": 1584,
+    "activity_rows": 76833,
+    "external_rows_before_primary_filtering": 29330,
+    "fresh_exhaustive_lcs_pairs_ge160": 75
   },
   "fresh_full_training_performed": false,
   "new_optimizer_steps": 0,
-  "gpu_environment_independent_install_tested": false,
-  "live_zenodo_api_tested": false,
-  "rights": "Original-code all-rights-reserved notice unchanged by user choice; upstream rights retained.",
-  "zenodo_status": "99 data/model/input files prepared locally; committed software ZIP will be file 100. No DOI, draft, release or publication created.",
-  "original_preservation": "Final source-preservation audit recorded separately before commit.",
-  "baseline_scope": "Seven older single-run baselines have archived predictions; exact fitted artifact completeness differs; see BASELINE_PROVENANCE.md.",
-  "raw_all_final": {
-    "passed": true,
-    "tasks": [
-      "legacy",
-      "activity",
-      "external"
-    ],
-    "checks": {
-      "legacy_stage1": {
-        "rows": 3268,
-        "columns": 13,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "ed8493e2e9b4e7c8b0ea642b5d9614571154d8b72b29a86c7a67fcbe7374502d",
-        "reference_sha256": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3"
-      },
-      "legacy_stage2": {
-        "rows": 1584,
-        "columns": 13,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "40537cd1fe5d744a6bec82cb4df7fb97bb22299c032dabe821b8a2e66718c7d5",
-        "reference_sha256": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952"
-      },
-      "fresh_exhaustive_LCS": {
-        "passed": true,
-        "pairs_ge150": 425,
-        "pairs_ge160": 75,
-        "gapped_candidates": 75
-      },
-      "phase9_full_activity_all_cells.csv": {
-        "rows": 76833,
-        "columns": 19,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "cc53722155462acf40697d5762b860ad9032162f76d0c79922a62caabfebba0c",
-        "reference_sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76"
-      },
-      "phase9_frozen_splits.csv": {
-        "rows": 76833,
-        "columns": 8,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "50d633513e6f920d1bec1521be109fd4b33190cb7fdd110c37eb8cfcd7f20c2e",
-        "reference_sha256": "1ecc2d271817edd3000890be718a3f3a9bcc6b63a71550dfa718dbed84d0ff61"
-      },
-      "external_frozen_cohort": {
-        "rows": 29330,
-        "columns": 15,
-        "content_matches": true,
-        "byte_identical": false,
-        "sha256": "2479e96b8fb3a08b138c08465a81b3fbcd0a91fccb75c487bb61ad6e53fa22c5",
-        "reference_sha256": "00d3521b5f087df56e97b792e7b961ffcb9a80e346fdb4c8360dc0182dc273f8"
-      }
-    },
-    "seconds": 97.45299999999406,
-    "new_training_steps": 0,
-    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
-    "private_legacy_documents_included": false
-  }
+  "scope": "Validation conditions on fixed fitted models and the released evaluation cohorts; it does not add retraining, model-selection or pretraining uncertainty."
 }

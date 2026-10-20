@@ -1,8 +1,0 @@
-{
-  "passed": true,
-  "schema": "CFF 1.2.0",
-  "schema_url": "https://raw.githubusercontent.com/citation-file-format/citation-file-format/1.2.0/schema.json",
-  "schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
-  "authors": 5,
-  "orcid_count": 1
-}
