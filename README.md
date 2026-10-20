@@ -55,7 +55,12 @@ The validation record also states the limits of release preparation. In particul
 
 Large raw/source artifacts and fitted checkpoints are not stored in Git history. The repository keeps the compact manifests, hashes, splits, predictions and derived results needed to audit the study. Source acquisition details are in [`data/README.md`](data/README.md), with third-party terms in [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
-A versioned Zenodo archive will provide the stable manuscript release and larger authenticated artifacts where redistribution is permitted. The manuscript should use the final published Zenodo DOI once available.
+The manuscript reproducibility release is archived on Zenodo:
+
+- **Version v1.0.0 DOI:** https://doi.org/10.5281/zenodo.23503625
+- **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23503624
+
+For the manuscript, cite the version-specific DOI above so the archived software snapshot is fixed.
 
 ## Reproduction details
 
@@ -70,3 +75,4 @@ The repository preserves the manuscript's stated evaluation limits: previously e
 Citation metadata are in [`CITATION.cff`](CITATION.cff). The root [`LICENSE`](LICENSE) applies to original study code. Third-party software, pretrained models and datasets retain their own terms; see [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).
 
 **Repository:** https://github.com/AryanAditta/enhancer-benchmark-audit
+**Zenodo:** https://doi.org/10.5281/zenodo.23503625
