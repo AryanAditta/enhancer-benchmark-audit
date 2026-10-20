@@ -5,6 +5,9 @@ __pycache__/
 results/reproduced/
 data/raw/
 data/training_workspace/
+data/*_workspace/
+data/artifacts/
+results/checkpoint_reproduced/
 *.pt
 *.ckpt
 *.bin

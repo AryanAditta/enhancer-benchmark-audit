@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "main_figure_objects": 14,
+  "main_figure_groups": 8,
+  "checks": [
+    {
+      "figure": "Figure1_Study_workflow",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure2_Classification_pipeline",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure3_Activity_pipeline",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure4a_Training_test_identity",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure4b_Similarity_groups",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure4c_Duplicate_removal",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure5_Seeds_and_ensembles",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure6a_Stage1_classification_exact_GC",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure6b_Stage2_classification_exact_GC",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure7a_HepG2_internal_activity",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure7b_K562_internal_activity",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure7c_Selected_model_contrast",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure7d_Own_prefix_duration_control",
+      "pixel_identical_in_reference_environment": true
+    },
+    {
+      "figure": "Figure8_Transfer_failure_modes",
+      "pixel_identical_in_reference_environment": true
+    }
+  ],
+  "plotted_values_match_preserved_records": true,
+  "supplementary_images": 8,
+  "supplementary_action": "Exact assembly of supplied original PNGs; historical plotting sources retained separately.",
+  "figure1_action": "Approved master retained; original drawing code included.",
+  "font": "Arial for artwork; manuscript legend fonts are not embedded in graph files."
+}

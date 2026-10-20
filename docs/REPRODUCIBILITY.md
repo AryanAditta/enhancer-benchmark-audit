@@ -6,7 +6,7 @@
 
 This archive includes superseded statistical/reporting snapshots, historical test evaluations, early short-duration recipes, the separate 9C locus branch and failed/interrupted attempts. Their historical output/status text is preserved and must be interpreted using the index and [Phase 38 reporting erratum](history/ERRATUM_collapse_count.md). Original scripts retain their machine-specific paths and dependencies. Archive validation checks file identity, notebook schemas and Python syntax; it does not assert that every historical notebook executes in this public reporting environment or validates every historical result anew.
 
-`scripts/restore_historical_sources.py` recreates every inventoried path, including duplicate backup paths, into a new empty directory outside the repository. It checks hashes before and after copying and executes no historical source. Full historical execution additionally needs the original authenticated input/model artifacts and original path/environment assumptions. The six current entry notebooks below remain the tested saved-result reproduction workflow.
+`scripts/restore_historical_sources.py` recreates every inventoried path, including duplicate backup paths, into a new empty directory outside the repository. It checks hashes before and after copying and executes no historical source. Full historical execution additionally needs the original authenticated input/model artifacts and original path/environment assumptions. The six current entry notebooks remain the tested saved-result reproduction workflow. Additional raw-preparation, checkpoint-inference and fitting commands are in [REPRODUCTION_GUIDE.md](REPRODUCTION_GUIDE.md).
 
 ## CPU reporting
 
@@ -30,10 +30,10 @@ The current manuscript has eight main groups as 14 separate figure objects and e
 
 ## Attribution and publication
 
-README and LICENSE distinguish public code availability from an author-selected permissive license. CITATION.cff uses collective repository contributors rather than asserting a final manuscript author list. No Zenodo record, DOI, release tag or acceptance status is claimed. Enable the repository in Zenodo before creating the archival GitHub release.
+README and LICENSE distinguish public code availability from an author-selected permissive license. CITATION.cff transcribes the five authors, order, affiliations and supplied ORCID from the current final manuscript under the user's instruction; see CITATION_PROVENANCE.json. No Zenodo record, DOI, release tag or acceptance status is claimed. Use the reviewed combined software/data/model handoff in [ZENODO_RELEASE.md](ZENODO_RELEASE.md).
 
 ## Complete scored-prediction records
 
 The public copy includes all 72 MPRA validation-prediction sets, all 60 selected/control seed evaluation sets and the 20 ensemble sets. Notebook 03 independently recomputes the validation correlations, seed metrics and ensemble means/SDs without loading model checkpoints. Classification includes all 12 pooled single-seed sets as well as the 18 ensemble/archived-model rows.
 
-The seven historical classification baselines remain archived single-run predictions; unavailable original fitting code/checkpoints are not recreated. Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.
+The seven historical classification baselines remain archived single-run predictions. [BASELINE_PROVENANCE.md](BASELINE_PROVENANCE.md) distinguishes preserved fitting code from missing authenticated fitted artifacts. Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.

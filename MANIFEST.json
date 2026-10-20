@@ -6,13 +6,13 @@
   },
   {
     "path": ".gitignore",
-    "bytes": 165,
-    "sha256": "99d3d1e40013d68b60293ce8f9c80edf34a8c0b163eebc37db6632c10d2577cb"
+    "bytes": 233,
+    "sha256": "8b0b3aab2c745469f1bdd36cd23c0870d946f449a1350d333790e65a53d723ea"
   },
   {
     "path": "CITATION.cff",
-    "bytes": 603,
-    "sha256": "a7aa836093cd11caf33974985187c782edd1bcc9cda37c42539602422708f941"
+    "bytes": 2018,
+    "sha256": "4c10529114a15d0d8bdea53c8daf7d230d9933c22f9947a3bff17577b53cd5bc"
   },
   {
     "path": "LICENSE",
@@ -21,13 +21,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 6564,
-    "sha256": "e9898e3d00bfa2b8ccb888a484791a0821b6c54a74b8f040099b6535468dcaa5"
+    "bytes": 7904,
+    "sha256": "e673015de712fd9c117939e3e0301b579575612f35c91d446f86e41fde344ca7"
   },
   {
     "path": "THIRD_PARTY_NOTICES.md",
-    "bytes": 3382,
-    "sha256": "9b903458c6c83f384bdd977a546eeed5118d007586b480c2601a8f716c98529d"
+    "bytes": 4118,
+    "sha256": "0f33860abb56adb645f5361a53d07bee5d3d85e73084436ea678f36075cd5a1f"
   },
   {
     "path": "configs/activity_input_manifest.csv",
@@ -50,6 +50,11 @@
     "sha256": "8b6ecbcaa948b0f63559230f4bc9df7078156f5187ef6df0ada212e0cd2d4c51"
   },
   {
+    "path": "configs/checkpoint_artifacts.json",
+    "bytes": 40643,
+    "sha256": "9a20ed62799a415b3d3d298e1e3c5feaf5dcb42508c81edf3c025e958e20809c"
+  },
+  {
     "path": "configs/classification_protocol.json",
     "bytes": 2065,
     "sha256": "ee733570f5cef93533cdb1c466c6b2526126821d9b7f7cb48693cd4d53a29ede"
@@ -63,6 +68,11 @@
     "path": "configs/classification_run_lock.json",
     "bytes": 500,
     "sha256": "febf7368682c18f3fe781edeeff3f07a2ca35328c044b31ec882c4ebf39fb292"
+  },
+  {
+    "path": "configs/preparation_artifacts.json",
+    "bytes": 1421,
+    "sha256": "574903ded7bb81cf0f10bdad31254a565b669056bfda68007d11791c3120028b"
   },
   {
     "path": "configs/pretrained_file_manifest.csv",
@@ -85,9 +95,14 @@
     "sha256": "a4b70b2ba046d4b86eb8cfda7ca9fc0468ca7060bb16adf5178bb70d2893ed2c"
   },
   {
+    "path": "configs/zenodo_artifacts.json",
+    "bytes": 169112,
+    "sha256": "90c580c290b909ec1a2335e4833750768280a3ca1c49a656ffcaee790f352308"
+  },
+  {
     "path": "data/README.md",
-    "bytes": 1701,
-    "sha256": "311c895d32ccb0d0dfe4f9468dbcaf7e1973c50ea49a228e238e9e1749506922"
+    "bytes": 2292,
+    "sha256": "667275ede2730bdef1ac823c8cbaa366c751f8f3080bff11d2fdc514d70b29fb"
   },
   {
     "path": "data/manifests/activity_validation_truth.csv.gz",
@@ -115,9 +130,19 @@
     "sha256": "50d633513e6f920d1bec1521be109fd4b33190cb7fdd110c37eb8cfcd7f20c2e"
   },
   {
+    "path": "docs/BASELINE_PROVENANCE.md",
+    "bytes": 2617,
+    "sha256": "3f6ba19da1d3e2e5969647852613b2f1ba54fbc1402b91070f92947d711673fa"
+  },
+  {
+    "path": "docs/CITATION_PROVENANCE.json",
+    "bytes": 1641,
+    "sha256": "faf1ac138ead610fe8633f0b5f417db946ea11a79361a4293a45cf7f1d8ad06c"
+  },
+  {
     "path": "docs/HISTORICAL_ARCHIVE_VALIDATION.json",
-    "bytes": 49208,
-    "sha256": "508195d2e4e6cf20ceea9044274d1bb64b8ab03c8b915c3094f8a709bfd00ee3"
+    "bytes": 50179,
+    "sha256": "fdff3192996cd53d274e99034bdab374e33d22fa4cad71b6b9674d35638b2d27"
   },
   {
     "path": "docs/NOTEBOOK_AND_FIGURE_MAP.md",
@@ -126,13 +151,18 @@
   },
   {
     "path": "docs/ORIGINAL_SOURCE_INVENTORY.json",
-    "bytes": 216346,
-    "sha256": "91b16f15677795b40eebbbe58871380d4a9c58efdd13ead9dd4755086d114e83"
+    "bytes": 218345,
+    "sha256": "3ea5800ee825e388c5df58d69109eef6ebe68708b46a5a8bb86a9e68afca9f84"
   },
   {
     "path": "docs/PHASE_INDEX.md",
-    "bytes": 21008,
-    "sha256": "b3da4e63d90953ff5db9bd5612e526fe1d6d1f03941398af8aafe4ccdd24b6eb"
+    "bytes": 22361,
+    "sha256": "56b03c139e562edcf7dba01c34d700c63d802c4ce1a84e3afd1249fc3492cdca"
+  },
+  {
+    "path": "docs/PREPARATION_SOURCE_INDEX.json",
+    "bytes": 1225,
+    "sha256": "a3d50b34a3b683d9feeffd4a54f5e2bda9211c9f87ebef6b55963a65f374fd07"
   },
   {
     "path": "docs/PREPARATION_VALIDATION.json",
@@ -141,13 +171,28 @@
   },
   {
     "path": "docs/REPRODUCIBILITY.md",
-    "bytes": 5798,
-    "sha256": "b3aa983314b9a578096433c8f0bfeb68efafbad0110440e152d54996e7c55ae4"
+    "bytes": 6072,
+    "sha256": "66fa8bfb3aaee1c0101b1bba12e4f64ac1e81aea8f3b1b8c555bdaf27acf3037"
+  },
+  {
+    "path": "docs/REPRODUCTION_GUIDE.md",
+    "bytes": 8696,
+    "sha256": "28ef27edabf4ffc11a8a835247c9bc57a89978f3b8b33bb217e470e2169ed3c8"
   },
   {
     "path": "docs/VALIDATION.json",
-    "bytes": 6111,
-    "sha256": "eaa52af2532b84ecf1561ca671d9fd66120448e0dc880c2d20043ff54b169ff5"
+    "bytes": 7869,
+    "sha256": "47f0108f6be837be80599ac01ee734d7ea6e9143c9e65464bc85ca55dc2289cd"
+  },
+  {
+    "path": "docs/ZENODO_METADATA_DRAFT.json",
+    "bytes": 2993,
+    "sha256": "4465727560c239ebe1aa3d02f15b33ff234461c08bf5fd34db9716cc53237a79"
+  },
+  {
+    "path": "docs/ZENODO_RELEASE.md",
+    "bytes": 3911,
+    "sha256": "2c44e3097a145469af84a0084e3fe86e70f96033ec4f4e53d10265a6bb92956e"
   },
   {
     "path": "docs/build_state.json",
@@ -165,6 +210,11 @@
     "sha256": "11573de0c0df1990f0c0d711873df55453c7e5ad080bb241dd238cf36fff7694"
   },
   {
+    "path": "docs/history/VALIDATION_before_release_readiness_20261020.json",
+    "bytes": 6111,
+    "sha256": "eaa52af2532b84ecf1561ca671d9fd66120448e0dc880c2d20043ff54b169ff5"
+  },
+  {
     "path": "docs/history/ancillary_sources.json",
     "bytes": 441,
     "sha256": "7d9a44790198b517df41dcba031e1a6acbacb5e5b507437737e682b7e2fd219f"
@@ -173,6 +223,91 @@
     "path": "docs/public_copy_transformations.json",
     "bytes": 43524,
     "sha256": "bd6f4c0f5f1defc9a46b522afd3857fcd350f50e8f8eb44962e265a7229dab80"
+  },
+  {
+    "path": "docs/release_checks/checkpoint_inference.json",
+    "bytes": 605,
+    "sha256": "99b496f77a633dd1be079200d2dac734dcb93d6e18770714225bd13e91645e5c"
+  },
+  {
+    "path": "docs/release_checks/checkpoint_predictions.csv",
+    "bytes": 17218,
+    "sha256": "36b12cb4c76d19e11d76182a114a1e27afe0ddead14427c9ee14923cdd6a3fbe"
+  },
+  {
+    "path": "docs/release_checks/citation_schema.json",
+    "bytes": 290,
+    "sha256": "6ec530f6385ecb161d358e45baa8dc38571c9df4c0a337981a039fb32dbfe669"
+  },
+  {
+    "path": "docs/release_checks/executed_notebooks.json",
+    "bytes": 1040,
+    "sha256": "9098560bca83184c522ef7880e02c921cd51783336e1c370d461068adea9e323"
+  },
+  {
+    "path": "docs/release_checks/figures.json",
+    "bytes": 2191,
+    "sha256": "22b3cd2b0b7f6a4239729df6bf7c23b998f4a2aa140e2396e8ae78ce58fd671b"
+  },
+  {
+    "path": "docs/release_checks/fold_version.json",
+    "bytes": 843,
+    "sha256": "59fe8adcddb2c6337eb98715b7c330950a53d9171fe7852ebbb7f9a83cbaea63"
+  },
+  {
+    "path": "docs/release_checks/full_statistics.json",
+    "bytes": 514,
+    "sha256": "d89217daa73ca8a1f0d8b38df519b6e1512a279b72fe9cda4662503bcc241c7c"
+  },
+  {
+    "path": "docs/release_checks/kernel_imports.json",
+    "bytes": 472,
+    "sha256": "97b48f79bc35a2eb15fcf70fe170d400d0f047e37cd06f536edf81e51fc60ebb"
+  },
+  {
+    "path": "docs/release_checks/local_artifact_acquisition.json",
+    "bytes": 302,
+    "sha256": "f8302f3e3051c8335fd0868e6206459766c6de2d752823afa937e452b9bb7bcb"
+  },
+  {
+    "path": "docs/release_checks/raw_activity_external.json",
+    "bytes": 1362,
+    "sha256": "98f21184a90d37545f59ccface1d44e684272b8f7bccdcef134f049d0e844c77"
+  },
+  {
+    "path": "docs/release_checks/raw_all_final.json",
+    "bytes": 2159,
+    "sha256": "8f9b84c09095d3758081bf5835737485eca3e928ba435c6a63e78074e65c8370"
+  },
+  {
+    "path": "docs/release_checks/raw_legacy.json",
+    "bytes": 1129,
+    "sha256": "2557cd1e5ae8f408f1849a6671a0865280feb927912484dd8bd728fa0c34ab37"
+  },
+  {
+    "path": "docs/release_checks/source_preservation.json",
+    "bytes": 310,
+    "sha256": "fbb84b6c588d4017f8267d4f0304bd6d4867732d27de0ae7e5c008a87796f693"
+  },
+  {
+    "path": "docs/release_checks/table_assembly.json",
+    "bytes": 160,
+    "sha256": "9e0fe5f8df3ba3e2b913f47305f486a0a8007f7bfd293ad1f0a1f69d4b550582"
+  },
+  {
+    "path": "docs/release_checks/tested_code_identity.json",
+    "bytes": 25517,
+    "sha256": "c5ca29d98c03cc35a9cf7e0d7752156a1d9906e9026f9b04091d52684177c8da"
+  },
+  {
+    "path": "docs/release_checks/unit_tests.txt",
+    "bytes": 1305,
+    "sha256": "7ddff6dfb3ddcddc75d68b70d446be65f4030b365ea782fe2b4b790bca44166f"
+  },
+  {
+    "path": "docs/release_checks/workflow_completed_job_reuse.json",
+    "bytes": 630,
+    "sha256": "0af891dea0eb5678fe6cd9edbdeeac1fad2575fe7212057510aef1127741ca26"
   },
   {
     "path": "docs/source_copy_manifest.json",
@@ -606,341 +741,341 @@
   },
   {
     "path": "notebooks/01_benchmark_audit.ipynb",
-    "bytes": 1689,
-    "sha256": "662026b69b6db0748e44b719fd2c5b9475168b49d031082513851e7abf589a83"
+    "bytes": 2418,
+    "sha256": "f5bf1f7b7c9d9eafe289237925d732ce885628bddc607d5951c33c261f75b5ad"
   },
   {
     "path": "notebooks/02_classification.ipynb",
-    "bytes": 1604,
-    "sha256": "1ded5b19b8a6b5c994dd449f1c7cdca11ef7fb87b0ae4e638abe5ef60cf2ba1f"
+    "bytes": 2372,
+    "sha256": "444371d6c2b16996bec97e1d94c82eb5967625e6cd80bd0b7ddf997b4e9c50f8"
   },
   {
     "path": "notebooks/03_activity_models.ipynb",
-    "bytes": 1818,
-    "sha256": "1931e9a00eb76c51b2c556a09e22ae911b6f0ec2d23f7cf0a9ffd6924b9ce04b"
+    "bytes": 2819,
+    "sha256": "d8aa97dc2fb23b0b0972b3ca95d0a07917a1f10a93791e9edbef9fa5bf3cafe1"
   },
   {
     "path": "notebooks/04_external_transfer.ipynb",
-    "bytes": 1630,
-    "sha256": "77215297c9df13eb1324cefdcbb113e2d8f80148540a6eec867bd29a2af1f270"
+    "bytes": 2270,
+    "sha256": "56a926e57182d4d38903e30208b136887319bc5efa5cd85b1f0abbb93e36df2c"
   },
   {
     "path": "notebooks/05_statistics.ipynb",
-    "bytes": 2061,
-    "sha256": "1f2e982d0892ca6dfcae89c879e78a748b516f5588c00eb82e22bf5209332049"
+    "bytes": 2358,
+    "sha256": "6bd13af24077e2d4e5435b05a33a5261534474a5c823b4b59d54e3a0fef0844d"
   },
   {
     "path": "notebooks/06_figures_and_tables.ipynb",
-    "bytes": 1809,
-    "sha256": "8153651948026c189aaac32b4cf0dade3640f5e8d00c205d4e72e7ac3b36dfe1"
+    "bytes": 2477,
+    "sha256": "03ef134d4fa1183a995aee78834a0832839b81578e9471eb116d4bdf0e2c263b"
   },
   {
-    "path": "notebooks/original_phases/01_aditta_initial/DNABERT - Ind Test (Base, BiLSTM).ipynb",
+    "path": "notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT - Ind Test (Base, BiLSTM).ipynb",
     "bytes": 181994,
     "sha256": "246c2febf94b8f6176f17b7652bab96f2aebef41d0d4129e3118c61d7063750b"
   },
   {
-    "path": "notebooks/original_phases/01_aditta_initial/DNABERT- Ind Test (1).ipynb",
+    "path": "notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT- Ind Test (1).ipynb",
     "bytes": 124015,
     "sha256": "12032d608fb06e9442616b42cc28ca2d06756655e46fadaf3dbf69a4da9ff4d7"
   },
   {
-    "path": "notebooks/original_phases/01_aditta_initial/DNABERT-10 Fold.ipynb",
+    "path": "notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-10 Fold.ipynb",
     "bytes": 143711,
     "sha256": "b65599f18c8c96b15945c88c0d2ce3caa0903c66ce9c4fe114ca40931244ecb6"
   },
   {
-    "path": "notebooks/original_phases/01_aditta_initial/DNABERT-5.ipynb",
+    "path": "notebooks/original_phases/01_legacy_dnabert_experiments/DNABERT-5.ipynb",
     "bytes": 1991677,
     "sha256": "cfec3e1db837ec7f37ec4f8e2d5e0686721a8b7518b3deb80efe12a3d14681cd"
   },
   {
-    "path": "notebooks/original_phases/02_arshee/10 fold final.ipynb",
+    "path": "notebooks/original_phases/02_legacy_longformer_experiments/10 fold final.ipynb",
     "bytes": 183130,
     "sha256": "d50d5e8390224382b85964c53cbdd7fec4f0869a84591cec3b4ea1635fb0d2ec"
   },
   {
-    "path": "notebooks/original_phases/02_arshee/5 fold final.ipynb",
+    "path": "notebooks/original_phases/02_legacy_longformer_experiments/5 fold final.ipynb",
     "bytes": 5992582,
     "sha256": "c4f5c86d076c086ca02a1053548e88060f4a6e89a54f7a08d18a535bcbde3fbe"
   },
   {
-    "path": "notebooks/original_phases/02_arshee/ind-test.ipynb",
+    "path": "notebooks/original_phases/02_legacy_longformer_experiments/ind-test.ipynb",
     "bytes": 319987,
     "sha256": "fae63f82432e240895425ead4c4f4a5887e0df3a10af883a1c4afa1545a04896"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[10] Enhancer_Kaggle_Phase10_Independent_MPRA_Transfer.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[10] Enhancer_Kaggle_Phase10_Independent_MPRA_Transfer.ipynb",
     "bytes": 60587,
     "sha256": "fa6d76d040ae3fa504937a0d45a7cfff8bbee5ba859852a35f87eaa14b071aa8"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[11A] Enhancer_Kaggle_Phase11A_Historical_Overlap_Impact.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[11A] Enhancer_Kaggle_Phase11A_Historical_Overlap_Impact.ipynb",
     "bytes": 29160,
     "sha256": "06c045f6fb5b311cc30d8729fc8e1d7ad3bffec7d984c105fb29285ef5fc6a88"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[11B] Enhancer_Kaggle_Phase11B_Statistics_and_Calibration.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[11B] Enhancer_Kaggle_Phase11B_Statistics_and_Calibration.ipynb",
     "bytes": 30303,
     "sha256": "9b33832fd81dd8d185317df10cc299f5b9009f02c5562f08063e1d62b288b4c1"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[11C2] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[11C2] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
     "bytes": 31039,
     "sha256": "a2bc3009862a3cd59dd745c6b846a7f86422f45900cec6a2eaad93faf3b4d607"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[11C3] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[11C3] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
     "bytes": 32452,
     "sha256": "24f8e26d8ab176c5e83cfc672b7f960c5b34df9cb74c2a8e9e23923931847c75"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[11C] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[11C] Enhancer_Kaggle_Phase11C_Transformer_Seed_Robustness.ipynb",
     "bytes": 44316,
     "sha256": "2a07f3ea4454d51c8be8981b444dba742381499f785be2f77122e30e8bc751e0"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[1] Enhancer_Kaggle_Phase1_Audit_and_Splits.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[1] Enhancer_Kaggle_Phase1_Audit_and_Splits.ipynb",
     "bytes": 37792,
     "sha256": "84cfd5b4b284c894de62984ceb24221329ac5acd0513060e28c73c04df6c9480"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[2] Enhancer_Kaggle_Phase2_GENA_Correction.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[2] Enhancer_Kaggle_Phase2_GENA_Correction.ipynb",
     "bytes": 683829,
     "sha256": "8136079dbfad61488090dfde04eb184a9f182aa37a90d54ce1385c5eb2816dbb"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[3] Enhancer_Kaggle_Phase3_Robustness.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[3] Enhancer_Kaggle_Phase3_Robustness.ipynb",
     "bytes": 808560,
     "sha256": "c155d24b0dd17fc4606b8f701673f321b3d23e32f1dcef613634e1a59010551e"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[4] Enhancer_Kaggle_Phase4_External_MPRA_Dataset.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[4] Enhancer_Kaggle_Phase4_External_MPRA_Dataset.ipynb",
     "bytes": 236733,
     "sha256": "8d4fadca71180b7912acc13aaaebf83f880db74d8efee1d399d13132126b3518"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[5] Enhancer_Kaggle_Phase5_External_Transfer.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[5] Enhancer_Kaggle_Phase5_External_Transfer.ipynb",
     "bytes": 221664,
     "sha256": "3b2dbd3c570d04bc103a7d1ba3cdf3f9e9b05306661ceb91b993cc5ae43e71b1"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[6] Enhancer_Kaggle_Phase6_MPRA_Adaptation.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[6] Enhancer_Kaggle_Phase6_MPRA_Adaptation.ipynb",
     "bytes": 42321,
     "sha256": "b23bdd331a4a42c260b78610a608a3d085080614c86a5ce4244ff58cec7cbf0e"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[7] Enhancer_Kaggle_Phase7_Chromosome_Robustness.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[7] Enhancer_Kaggle_Phase7_Chromosome_Robustness.ipynb",
     "bytes": 46242,
     "sha256": "8400903a1579902c20fbf4275a3d4b9b6a1b3d0a27491f3b448be3940ceee522"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[8] Enhancer_Kaggle_Phase8_Main_Benchmark_Synthesis.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[8] Enhancer_Kaggle_Phase8_Main_Benchmark_Synthesis.ipynb",
     "bytes": 21240,
     "sha256": "985190cf7b28d363b606424977389c99ad25b49e77533a06017e9fe45bd67a27"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[9B] Enhancer_Kaggle_Phase9B_Chromosome_Regression.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[9B] Enhancer_Kaggle_Phase9B_Chromosome_Regression.ipynb",
     "bytes": 39667,
     "sha256": "497e5686e8e32318d3ca1120dccc8f1f5894aa51d43e223d51453995295ee820"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[9C] Enhancer_Kaggle_Phase9C_Locus_Regression.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[9C] Enhancer_Kaggle_Phase9C_Locus_Regression.ipynb",
     "bytes": 41546,
     "sha256": "6b6393ecebd78f19283fa803b449174026f26411f0b1916ae21a960268838e51"
   },
   {
-    "path": "notebooks/original_phases/03_aditta_phases01_11c3/[9] Enhancer_Kaggle_Phase9A_Full_Activity_and_Splits.ipynb",
+    "path": "notebooks/original_phases/03_phases01_11c3_audit_and_models/[9] Enhancer_Kaggle_Phase9A_Full_Activity_and_Splits.ipynb",
     "bytes": 30615,
     "sha256": "0e15625ec80f0438827700e7d248654f13c20467cbf61ff73c7ca5af79ce692b"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[12] Enhancer_Kaggle_Phase12_Strong_Baselines.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[12] Enhancer_Kaggle_Phase12_Strong_Baselines.ipynb",
     "bytes": 121283,
     "sha256": "b45d1a8f2e80ad305e5588d5c80723498421a38eb8a9b5f7d5b17fea4864b4c9"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[13] Enhancer_Independent_Result_Verification.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[13] Enhancer_Independent_Result_Verification.ipynb",
     "bytes": 60301,
     "sha256": "48ac02ff2b34fae2ddd9099a366884ae9ba1f5f41be281c768e587339ce18fd9"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[14] Enhancer_Filtering_and_Subgroup_Analysis.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[14] Enhancer_Filtering_and_Subgroup_Analysis.ipynb",
     "bytes": 39901,
     "sha256": "a25568e557e5b637fc90bd89cc957d79790bf2280c6d928d272c319498162218"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[15] Enhancer_Reviewer_Evidence_Map.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[15] Enhancer_Reviewer_Evidence_Map.ipynb",
     "bytes": 25566,
     "sha256": "4f36bdd09539287b4419ef08831434101d5781588b34ccb87ef8a0d80cbcef09"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[16] Enhancer_Filtered_Out_Performance.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[16] Enhancer_Filtered_Out_Performance.ipynb",
     "bytes": 86292,
     "sha256": "c1df52c871dca8b1a49eb9f56b99328b19034331ca5f50a1d77986668683ccce"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[17] Enhancer_Filtering_Reliability_and_Composition.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[17] Enhancer_Filtering_Reliability_and_Composition.ipynb",
     "bytes": 179336,
     "sha256": "ffe959f49f4216a5622432a29c2601100974afe0c78633570519d27092050a13"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[18] Enhancer_Activity_Tails_and_Independent_Audit.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[18] Enhancer_Activity_Tails_and_Independent_Audit.ipynb",
     "bytes": 175946,
     "sha256": "6b5c2256ad01cfe770a94943f36046876bdf6dc3a607d139af46801d492ab6aa"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[19] Enhancer_Filtering_Findings_and_Reviewer_Package.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[19] Enhancer_Filtering_Findings_and_Reviewer_Package.ipynb",
     "bytes": 46740,
     "sha256": "9e1690559eca838d2edcd5ae36f837e8762aa25e59185abce7ba7273ad1644a5"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[20] Enhancer_Scope_and_Claim_Freeze.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[20] Enhancer_Scope_and_Claim_Freeze.ipynb",
     "bytes": 5658,
     "sha256": "872f83c409f2003c40ce2d55ce084dc8c76f55a6072cd57e2aefcca1f0ca6389"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[21] Enhancer_Historical_Classification_Audit.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[21] Enhancer_Historical_Classification_Audit.ipynb",
     "bytes": 6612,
     "sha256": "7ffab6e68e5a55fcf62a32973d039a05b32de0ba3a835c1702be98f714a7d40d"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[22] Enhancer_Checkpoint_and_Prediction_Reproduction.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[22] Enhancer_Checkpoint_and_Prediction_Reproduction.ipynb",
     "bytes": 8075,
     "sha256": "80fe365de6c47971a2aa71ab20c3f855baa6db03533970ee303ddc88fc17971a"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[23] Enhancer_Statistical_Reporting_Freeze.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[23] Enhancer_Statistical_Reporting_Freeze.ipynb",
     "bytes": 6726,
     "sha256": "01f0f150aa0c2030d380ad1789fb302a93cdcfbf7763faed62210051619031a5"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[24] Enhancer_Dataset_Filtering_and_Threshold_Reproducibility.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[24] Enhancer_Dataset_Filtering_and_Threshold_Reproducibility.ipynb",
     "bytes": 7205,
     "sha256": "5fad106c664e3bc43a3451ae3b8e5123f4f0bd148d9d8a3763951476ca82ee4d"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[25] Enhancer_Publication_Tables.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[25] Enhancer_Publication_Tables.ipynb",
     "bytes": 5766,
     "sha256": "4c44e678187f5d622d540eb4901be9eb10053ca042c207ddea43dc57f38ef97c"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[26] Enhancer_Publication_Figures_and_Diagrams.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[26] Enhancer_Publication_Figures_and_Diagrams.ipynb",
     "bytes": 6601,
     "sha256": "d697af1b280c2f2376b5405d540c563c07fd644373dbd777ae68d6ff45281933"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[27] Enhancer_Literature_and_Contribution_Assessment.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[27] Enhancer_Literature_and_Contribution_Assessment.ipynb",
     "bytes": 6274,
     "sha256": "d6b7fcb872ca8c7e2909b3c94da0dd157f38d5b71e99b54772f4319150c2fde0"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[28] Enhancer_Portable_Reproducibility_Package.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[28] Enhancer_Portable_Reproducibility_Package.ipynb",
     "bytes": 8206,
     "sha256": "b11cd568dd6af52367b6e0aaa9309bfa747fe49213b8e431a63017dca92a1426"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[29] Enhancer_Final_PreWriting_Readiness_Review.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[29] Enhancer_Final_PreWriting_Readiness_Review.ipynb",
     "bytes": 6566,
     "sha256": "52721df68d0295d8797bc39adce645e9df5e02e992ae4f2a0989db3a4c271a0e"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[30] Enhancer_Phase11C_Compatibility_Audit.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[30] Enhancer_Phase11C_Compatibility_Audit.ipynb",
     "bytes": 5948,
     "sha256": "43d8c9e9826b9493e04d5ff4682c6534f92e684766b050f3c0a1314c5ea98941"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[31] Enhancer_Phase11C_Consistent_Three_Seed_Training.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[31] Enhancer_Phase11C_Consistent_Three_Seed_Training.ipynb",
     "bytes": 127769,
     "sha256": "82a6f065ce9ef6f1447fdc0120679df9887ddbd1e717dddfdd5cfab68830522c"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[32] Enhancer_Phase11C_Independent_Verification.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[32] Enhancer_Phase11C_Independent_Verification.ipynb",
     "bytes": 72065,
     "sha256": "7ea51bd9dfdb7fa6c772e8e783f3e2397ead89c7a7d1eee118326a4c275f8ffa"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[33] Enhancer_Phase11C_Findings_and_Evidence_Update.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[33] Enhancer_Phase11C_Findings_and_Evidence_Update.ipynb",
     "bytes": 5615,
     "sha256": "8681cf8dcfe85ec820eef644be3c679559a04db02b206a87a5e6a9e6dd9dbf25"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[34] Enhancer_MPRA_Training_Fairness_Protocol.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[34] Enhancer_MPRA_Training_Fairness_Protocol.ipynb",
     "bytes": 11701,
     "sha256": "f5fdc794fcc4f2449fa88df42be687416852e7e47a49fb57f3949cca28701831"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[35] Enhancer_MPRA_Training_Adequacy_and_Search.ipynb",
     "bytes": 382743,
     "sha256": "f5b55d83f1c81ad3addcdcf152d38fd70b3f62091e432fdc73dab9d9f8e5c51a"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[36] Enhancer_MPRA_Validation_Selection_and_Evaluation.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[36] Enhancer_MPRA_Validation_Selection_and_Evaluation.ipynb",
     "bytes": 18059,
     "sha256": "0d24c91e7fe1fd7b12ae682ade981257c7e0ce9fb55ee87565ec37a8b50d1553"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[37] Enhancer_MPRA_Fairness_Independent_Verification.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[37] Enhancer_MPRA_Fairness_Independent_Verification.ipynb",
     "bytes": 79905,
     "sha256": "f6521ce7805badee97a9347ff48310aa4ce39a0a5ad2acf876738075927eb6cc"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[38] Enhancer_MPRA_Fairness_Findings_and_Reviewer_Update.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[38] Enhancer_MPRA_Fairness_Findings_and_Reviewer_Update.ipynb",
     "bytes": 2188,
     "sha256": "aeb1574dfd94eaa4943fd713e7d80d09340672a1290fdb2b3758c1a7ddd80cef"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[39] Enhancer_Final_Evidence_Freeze.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[39] Enhancer_Final_Evidence_Freeze.ipynb",
     "bytes": 2391,
     "sha256": "24d70428748e96fbcd23f35a6eb91c7f2a9fc5ad557fa8d8938fab3ba4a885a1"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[40] Enhancer_Historical_Leakage_Impact.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[40] Enhancer_Historical_Leakage_Impact.ipynb",
     "bytes": 2439,
     "sha256": "b4175a58cbc10981262d31fc48aa06c78d27b246f8b67652703eb9eaaa512a36"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[41] Enhancer_Final_Statistics.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[41] Enhancer_Final_Statistics.ipynb",
     "bytes": 5236,
     "sha256": "673f6bd74d8df05c8b4a8fb6545dc365e578816ec7f008466cffa28f06808ea0"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[42] Enhancer_Final_Tables.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[42] Enhancer_Final_Tables.ipynb",
     "bytes": 2378,
     "sha256": "42f0f039ebc99f83f39cc122e6a4a7eb1dec1c48eae6790316590a2de4499cc6"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[43] Enhancer_Final_Figures.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[43] Enhancer_Final_Figures.ipynb",
     "bytes": 2380,
     "sha256": "73f224a8b52f23a585684a1d20098a8ae792a5156ba7b861aab67a9740753557"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[44] Enhancer_Supplement_Builder.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[44] Enhancer_Supplement_Builder.ipynb",
     "bytes": 2348,
     "sha256": "97146890820a188e400586a42e20718528c6c311362244c9277ce5dbc8a8c371"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[45] Enhancer_Claim_Evidence_Audit.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[45] Enhancer_Claim_Evidence_Audit.ipynb",
     "bytes": 2372,
     "sha256": "173743263693a0cf54d8052dc60481adc107203916ee8b8ed45621c3bf56cd95"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[46] Enhancer_Manuscript_Rebuild.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[46] Enhancer_Manuscript_Rebuild.ipynb",
     "bytes": 2357,
     "sha256": "368837c00165e093f922e11dcd8ade760b512d402b19fad378dfbd6cbf74fc17"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[47] Enhancer_Public_Reproducibility_Package.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[47] Enhancer_Public_Reproducibility_Package.ipynb",
     "bytes": 2864,
     "sha256": "c4776034b8098c011a2761033f27c1a4aac27ed36ff2255d421891486c7017b5"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[48] Enhancer_Submission_Package.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[48] Enhancer_Submission_Package.ipynb",
     "bytes": 2371,
     "sha256": "489f4ac022b383bc6b400a396b61d02b28375f8cd929934f577e72eb4aad37a1"
   },
   {
-    "path": "notebooks/original_phases/04_shafin_phases12_49/[49] Enhancer_Manuscript_Feedback_Corrections.ipynb",
+    "path": "notebooks/original_phases/04_phases12_49_validation_and_reporting/[49] Enhancer_Manuscript_Feedback_Corrections.ipynb",
     "bytes": 2769,
     "sha256": "3d121ec42076898939a5018be29f768caa6f7ab44a1ce7226137c16a04161847"
   },
@@ -971,8 +1106,18 @@
   },
   {
     "path": "notebooks/original_phases/README.md",
-    "bytes": 1041,
-    "sha256": "c1c2b17eb1f5f5a584815ba966fb54e7eb46e1558f2373ee93ec488f79dc69a9"
+    "bytes": 1104,
+    "sha256": "12b11b79f9b1d46a9a4acc813d28d5412460f554474749d0f8413cb5e3f53bc2"
+  },
+  {
+    "path": "requirements-preparation.txt",
+    "bytes": 233,
+    "sha256": "b54766fc71ecb81f29d9ef10c819133194e795bfb5a51b672ad0420f7e06d113"
+  },
+  {
+    "path": "requirements-reporting-lock-win-py312.txt",
+    "bytes": 1005,
+    "sha256": "3ca3f2a8dc8e1128ac2bcf2208a42e6da4148071a99dec0e7df192c7669730fa"
   },
   {
     "path": "requirements.txt",
@@ -2760,14 +2905,34 @@
     "sha256": "2708a42d04c2c1b1348427a5789fdb3bbfaf1ee7d16041a968b96f74d783ad46"
   },
   {
+    "path": "scripts/download_artifacts.py",
+    "bytes": 4449,
+    "sha256": "2ad5f749b2e5a101cbc77695852f8eeb2894a48e265b692a1f4cc6215eff8d18"
+  },
+  {
     "path": "scripts/prepare_training_workspace.py",
     "bytes": 2045,
     "sha256": "89feeff682078571dcdf252e821dc25ac4b6c2b151930a23e7af6cf01958522d"
   },
   {
+    "path": "scripts/prepare_zenodo_upload.py",
+    "bytes": 11337,
+    "sha256": "120c3bd1a4287412c20ce8318f5dbc499f30752eb0c3b3df840e1909e0295f91"
+  },
+  {
+    "path": "scripts/rebuild_datasets.py",
+    "bytes": 917,
+    "sha256": "826ef408bf53012da9d9dd0516123fc0abe8e2b4d301f6ad34da2f7fb8bec584"
+  },
+  {
     "path": "scripts/reproduce.py",
     "bytes": 628,
     "sha256": "564b5db63e2d407cd225229afcbf198f9ef8091c3baacc6d580c919d5e680e1d"
+  },
+  {
+    "path": "scripts/reproduce_from_checkpoints.py",
+    "bytes": 10098,
+    "sha256": "88c9f406d56494cc5c0f7665d9bd56d0319e1fa97f693c0a152fdf961f583e25"
   },
   {
     "path": "scripts/restore_historical_sources.py",
@@ -2776,8 +2941,18 @@
   },
   {
     "path": "scripts/retrain.py",
-    "bytes": 1734,
-    "sha256": "8581748ec5208a18caaf83037a5bdd35cee5bb9572d3b67b46b18ed52731522c"
+    "bytes": 1701,
+    "sha256": "1e9b95b2a8f6e40190a1e80ad002827accd27c9f93492515702dedd20cf104a4"
+  },
+  {
+    "path": "scripts/run_notebooks.py",
+    "bytes": 2061,
+    "sha256": "6c2c55b4b115281c027d237a020e50e392ffa9646d872c2e6933b78fb583a543"
+  },
+  {
+    "path": "scripts/upload_to_zenodo.py",
+    "bytes": 4285,
+    "sha256": "618fc270242fe34d016230c430ab7ef84558a84c71adcead038adf3f250405ce"
   },
   {
     "path": "scripts/verify_release.py",
@@ -3205,6 +3380,26 @@
     "sha256": "ebfcc6ecda5e9380410a4cce5d90fabfa1d596d9de0433fd0e9c958512da9a60"
   },
   {
+    "path": "src/audit_sources/gapped_similarity_audit.py",
+    "bytes": 4339,
+    "sha256": "0eaa0a46190fe87d6b648875484621eee00689ad3c269a39b04b00aaad017e15"
+  },
+  {
+    "path": "src/audit_sources/prepare_lcs_input.py",
+    "bytes": 697,
+    "sha256": "88685cb731aa8ef82e36d6dba8b388f1d78d4fbcc118abf124cf324734c474d6"
+  },
+  {
+    "path": "src/audit_sources/propose_similarity_repair.py",
+    "bytes": 6122,
+    "sha256": "f7c845b5bf91e5496f87f3f4db3aeae902013832f9720b3e756521204d7b9a64"
+  },
+  {
+    "path": "src/audit_sources/sequence_lcs_audit.cpp",
+    "bytes": 3826,
+    "sha256": "c3e7045874107676d04181f5833d98020c35e2325ecc5c96a59954ffee1634b5"
+  },
+  {
     "path": "src/enhancer_benchmark_audit/__init__.py",
     "bytes": 74,
     "sha256": "233f08261ab3bfad38a8f9aaf79680fd8514a0cdd8f308dd648bece046640830"
@@ -3213,6 +3408,11 @@
     "path": "src/enhancer_benchmark_audit/_metric_runner.py",
     "bytes": 3948,
     "sha256": "fd88b42733095aa60a7fe78f427f48869453a7b122f3569a1883e4e17f7cb674"
+  },
+  {
+    "path": "src/enhancer_benchmark_audit/artifacts.py",
+    "bytes": 3176,
+    "sha256": "9d56db002975a5fad0a3b683a48ba5054337fc2475329b7ecc51139138b3a744"
   },
   {
     "path": "src/enhancer_benchmark_audit/figures.py",
@@ -3225,6 +3425,11 @@
     "sha256": "c4dd812a534a5bc57cb89f02d2a745d245a1d71ed05046e7ed9b3927069eff68"
   },
   {
+    "path": "src/enhancer_benchmark_audit/raw_preparation.py",
+    "bytes": 9692,
+    "sha256": "299b12049b4ee920fea2cb79d5416f5eb4ad799baf81bca94181c0c4f5ab9f98"
+  },
+  {
     "path": "src/enhancer_benchmark_audit/reporting.py",
     "bytes": 7322,
     "sha256": "f2269ef92e4d03c979d313483928fcc94f76069653d01d456b49df6e10d2759c"
@@ -3233,6 +3438,11 @@
     "path": "src/enhancer_benchmark_audit/statistics.py",
     "bytes": 4300,
     "sha256": "ebfcc6ecda5e9380410a4cce5d90fabfa1d596d9de0433fd0e9c958512da9a60"
+  },
+  {
+    "path": "src/enhancer_benchmark_audit/training_workflow.py",
+    "bytes": 1284,
+    "sha256": "a29d69adb3a92d724cad5e2272273aee7a7a52e388fd0577b63178cd3215f283"
   },
   {
     "path": "src/enhancer_benchmark_audit/validation.py",
@@ -3295,9 +3505,24 @@
     "sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516"
   },
   {
+    "path": "tests/test_artifact_integrity.py",
+    "bytes": 1774,
+    "sha256": "cd7b54679ab3dc96d6f7ed3e8b4607b5d342673e6dd99733835917147135f7d5"
+  },
+  {
     "path": "tests/test_numerical_primitives.py",
     "bytes": 360,
     "sha256": "98310484d8b3a3be89fe640c5ed7a5bd9b1066df3b49a2b78a12301f9e3d6040"
+  },
+  {
+    "path": "tests/test_training_workflow.py",
+    "bytes": 2471,
+    "sha256": "5a567e2e4ead27161918f5f3568ae5a09d3aa3f77d1db5cc398a9de05a6d7a58"
+  },
+  {
+    "path": "tests/test_zenodo_upload.py",
+    "bytes": 3440,
+    "sha256": "c63937dbbd32106d054b41c73e2410a9cdd2fd91f6f51d567041ae150ef8f3a7"
   },
   {
     "path": "third_party/licenses/DNABERT2_APACHE_2.txt",

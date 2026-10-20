@@ -1,0 +1,26 @@
+[
+  {
+    "archive_sha256": "f84392731ecad8b9a6549b927a4207cd731ebbde8525cbd3cd9e1d4c99969399",
+    "member": "scripts/sequence_lcs_audit.cpp",
+    "repository_path": "src/audit_sources/sequence_lcs_audit.cpp",
+    "sha256": "c3e7045874107676d04181f5833d98020c35e2325ecc5c96a59954ffee1634b5"
+  },
+  {
+    "archive_sha256": "f84392731ecad8b9a6549b927a4207cd731ebbde8525cbd3cd9e1d4c99969399",
+    "member": "scripts/prepare_lcs_input.py",
+    "repository_path": "src/audit_sources/prepare_lcs_input.py",
+    "sha256": "88685cb731aa8ef82e36d6dba8b388f1d78d4fbcc118abf124cf324734c474d6"
+  },
+  {
+    "archive_sha256": "f84392731ecad8b9a6549b927a4207cd731ebbde8525cbd3cd9e1d4c99969399",
+    "member": "scripts/gapped_similarity_audit.py",
+    "repository_path": "src/audit_sources/gapped_similarity_audit.py",
+    "sha256": "0eaa0a46190fe87d6b648875484621eee00689ad3c269a39b04b00aaad017e15"
+  },
+  {
+    "archive_sha256": "f84392731ecad8b9a6549b927a4207cd731ebbde8525cbd3cd9e1d4c99969399",
+    "member": "scripts/propose_similarity_repair.py",
+    "repository_path": "src/audit_sources/propose_similarity_repair.py",
+    "sha256": "f7c845b5bf91e5496f87f3f4db3aeae902013832f9720b3e756521204d7b9a64"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "scikit_learn": "1.6.1",
+  "original_scikit_learn": "1.6.1",
+  "checks": [
+    {
+      "stage": 1,
+      "folds": 5,
+      "assignments_exactly_equal": true,
+      "records": 3268
+    },
+    {
+      "stage": 1,
+      "folds": 10,
+      "assignments_exactly_equal": true,
+      "records": 3268
+    },
+    {
+      "stage": 2,
+      "folds": 5,
+      "assignments_exactly_equal": true,
+      "records": 1584
+    },
+    {
+      "stage": 2,
+      "folds": 10,
+      "assignments_exactly_equal": true,
+      "records": 1584
+    }
+  ],
+  "explanation": "The original final audit records scikit-learn 1.6.1. Its shuffled StratifiedGroupKFold results differ from 1.8.0. Pinning the recorded original version exactly reproduces all accepted five- and ten-fold assignments; no folds were changed."
+}

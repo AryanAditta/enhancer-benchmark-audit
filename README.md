@@ -12,6 +12,10 @@ The archive preserves **62 main notebooks plus five distinct saved/recovery vers
 
 The six notebooks below organize current saved-result reproduction. The archived original notebooks preserve how the research developed; they have not been rerun as part of this upload and retain their original environment, input and path assumptions. Supporting script history is in [src/archive/](src/archive/). A restoration command in the phase index recreates every inventoried source path in a new empty directory without executing it.
 
+## Reproduction routes
+
+See [docs/REPRODUCTION_GUIDE.md](docs/REPRODUCTION_GUIDE.md) for tested commands covering CPU reporting, raw data reconstruction, fresh fitted-checkpoint inference and explicit full training. The six entry notebooks default to reporting; the complete original history remains archived. Release validation is in [docs/VALIDATION.json](docs/VALIDATION.json).
+
 ## Setup
 
 ```bash
@@ -63,7 +67,7 @@ Table 1 and S19 are built from preserved, cited literature records. Table 2 comb
 
 ## Data and models
 
-Read data/README.md and THIRD_PARTY_NOTICES.md. Original legacy DNA and large model weights are not uploaded. The public copy retains hashes/folds and derived results. DNA-valued resampling groups are replaced by opaque labels in identical sorted order. Full GPU retraining requires separate authenticated artifacts; see docs/REPRODUCIBILITY.md and the opt-in preparation/training scripts. No new training is performed by the reporting notebooks.
+Read data/README.md and THIRD_PARTY_NOTICES.md. Original legacy DNA and large model weights are not stored in Git history. Their separately prepared artifact plan is documented in [docs/ZENODO_RELEASE.md](docs/ZENODO_RELEASE.md). The public copy retains hashes/folds and derived results. DNA-valued resampling groups are replaced by opaque labels in identical sorted order. Full GPU retraining requires separate authenticated artifacts; see docs/REPRODUCIBILITY.md and the opt-in preparation/training scripts. No new training is performed by the reporting notebooks.
 
 ## Interpretation
 
@@ -71,10 +75,14 @@ Previously examined cohorts are not fresh confirmatory tests. Intervals conditio
 
 ## License, citation and archive
 
-Original code currently retains all rights reserved until the authors select a reuse license. Upstream MIT/Apache notices remain in third_party/licenses; data retain their source terms. See LICENSE and CITATION.cff. A Zenodo DOI will be added after the repository is connected and a fixed archival release is created. This initial GitHub upload does not invent a DOI or finalize manuscript authorship.
+Original code currently retains all rights reserved until the authors select a reuse license. Upstream MIT/Apache notices remain in third_party/licenses; data retain their source terms. See LICENSE and CITATION.cff. Author order and affiliations in CITATION.cff come from the current manuscript under the user's instruction. A real Zenodo DOI will be added after the reviewed artifact deposit is published; no DOI or release is invented.
 
 ## Complete scored-prediction records
 
 The public copy includes all 72 MPRA validation-prediction sets, all 60 selected/control seed evaluation sets and the 20 ensemble sets. Notebook 03 independently recomputes the validation correlations, seed metrics and ensemble means/SDs without loading model checkpoints. Classification includes all 12 pooled single-seed sets as well as the 18 ensemble/archived-model rows.
 
-The seven historical classification baselines remain archived single-run predictions; unavailable original fitting code/checkpoints are not recreated. Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.
+The seven historical classification baselines remain archived single-run predictions. Available fitting sources and incomplete historical fitted-artifact provenance are distinguished in [docs/BASELINE_PROVENANCE.md](docs/BASELINE_PROVENANCE.md). Main figure numeric plotting records are checked independently of font-dependent raster pixels. Canonical figure exports remain unchanged.
+
+## Release checks added on 20 October 2026
+
+All six current notebooks passed actual isolated Jupyter-kernel execution with full headline resampling. Fresh GPU inference matched all 60 classification fold and 60 activity evaluation sets exactly. Raw legacy groups/folds, ENCODE activity rows/splits and the frozen external cohort were rebuilt and checked. The legacy fold builder requires its recorded scikit-learn 1.6.1 environment; reporting/training retain their own pinned versions. The launcher authenticates all 54 activity fits before selection/inference. Full retraining and a separately installed GPU environment were not repeated. See the detailed validation reports for the tested scope.

@@ -1,0 +1,7 @@
+# Separate raw-preparation environment: original audit fold algorithm version.
+# A working g++ compiler must also be on PATH for the exhaustive LCS search.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.6.1
+biopython==1.86

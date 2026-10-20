@@ -1,0 +1,30 @@
+{
+  "isolated": true,
+  "host_site_packages_excluded": true,
+  "packages": {
+    "numpy": [
+      "numpy",
+      "__init__.py"
+    ],
+    "pandas": [
+      "pandas",
+      "__init__.py"
+    ],
+    "scipy": [
+      "scipy",
+      "__init__.py"
+    ],
+    "sklearn": [
+      "sklearn",
+      "__init__.py"
+    ],
+    "nbformat": [
+      "nbformat",
+      "__init__.py"
+    ],
+    "nbclient": [
+      "nbclient",
+      "__init__.py"
+    ]
+  }
+}

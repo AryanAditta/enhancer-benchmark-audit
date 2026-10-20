@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "notebooks": [
+    {
+      "notebook": "01_benchmark_audit.ipynb",
+      "passed": true,
+      "seconds": 2.9530000000086147,
+      "code_cells_executed": 2
+    },
+    {
+      "notebook": "02_classification.ipynb",
+      "passed": true,
+      "seconds": 2.6410000000032596,
+      "code_cells_executed": 2
+    },
+    {
+      "notebook": "03_activity_models.ipynb",
+      "passed": true,
+      "seconds": 6.60899999999674,
+      "code_cells_executed": 2
+    },
+    {
+      "notebook": "04_external_transfer.ipynb",
+      "passed": true,
+      "seconds": 6.421999999991385,
+      "code_cells_executed": 2
+    },
+    {
+      "notebook": "05_statistics.ipynb",
+      "passed": true,
+      "seconds": 191.375,
+      "code_cells_executed": 3
+    },
+    {
+      "notebook": "06_figures_and_tables.ipynb",
+      "passed": true,
+      "seconds": 15.328000000008615,
+      "code_cells_executed": 2
+    }
+  ],
+  "execution": "Actual Jupyter kernels; original notebook files unchanged."
+}

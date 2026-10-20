@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "classification_rows": 18,
+  "MPRA_ensemble_rows": 20,
+  "weighted_literal_checks": 75,
+  "point_contrasts": 14,
+  "max_metric_error": 0.0,
+  "max_point_difference_error": 0.0,
+  "full_statistics_contrasts": 14,
+  "max_interval_pvalue_error": 0.0,
+  "bootstrap_draws": 2000,
+  "permutation_draws": 9999,
+  "scope": "fixed fitted models and previously examined cohorts; no selection, hyperparameter-search, training-algorithm, pretraining-membership or fresh-test uncertainty"
+}

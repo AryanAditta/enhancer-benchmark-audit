@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "date_local": "2026-10-20",
+  "notebook_code_cells": [
+    {
+      "notebook": "01_benchmark_audit.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 0.4369999999908032
+    },
+    {
+      "notebook": "02_classification.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 1.110000000000582
+    },
+    {
+      "notebook": "03_activity_models.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 3.8280000000086147
+    },
+    {
+      "notebook": "04_external_transfer.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 0.5939999999973224
+    },
+    {
+      "notebook": "05_statistics.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 1.062000000005355
+    },
+    {
+      "notebook": "06_figures_and_tables.ipynb",
+      "passed": true,
+      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
+      "seconds": 12.10899999999674
+    }
+  ],
+  "full_headline_statistics": {
+    "passed": true,
+    "classification_rows": 18,
+    "MPRA_ensemble_rows": 20,
+    "weighted_literal_checks": 75,
+    "point_contrasts": 14,
+    "max_metric_error": 0.0,
+    "max_point_difference_error": 0.0,
+    "full_statistics_contrasts": 14,
+    "max_interval_pvalue_error": 0.0,
+    "bootstrap_draws": 2000,
+    "permutation_draws": 9999,
+    "scope": "fixed fitted models and previously examined cohorts; no selection, hyperparameter-search, training-algorithm, pretraining-membership or fresh-test uncertainty"
+  },
+  "activity_prediction_validation": {
+    "passed": true,
+    "validation_checkpoints": 72,
+    "seed_evaluation_sets": 60,
+    "ensemble_sets": 20,
+    "max_numeric_error": 1.3322676295501878e-15,
+    "new_training": false,
+    "new_checkpoint_inference": false
+  },
+  "classification_validation": {
+    "passed": true,
+    "rows": 18,
+    "individual_seed_sets": 12,
+    "max_error": 0.0,
+    "seed_and_fold_variability_distinct": true
+  },
+  "figure_validation": {
+    "passed": true,
+    "main_figure_objects": 14,
+    "main_figure_groups": 8,
+    "checks": [
+      {
+        "figure": "Figure1_Study_workflow",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure2_Classification_pipeline",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure3_Activity_pipeline",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure4a_Training_test_identity",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure4b_Similarity_groups",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure4c_Duplicate_removal",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure5_Seeds_and_ensembles",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure6a_Stage1_classification_exact_GC",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure6b_Stage2_classification_exact_GC",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure7a_HepG2_internal_activity",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure7b_K562_internal_activity",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure7c_Selected_model_contrast",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure7d_Own_prefix_duration_control",
+        "pixel_identical_in_reference_environment": true
+      },
+      {
+        "figure": "Figure8_Transfer_failure_modes",
+        "pixel_identical_in_reference_environment": true
+      }
+    ],
+    "plotted_values_match_preserved_records": true,
+    "supplementary_images": 8,
+    "supplementary_action": "Exact assembly of supplied original PNGs; historical plotting sources retained separately.",
+    "figure1_action": "Approved master retained; original drawing code included.",
+    "font": "Arial for artwork; manuscript legend fonts are not embedded in graph files."
+  },
+  "source_files_checked_unchanged": 473,
+  "current_manuscript_and_sharing_zip_unchanged": true,
+  "original_project_files_modified": false,
+  "new_training_steps": 0,
+  "new_checkpoint_inference": 0,
+  "public_copy_scan": {
+    "passed": true,
+    "python_files": 23,
+    "text_and_data_files": 423,
+    "raw_DNA_or_credentials_found": false
+  },
+  "training_scope": "Exact frozen source and authenticated preparation/opt-in commands included; separate original input/model artifacts required. No end-to-end GPU retraining claimed during release preparation.",
+  "license_status": "Original-code reuse license remains an author choice; no new permissive grant made. Upstream notices retained.",
+  "zenodo_status": "No DOI or archival release created; connect Zenodo before the release.",
+  "historical_archive": {
+    "passed": true,
+    "main_original_notebooks": 62,
+    "additional_saved_versions": 5,
+    "unique_supporting_code_files": 83,
+    "original_source_paths_accounted": 274,
+    "original_sources_byte_identical": true,
+    "restoration_test_passed": true,
+    "historical_sources_executed": false,
+    "details": "HISTORICAL_ARCHIVE_VALIDATION.json"
+  }
+}

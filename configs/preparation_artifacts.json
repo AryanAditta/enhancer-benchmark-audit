@@ -1,0 +1,42 @@
+[
+  {
+    "path": "preparation/legacy_fasta_sources.zip",
+    "bytes": 381459,
+    "sha256": "29655756edccda570dfd6a30a832b5aebf68299a49ad2698e9216986c927ee7d"
+  },
+  {
+    "path": "preparation/sequence_audit_checkpoint.zip",
+    "bytes": 942367,
+    "sha256": "f84392731ecad8b9a6549b927a4207cd731ebbde8525cbd3cd9e1d4c99969399"
+  },
+  {
+    "path": "preparation/raw_sources/ENCFF631LHA.bed.gz",
+    "bytes": 3459202,
+    "sha256": "c2e2a6014375197c7aac96eb68b9dc4a917d671ba415ca8b38edb287b7695d4b"
+  },
+  {
+    "path": "preparation/raw_sources/ENCFF774DYO.bed.gz",
+    "bytes": 2545246,
+    "sha256": "a95ecedfab3b3074075f51efeca583d5ba138ce3288a2eba3e265b627eb4427f"
+  },
+  {
+    "path": "preparation/raw_sources/hg38.2bit",
+    "bytes": 835393456,
+    "sha256": "1f67aaa17a77b327738fe750ab37430a85dddf73c7d9189385ad1839259acec0"
+  },
+  {
+    "path": "preparation/4_enhancer_phase4_external_dataset.zip",
+    "bytes": 9007156,
+    "sha256": "f5f14a5ad997e9578e5d75732761d9d48d916a11d656a249f807d8c2e33fe1e3"
+  },
+  {
+    "path": "preparation/7_enhancer_phase7_chromosome_results.zip",
+    "bytes": 3379607,
+    "sha256": "9ed9e755c997146c4c15e765f70f5161c688496f3f0e64af1c2c9d96d2b993ad"
+  },
+  {
+    "path": "preparation/raw_sources/41586_2024_8070_MOESM14_ESM.txt",
+    "bytes": 33241076,
+    "sha256": "1dcc68b0340933acf593c6bbbc8a8ce2d7aaae60334eebf353958a0f0459fdae"
+  }
+]

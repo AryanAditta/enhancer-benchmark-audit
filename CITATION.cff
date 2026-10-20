@@ -1,13 +1,43 @@
-cff-version: 1.2.0
-message: "Please cite this repository and the associated manuscript. A Zenodo DOI will be added after an archival release exists."
-type: software
-title: "Enhancer benchmark audit and model evaluation"
-authors:
-  - name: "Enhancer benchmark audit contributors"
-repository-code: "https://github.com/AryanAditta/enhancer-benchmark-audit"
-abstract: "Code and compact reproducibility records for benchmark overlap, grouped enhancer classification, MPRA training adequacy, and assay transfer."
-keywords:
-  - enhancer prediction
-  - benchmark audit
-  - MPRA
-  - reproducibility
+{
+  "cff-version": "1.2.0",
+  "message": "Please cite this versioned software and the associated manuscript. Add the actual Zenodo DOI after archival publication.",
+  "type": "software",
+  "title": "Benchmark audit and model evaluation for enhancer prediction: data overlap, training adequacy and assay transfer",
+  "authors": [
+    {
+      "family-names": "Aditta",
+      "given-names": "Arian Rahman",
+      "affiliation": "Department of Electronics and Communication Engineering, Khulna University of Engineering and Technology, Khulna-9203, Bangladesh."
+    },
+    {
+      "family-names": "Arshee",
+      "given-names": "Udita Rahman",
+      "affiliation": "Department of Electronics and Communication Engineering, Khulna University of Engineering and Technology, Khulna-9203, Bangladesh."
+    },
+    {
+      "family-names": "Ahmed",
+      "given-names": "Shafin",
+      "affiliation": "Department of Computer Science and Engineering, BRAC University, Dhaka, Bangladesh.",
+      "orcid": "https://orcid.org/0009-0006-3132-5571"
+    },
+    {
+      "family-names": "Islam",
+      "given-names": "Sheikh Md. Rabiul",
+      "affiliation": "Department of Electronics and Communication Engineering, Khulna University of Engineering and Technology, Khulna-9203, Bangladesh."
+    },
+    {
+      "family-names": "Taaha",
+      "given-names": "Nishat",
+      "affiliation": "Department of Electronics and Communication Engineering, Khulna University of Engineering and Technology, Khulna-9203, Bangladesh."
+    }
+  ],
+  "repository-code": "https://github.com/AryanAditta/enhancer-benchmark-audit",
+  "abstract": "Research code, source history and reproducibility records for enhancer benchmark overlap, grouped classification, MPRA training adequacy and external assay transfer.",
+  "keywords": [
+    "enhancer prediction",
+    "benchmark audit",
+    "MPRA",
+    "reproducibility"
+  ],
+  "license-url": "https://github.com/AryanAditta/enhancer-benchmark-audit/blob/main/LICENSE"
+}

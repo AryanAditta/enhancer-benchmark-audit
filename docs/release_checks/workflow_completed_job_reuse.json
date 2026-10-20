@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "task": "classification",
+      "jobs": 60,
+      "completion_authenticated": true
+    },
+    {
+      "task": "activity",
+      "jobs": 54,
+      "completion_authenticated": true,
+      "evaluation_requested": false
+    }
+  ],
+  "new_optimizer_steps": 0,
+  "optimizer_steps_forbidden": true,
+  "actual_frozen_setup_job_authentication_and_finish_executed": true,
+  "scope": "Authenticated existing completed-job reuse; synthetic setup probes only, not a fresh full training run.",
+  "original_checkpoint_hashes_unchanged": 132,
+  "seconds": 131.15599999998813
+}

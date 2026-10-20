@@ -1,44 +1,9 @@
 {
   "passed": true,
   "date_local": "2026-10-20",
-  "notebook_code_cells": [
-    {
-      "notebook": "01_benchmark_audit.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 0.4369999999908032
-    },
-    {
-      "notebook": "02_classification.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 1.110000000000582
-    },
-    {
-      "notebook": "03_activity_models.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 3.8280000000086147
-    },
-    {
-      "notebook": "04_external_transfer.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 0.5939999999973224
-    },
-    {
-      "notebook": "05_statistics.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 1.062000000005355
-    },
-    {
-      "notebook": "06_figures_and_tables.ipynb",
-      "passed": true,
-      "execution": "Every code cell executed with the reference enhancer interpreter; default quick statistics mode.",
-      "seconds": 12.10899999999674
-    }
-  ],
+  "checks_directory": "release_checks",
+  "current_entry_notebooks_executed": 6,
+  "clean_reporting_install": "Private pinned packages; host site-packages excluded from Jupyter kernels; same Windows host and Python executable.",
   "full_headline_statistics": {
     "passed": true,
     "classification_rows": 18,
@@ -53,113 +18,180 @@
     "permutation_draws": 9999,
     "scope": "fixed fitted models and previously examined cohorts; no selection, hyperparameter-search, training-algorithm, pretraining-membership or fresh-test uncertainty"
   },
-  "activity_prediction_validation": {
+  "checkpoint_inference": {
     "passed": true,
-    "validation_checkpoints": 72,
-    "seed_evaluation_sets": 60,
-    "ensemble_sets": 20,
-    "max_numeric_error": 1.3322676295501878e-15,
-    "new_training": false,
-    "new_checkpoint_inference": false
+    "classification_fold_sets": 60,
+    "activity_evaluation_sets": 60,
+    "max_prediction_difference": 0.0,
+    "mean_difference_limit": 1e-06,
+    "maximum_difference_limit": 2e-05,
+    "new_training_steps": 0,
+    "prior_prediction_caches_used_for_inference": false,
+    "scope": "Fresh checkpoint inference; saved predictions read only for comparison after inference.",
+    "seconds": 758.8910000000033,
+    "python": "3.12.13 | packaged by Anaconda, Inc. | (main, Mar 19 2026, 20:16:45) [MSC v.1942 64 bit (AMD64)]",
+    "torch": "2.11.0+cu128",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
   },
-  "classification_validation": {
+  "raw_legacy": {
     "passed": true,
-    "rows": 18,
-    "individual_seed_sets": 12,
-    "max_error": 0.0,
-    "seed_and_fold_variability_distinct": true
+    "tasks": [
+      "legacy"
+    ],
+    "checks": {
+      "legacy_stage1": {
+        "rows": 3268,
+        "columns": 13,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "ed8493e2e9b4e7c8b0ea642b5d9614571154d8b72b29a86c7a67fcbe7374502d",
+        "reference_sha256": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3"
+      },
+      "legacy_stage2": {
+        "rows": 1584,
+        "columns": 13,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "40537cd1fe5d744a6bec82cb4df7fb97bb22299c032dabe821b8a2e66718c7d5",
+        "reference_sha256": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952"
+      },
+      "fresh_exhaustive_LCS": {
+        "passed": true,
+        "pairs_ge150": 425,
+        "pairs_ge160": 75,
+        "gapped_candidates": 75
+      }
+    },
+    "seconds": 35.719000000011874,
+    "new_training_steps": 0,
+    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
+    "private_legacy_documents_included": false
   },
-  "figure_validation": {
+  "raw_activity_external": {
     "passed": true,
-    "main_figure_objects": 14,
-    "main_figure_groups": 8,
-    "checks": [
+    "tasks": [
+      "activity",
+      "external"
+    ],
+    "checks": {
+      "phase9_full_activity_all_cells.csv": {
+        "rows": 76833,
+        "columns": 19,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "cc53722155462acf40697d5762b860ad9032162f76d0c79922a62caabfebba0c",
+        "reference_sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76"
+      },
+      "phase9_frozen_splits.csv": {
+        "rows": 76833,
+        "columns": 8,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "50d633513e6f920d1bec1521be109fd4b33190cb7fdd110c37eb8cfcd7f20c2e",
+        "reference_sha256": "1ecc2d271817edd3000890be718a3f3a9bcc6b63a71550dfa718dbed84d0ff61"
+      },
+      "external_frozen_cohort": {
+        "rows": 29330,
+        "columns": 15,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "2479e96b8fb3a08b138c08465a81b3fbcd0a91fccb75c487bb61ad6e53fa22c5",
+        "reference_sha256": "00d3521b5f087df56e97b792e7b961ffcb9a80e346fdb4c8360dc0182dc273f8"
+      }
+    },
+    "seconds": 60.96899999999732,
+    "new_training_steps": 0,
+    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
+    "private_legacy_documents_included": false
+  },
+  "completed_job_reuse": {
+    "passed": true,
+    "reports": [
       {
-        "figure": "Figure1_Study_workflow",
-        "pixel_identical_in_reference_environment": true
+        "task": "classification",
+        "jobs": 60,
+        "completion_authenticated": true
       },
       {
-        "figure": "Figure2_Classification_pipeline",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure3_Activity_pipeline",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure4a_Training_test_identity",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure4b_Similarity_groups",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure4c_Duplicate_removal",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure5_Seeds_and_ensembles",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure6a_Stage1_classification_exact_GC",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure6b_Stage2_classification_exact_GC",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure7a_HepG2_internal_activity",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure7b_K562_internal_activity",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure7c_Selected_model_contrast",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure7d_Own_prefix_duration_control",
-        "pixel_identical_in_reference_environment": true
-      },
-      {
-        "figure": "Figure8_Transfer_failure_modes",
-        "pixel_identical_in_reference_environment": true
+        "task": "activity",
+        "jobs": 54,
+        "completion_authenticated": true,
+        "evaluation_requested": false
       }
     ],
-    "plotted_values_match_preserved_records": true,
-    "supplementary_images": 8,
-    "supplementary_action": "Exact assembly of supplied original PNGs; historical plotting sources retained separately.",
-    "figure1_action": "Approved master retained; original drawing code included.",
-    "font": "Arial for artwork; manuscript legend fonts are not embedded in graph files."
+    "new_optimizer_steps": 0,
+    "optimizer_steps_forbidden": true,
+    "actual_frozen_setup_job_authentication_and_finish_executed": true,
+    "scope": "Authenticated existing completed-job reuse; synthetic setup probes only, not a fresh full training run.",
+    "original_checkpoint_hashes_unchanged": 132,
+    "seconds": 131.15599999998813
   },
-  "source_files_checked_unchanged": 473,
-  "current_manuscript_and_sharing_zip_unchanged": true,
-  "original_project_files_modified": false,
-  "new_training_steps": 0,
-  "new_checkpoint_inference": 0,
-  "public_copy_scan": {
+  "fresh_full_training_performed": false,
+  "new_optimizer_steps": 0,
+  "gpu_environment_independent_install_tested": false,
+  "live_zenodo_api_tested": false,
+  "rights": "Original-code all-rights-reserved notice unchanged by user choice; upstream rights retained.",
+  "zenodo_status": "99 data/model/input files prepared locally; committed software ZIP will be file 100. No DOI, draft, release or publication created.",
+  "original_preservation": "Final source-preservation audit recorded separately before commit.",
+  "baseline_scope": "Seven older single-run baselines have archived predictions; exact fitted artifact completeness differs; see BASELINE_PROVENANCE.md.",
+  "raw_all_final": {
     "passed": true,
-    "python_files": 23,
-    "text_and_data_files": 423,
-    "raw_DNA_or_credentials_found": false
-  },
-  "training_scope": "Exact frozen source and authenticated preparation/opt-in commands included; separate original input/model artifacts required. No end-to-end GPU retraining claimed during release preparation.",
-  "license_status": "Original-code reuse license remains an author choice; no new permissive grant made. Upstream notices retained.",
-  "zenodo_status": "No DOI or archival release created; connect Zenodo before the release.",
-  "historical_archive": {
-    "passed": true,
-    "main_original_notebooks": 62,
-    "additional_saved_versions": 5,
-    "unique_supporting_code_files": 83,
-    "original_source_paths_accounted": 274,
-    "original_sources_byte_identical": true,
-    "restoration_test_passed": true,
-    "historical_sources_executed": false,
-    "details": "HISTORICAL_ARCHIVE_VALIDATION.json"
+    "tasks": [
+      "legacy",
+      "activity",
+      "external"
+    ],
+    "checks": {
+      "legacy_stage1": {
+        "rows": 3268,
+        "columns": 13,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "ed8493e2e9b4e7c8b0ea642b5d9614571154d8b72b29a86c7a67fcbe7374502d",
+        "reference_sha256": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3"
+      },
+      "legacy_stage2": {
+        "rows": 1584,
+        "columns": 13,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "40537cd1fe5d744a6bec82cb4df7fb97bb22299c032dabe821b8a2e66718c7d5",
+        "reference_sha256": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952"
+      },
+      "fresh_exhaustive_LCS": {
+        "passed": true,
+        "pairs_ge150": 425,
+        "pairs_ge160": 75,
+        "gapped_candidates": 75
+      },
+      "phase9_full_activity_all_cells.csv": {
+        "rows": 76833,
+        "columns": 19,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "cc53722155462acf40697d5762b860ad9032162f76d0c79922a62caabfebba0c",
+        "reference_sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76"
+      },
+      "phase9_frozen_splits.csv": {
+        "rows": 76833,
+        "columns": 8,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "50d633513e6f920d1bec1521be109fd4b33190cb7fdd110c37eb8cfcd7f20c2e",
+        "reference_sha256": "1ecc2d271817edd3000890be718a3f3a9bcc6b63a71550dfa718dbed84d0ff61"
+      },
+      "external_frozen_cohort": {
+        "rows": 29330,
+        "columns": 15,
+        "content_matches": true,
+        "byte_identical": false,
+        "sha256": "2479e96b8fb3a08b138c08465a81b3fbcd0a91fccb75c487bb61ad6e53fa22c5",
+        "reference_sha256": "00d3521b5f087df56e97b792e7b961ffcb9a80e346fdb4c8360dc0182dc273f8"
+      }
+    },
+    "seconds": 97.45299999999406,
+    "new_training_steps": 0,
+    "adapter": "Only filesystem paths and the previously validated read-only TwoBit backend are adapted; original source cells and decisions remain preserved.",
+    "private_legacy_documents_included": false
   }
 }
