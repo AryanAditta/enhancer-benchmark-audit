@@ -1,5 +1,7 @@
 # Notebook and artifact map
 
+The complete original notebook history is separately indexed in [PHASE_INDEX.md](PHASE_INDEX.md): 62 main notebooks across Aditta, Arshee and Shafin's work stages, plus five distinct saved/recovery versions. The six entry notebooks here organize current manuscript reproduction; their count is not the number of research phases or fitted models.
+
 01: Tables 2 (classification population) and 3; Figure 4; supplementary provenance/grouping records.
 02: Table 4; Figures 5 and 6; supplementary fold/seed, exact-GC and calibration records.
 03: Table 5; Figure 7; all 54 candidate/seed outcomes, validation-only choices, selected epochs, own-prefix control and compute/adequacy flags.

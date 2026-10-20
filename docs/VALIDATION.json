@@ -150,5 +150,16 @@
   },
   "training_scope": "Exact frozen source and authenticated preparation/opt-in commands included; separate original input/model artifacts required. No end-to-end GPU retraining claimed during release preparation.",
   "license_status": "Original-code reuse license remains an author choice; no new permissive grant made. Upstream notices retained.",
-  "zenodo_status": "No DOI or archival release created; connect Zenodo before the release."
+  "zenodo_status": "No DOI or archival release created; connect Zenodo before the release.",
+  "historical_archive": {
+    "passed": true,
+    "main_original_notebooks": 62,
+    "additional_saved_versions": 5,
+    "unique_supporting_code_files": 83,
+    "original_source_paths_accounted": 274,
+    "original_sources_byte_identical": true,
+    "restoration_test_passed": true,
+    "historical_sources_executed": false,
+    "details": "HISTORICAL_ARCHIVE_VALIDATION.json"
+  }
 }

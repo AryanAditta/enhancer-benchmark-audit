@@ -2,6 +2,8 @@
 
 Original study code is supplied under the root LICENSE notice; a permissive license remains an author decision. A collective contributor citation is used until the manuscript author list and software citation metadata are finalized.
 
+The historical notebook/source archive records the handoff sequence supplied by Shafin Ahmed: Aditta's initial DNABERT notebooks, Arshee's subsequent notebooks, Aditta's Phases 1–11C3, and Shafin's Phases 12–49 and subsequent presentation scripts. This organizational attribution does not determine final paper author order or sole authorship of code. The original LegNet/MPRAnn source snapshots in `src/archive/` retain the upstream terms listed below; archiving them makes no new copyright claim or license grant. Installed dependency libraries, model-library caches and pretrained weights are obtained separately.
+
 ## Model code
 
 - MPRA-LegNet: autosome-ru/human_legnet, commit a20dbc7d0b08daae3af1aebcfb8a71d9f198ab5d. MIT; preserve third_party/licenses/LegNet_MIT.txt. The copied architecture is in src/frozen/architectures.py and regression_architectures.py.

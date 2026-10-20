@@ -4,6 +4,14 @@ Code and compact results supporting **Benchmark audit and model evaluation for e
 
 The study audits the supplied iEnhancer-2L train/test overlap, evaluates grouped Stage 1/Stage 2 classification, compares DNABERT-2, MPRA-LegNet and MPRAnn on measured lentiMPRA activity, tests DNABERT-2 training duration against its own two-epoch prefix, and evaluates DHS-natural assay transfer.
 
+## Full original research history
+
+The complete notebook/source history is in [notebooks/original_phases/](notebooks/original_phases/) and indexed in [docs/PHASE_INDEX.md](docs/PHASE_INDEX.md). It follows the supplied handoff sequence: **Aditta's initial DNABERT work → Arshee's subsequent work → Aditta's Phases 1–11C3 → Shafin Ahmed's Phases 12–49**.
+
+The archive preserves **62 main notebooks plus five distinct saved/recovery versions**, including superseded analyses and failed attempts, and **83 distinct supporting code files**. All **145 original notebook paths and 129 code paths** are inventoried; identical backups share a stored copy. Every archived source is byte-identical, including saved outputs. The phase index distinguishes historical findings from current manuscript evidence and links the Phase 38 collapse-count erratum.
+
+The six notebooks below organize current saved-result reproduction. The archived original notebooks preserve how the research developed; they have not been rerun as part of this upload and retain their original environment, input and path assumptions. Supporting script history is in [src/archive/](src/archive/). A restoration command in the phase index recreates every inventoried source path in a new empty directory without executing it.
+
 ## Setup
 
 ```bash
@@ -32,11 +40,11 @@ Alternatively, run notebooks/01_benchmark_audit.ipynb through 06_figures_and_tab
 configs/       fixed recipes, seeds, grids, selection and input/model locks
 data/          source URLs, checksums, opaque identity/fold manifests and acquisition notes
 src/           reporting functions, statistics, exact frozen training sources and drawing code
-notebooks/     six ordered public reproduction notebooks
+notebooks/     six current reproduction notebooks + full original notebook archive
 scripts/       commands for reporting and explicit, authenticated optional retraining
 results/       derived manifests, small prediction files, all main/supplementary tables and fit logs
 figures/       current main and supplementary figures with captions
-docs/          reproduction limits, provenance and public-copy transformation ledger
+docs/          full phase index, source inventory, reproduction limits and provenance
 tests/         numerical and provenance checks
 ```
 

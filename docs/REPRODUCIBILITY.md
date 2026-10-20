@@ -1,5 +1,13 @@
 # Reproduction scope
 
+## Original source history
+
+[PHASE_INDEX.md](PHASE_INDEX.md) maps all four work stages, all 62 main original notebooks and five additional saved/recovery versions to the current six reproduction notebooks. `ORIGINAL_SOURCE_INVENTORY.json` accounts for all 145 notebook source paths and 129 supporting-code source paths. Byte-identical backups share an archive destination; every differing version is retained, together with its source path, SHA-256 and byte size. Original notebook code, explanatory text, metadata and saved outputs are unchanged.
+
+This archive includes superseded statistical/reporting snapshots, historical test evaluations, early short-duration recipes, the separate 9C locus branch and failed/interrupted attempts. Their historical output/status text is preserved and must be interpreted using the index and [Phase 38 reporting erratum](history/ERRATUM_collapse_count.md). Original scripts retain their machine-specific paths and dependencies. Archive validation checks file identity, notebook schemas and Python syntax; it does not assert that every historical notebook executes in this public reporting environment or validates every historical result anew.
+
+`scripts/restore_historical_sources.py` recreates every inventoried path, including duplicate backup paths, into a new empty directory outside the repository. It checks hashes before and after copying and executes no historical source. Full historical execution additionally needs the original authenticated input/model artifacts and original path/environment assumptions. The six current entry notebooks below remain the tested saved-result reproduction workflow.
+
 ## CPU reporting
 
 The six ordered notebooks operate on bundled scored records, frozen settings and compact results. They reproduce benchmark hash/count checks, classification and activity metrics, validation-only recipe choice, the headline statistical family, and publication assets without training. Outputs go to results/reproduced and .runtime, which are ignored by Git.
