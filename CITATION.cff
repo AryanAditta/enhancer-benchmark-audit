@@ -3,6 +3,7 @@
   "message": "Please cite this versioned software and the associated manuscript. Add the actual Zenodo DOI after archival publication.",
   "type": "software",
   "title": "Benchmark audit and model evaluation for enhancer prediction: data overlap, training adequacy and assay transfer",
+  "version": "1.0.0",
   "authors": [
     {
       "family-names": "Aditta",
@@ -32,11 +33,13 @@
     }
   ],
   "repository-code": "https://github.com/AryanAditta/enhancer-benchmark-audit",
-  "abstract": "Research code, source history and reproducibility records for enhancer benchmark overlap, grouped classification, MPRA training adequacy and external assay transfer.",
+  "abstract": "Research code, locked analysis outputs and reproducibility records supporting an enhancer benchmark audit, grouped classification, quantitative lentiMPRA activity modelling, training-adequacy analysis and external assay-transfer evaluation.",
   "keywords": [
     "enhancer prediction",
     "benchmark audit",
     "MPRA",
+    "regulatory genomics",
+    "genomic language models",
     "reproducibility"
   ],
   "license-url": "https://github.com/AryanAditta/enhancer-benchmark-audit/blob/main/LICENSE"
