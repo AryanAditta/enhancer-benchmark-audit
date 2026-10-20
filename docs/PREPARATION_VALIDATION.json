@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "notebooks": 6,
+  "source_files_checked_unchanged": 472,
+  "frozen_training_and_architecture_sources_exact": true,
+  "new_training_steps": 0,
+  "new_inference_sets": 0,
+  "public_copy_transforms_documented": true,
+  "original_project_files_modified": false,
+  "zenodo_doi_created": false
+}

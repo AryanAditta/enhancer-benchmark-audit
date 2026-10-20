@@ -1,0 +1,21 @@
+method_year_ref,architecture,stage1_mcc,stage2_mcc,stage1_auc,evaluation_protocol
+iEnhancer-2L (2016) [8],PseKNC + SVM,0.54000000000000004,0.24,0.85,Jackknife validation
+iEnhancer-2L (2016) [8],PseKNC + SVM,0.46000000000000002,0.218,0.806,Independent test (as reported in [11])
+EnhancerPred (2016) [30],Feature-based ML (SVM),0.55000000000000004,0.36,Not reported,Jackknife validation
+EnhancerPred (2016) [30],Feature-based ML (SVM),0.47999999999999998,0.102,0.801,Independent test (as reported in [11])
+iEnhancer-EL (2018) [9],Ensemble SVM,0.56130000000000002,0.3149,0.8547,Jackknife validation
+iEnhancer-EL (2018) [9],Ensemble SVM,0.49640000000000001,0.2222,0.8173,Independent test
+iEnhancer-ECNN (2019) [11],Ensemble 1D CNN (OHE + k-mer features),0.53700000000000003,0.368,0.832,Independent test
+iEnhancer-XG (2021) [31],Ensemble XGBoost,0.51500000000000001,0.2720,Not reported,Independent test
+iEnhancer-EBLSTM (2021) [12],3-mer encoding + Ensemble Bidirectional LSTM (EBLSTM),0.53400000000000003,0.324,0.835,Independent test
+iEnhancer-DCLA (2022) [14],k-mer (k=7) + dna2vec + CNN + BiLSTM + Attention,0.56499999999999995,0.5693,0.8269,Independent test
+iEnhancer-Deep (2022) [32],One-hot + Gaussian noise + 3×1D CNN,0.75960000000000005,0.6205,0.9401,5-fold cross-validation
+iEnhancer-Deep (2022) [32],One-hot + Gaussian noise + 3×1D CNN,0.49020000000000002,0.2266,Not reported,Independent test
+Enhancer-LSTMAtt (2022) [33],Residual CNN + BiLSTM + Attention,0.53390000000000004,0.2804,0.8259,5-fold cross-validation
+Enhancer-LSTMAtt (2022) [33],Residual CNN + BiLSTM + Attention,0.61009999999999998,0.8047,0.8588,Independent test
+iEnhancer-DCSV (2023) [15],Modified DenseNet + Improved CBAM + Ensemble,0.58089999999999997,0.6609,0.8527,Independent test
+iEnhancer-ELM (2023) [20],Multi-scale DNABERT + MLP ensemble,0.66120000000000001,Not evaluated,0.8560,Independent test (Stage 1 only)
+DeepDualEnhancer (2024) [37],DNABERT + Parallel CNN/BiLSTM + Attention,0.64549999999999996,0.8423,0.8662,Independent test
+DeepEnhancerPPO (2024) [35],CNN + PPO-based reinforcement learning,0.82020000000000004,0.6458,0.9585,Independent test
+,,,,,
+note,"Values are as reported, with each study's own precision, and were checked against the original articles or, where an article's tables could not be read, against later comparison tables that cite them. Independent-test values for iEnhancer-2L and EnhancerPred are as reported in [11]. The DeepEnhancerPPO Stage 2 value is for its base model; its refined model reported 0.7503 [35]. The position-aware model PDCNN is not listed because its per-stage MCC and AUC on this benchmark could not be confirmed from the article. Stage 2 AUC is not shown. Reference numbers refer to the main manuscript.",,,,

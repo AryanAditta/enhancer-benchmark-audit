@@ -1,0 +1,2 @@
+# This release authenticates exact bytes. Do not normalize locked files on checkout.
+* -text

@@ -1,0 +1,21 @@
+cell_line,stage,n,unit,source
+HepG2,raw_assay_rows,153025,rows,authenticated raw-row audit
+HepG2,other_design_exclusions,23671,rows,authenticated raw-row audit
+HepG2,noncanonical_chrom_exclusions,38,rows,authenticated raw-row audit
+HepG2,non200_exclusions,36,rows,authenticated raw-row audit
+HepG2,eligible_orientation_rows,129280,rows,authenticated raw-row audit
+HepG2,incomplete_orientation_exclusions,900,rows,authenticated raw-row audit
+HepG2,complete_paired_candidates,64190,elements,authenticated raw-row audit
+HepG2,exact_or_RC_legacy,3,elements,reconstructed filtering population
+HepG2,retained,33324,elements,reconstructed filtering population
+HepG2,shared_15mer_with_legacy,30863,elements,reconstructed filtering population
+K562,raw_assay_rows,230624,rows,authenticated raw-row audit
+K562,other_design_exclusions,59033,rows,authenticated raw-row audit
+K562,noncanonical_chrom_exclusions,0,rows,authenticated raw-row audit
+K562,non200_exclusions,0,rows,authenticated raw-row audit
+K562,eligible_orientation_rows,171591,rows,authenticated raw-row audit
+K562,incomplete_orientation_exclusions,707,rows,authenticated raw-row audit
+K562,complete_paired_candidates,85442,elements,authenticated raw-row audit
+K562,exact_or_RC_legacy,1,elements,reconstructed filtering population
+K562,retained,43509,elements,reconstructed filtering population
+K562,shared_15mer_with_legacy,41932,elements,reconstructed filtering population

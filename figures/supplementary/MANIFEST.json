@@ -1,0 +1,74 @@
+[
+  {
+    "figure": "SF1",
+    "file": "Supplementary_Figures/SF1.png",
+    "bytes": 342233,
+    "sha256": "8c0e0d8f1e6497c6beacc07f04a75bf9f7c81fb6789dcaf9435a0789c9768820",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/c4adf098e6c86cddae172efdeb6452f12c542c7f.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF2",
+    "file": "Supplementary_Figures/SF2.png",
+    "bytes": 174803,
+    "sha256": "239577011d5c97f436192b9c9dd428c445e9bcd617189b223c487b00c1c1d028",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/8b28de851957175a73a40c78b6092e41b6448b3a.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF3",
+    "file": "Supplementary_Figures/SF3.png",
+    "bytes": 565729,
+    "sha256": "822415a9955d2f515ddf19319dffefcee85addf956d28502fc4cbe8194723202",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/4ca2e0f655bd10dea0f2f8b81134a208167722d3.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF4",
+    "file": "Supplementary_Figures/SF4.png",
+    "bytes": 238841,
+    "sha256": "d57e1bdbe0638b59242add20a58aeef2463b1f55e3ab2bdf76d88ac0aa65c390",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/c3a50ce0fbcc3ef602f6b809943d968f286dcd2c.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF5",
+    "file": "Supplementary_Figures/SF5.png",
+    "bytes": 40580,
+    "sha256": "7ea69650022b5e56925181daebcaecd9a6bf585efdac07504463482e1e48c159",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/899becd1bdb30b5315cb57b9f110f40d1d6dc62c.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF6",
+    "file": "Supplementary_Figures/SF6.png",
+    "bytes": 203002,
+    "sha256": "2313724ec48be0dfb6be189b55f8b4c5c897631efc370ffb93b6d17a323edd49",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/8f0c044d383bbe65dc1df8dfc7957ca1acc6052d.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF7",
+    "file": "Supplementary_Figures/SF7.png",
+    "bytes": 86291,
+    "sha256": "71150b973ef9876589e465e76ba37f43a26d9726cf09934d67a68a239f9d638e",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/998246e5df2fa52a7459116b94d38ce687315e79.png",
+    "extracted_without_image_changes": true
+  },
+  {
+    "figure": "SF8",
+    "file": "Supplementary_Figures/SF8.png",
+    "bytes": 179145,
+    "sha256": "749e5df3f904374b56a68e04e3f5e7b3e32d61eda9245320d21aee9ea5e456bb",
+    "source": "Supplementary_Information.docx",
+    "source_member": "word/media/e9f699e0b535a694cc5430e30681f7025ec38d84.png",
+    "extracted_without_image_changes": true
+  }
+]

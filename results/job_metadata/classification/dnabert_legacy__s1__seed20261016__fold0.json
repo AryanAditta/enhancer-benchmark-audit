@@ -1,0 +1,51 @@
+{
+  "AMP_overflow_skipped_steps": 1,
+  "augmented_training_n": 4534,
+  "base_seed": 20261016,
+  "checkpoint_file": "phase31_outputs/checkpoints/dnabert_legacy__s1__seed20261016__fold0.pt",
+  "checkpoint_sha256": "ba9490cb5b0ebfa58f8809980b0ef396d43bb7ce09b9acecf7ee4db361f0f3d4",
+  "effective_seed": 20261116,
+  "epochs": 2,
+  "evaluation_n": 571,
+  "fold": 0,
+  "job": "dnabert_legacy__s1__seed20261016__fold0",
+  "loading_info": {
+    "missing_unused_pooler": [],
+    "unexpected_unused_MLM": [
+      "cls.predictions.bias",
+      "cls.predictions.decoder.bias",
+      "cls.predictions.decoder.weight",
+      "cls.predictions.transform.LayerNorm.bias",
+      "cls.predictions.transform.LayerNorm.weight",
+      "cls.predictions.transform.dense.bias",
+      "cls.predictions.transform.dense.weight"
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.7950963222416813,
+    "auprc": 0.8794529362097074,
+    "auroc": 0.8891957578435704,
+    "balanced_accuracy": 0.7926363725634605,
+    "brier": 0.14475953440757028,
+    "f1": 0.7655310621242485,
+    "fn": 88,
+    "fp": 29,
+    "mcc": 0.6011556443927366,
+    "n": 571,
+    "negative": 292,
+    "positive": 279,
+    "sensitivity": 0.6845878136200717,
+    "specificity": 0.9006849315068494,
+    "tn": 263,
+    "tp": 191
+  },
+  "model": "dnabert_legacy",
+  "prediction_file": "phase31_outputs/predictions/dnabert_legacy__s1__seed20261016__fold0.csv",
+  "prediction_sha256": "e3b884a3e1cddf61d1e8eab56aad87b5fbf9637a090764c47b2ae7834fe5dd2c",
+  "protocol_sha256": "745fb8a0c276044f681f68e91fe0e7bdb8fa82031995fd1b0c7f9354efaff97b",
+  "resumed": false,
+  "seconds_this_execution": 86.05408811569214,
+  "source_sha256": "e81d87d761d1abd50479dbe54a9d2bacefd5b6478fcb1a9175915c8adbed097f",
+  "stage": 1,
+  "training_n": 2267
+}

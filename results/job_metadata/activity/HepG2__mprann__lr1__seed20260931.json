@@ -1,0 +1,48 @@
+{
+  "AMP_skipped_optimizer_steps": 2,
+  "architecture_sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516",
+  "artifacts": [
+    {
+      "file": "phase35_outputs/validation/HepG2__mprann__lr1__seed20260931__best.csv",
+      "role": "best",
+      "sha256": "48989bb65c3541dc7853c5da129eda79ed7cea797809625cb37d7c0e5e20da60"
+    },
+    {
+      "file": "phase35_outputs/checkpoints/HepG2__mprann__lr1__seed20260931__best.pt",
+      "role": "best",
+      "sha256": "4214fd8bfdfaf1bbb319b8e91c04795d9aeb9b8e82a52f5f0aee31e9cf1c27eb"
+    },
+    {
+      "file": "phase35_outputs/training_logs/HepG2__mprann__lr1__seed20260931.csv",
+      "role": "training_log",
+      "sha256": "d609d820f5b184b8073825154461615d23d855b84cfa86561f6a1616db20cbd3"
+    }
+  ],
+  "cell_line": "HepG2",
+  "collapsed": false,
+  "early2_selected_epoch": null,
+  "early2_validation_pearson": null,
+  "early_stopped": true,
+  "elapsed_seconds": 67.73400000000038,
+  "epochs_run": 32,
+  "grid_index": 1,
+  "job": "HepG2__mprann__lr1__seed20260931",
+  "learning_rate": 0.001,
+  "maximum_epochs": 100,
+  "model": "mprann",
+  "optimizer_updates": 4638,
+  "peak_cuda_allocated_bytes": 597144064,
+  "possibly_budget_limited": false,
+  "protocol_sha256": "2d204c4d565b46ebbb1833a00141d045201d59b79b503d43c3e6d9214d1101a9",
+  "revision": "copied_Phase12_architecture",
+  "seed": 20260931,
+  "selected_epoch": 22,
+  "source_sha256": "83a1ae9a9e03361e4fe517044ee7b3cc76f580db04878e4a12f1f7873c60d311",
+  "target_mean": -0.2479638092686847,
+  "target_scale": 0.7016525815012817,
+  "train_record_ids_sha256": "9e77adc66bfd437774150c9c2aebfa180a7da23b9dd4e9f18c514a53e871eb5b",
+  "training_examples_seen": 593920,
+  "validation_pearson": 0.61541417410411,
+  "validation_prediction_sd": 0.4484560182522923,
+  "validation_record_ids_sha256": "422487176a72406749fcf708d54bdad494c2fd5711d3b7371c0ae5c0c382f9b1"
+}

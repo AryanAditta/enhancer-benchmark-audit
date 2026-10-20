@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the associated manuscript. A Zenodo DOI will be added after an archival release exists."
+type: software
+title: "Enhancer benchmark audit and model evaluation"
+authors:
+  - name: "Enhancer benchmark audit contributors"
+repository-code: "https://github.com/AryanAditta/enhancer-benchmark-audit"
+abstract: "Code and compact reproducibility records for benchmark overlap, grouped enhancer classification, MPRA training adequacy, and assay transfer."
+keywords:
+  - enhancer prediction
+  - benchmark audit
+  - MPRA
+  - reproducibility

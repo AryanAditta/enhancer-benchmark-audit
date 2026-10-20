@@ -1,0 +1,181 @@
+{
+  "version": "final_synthesis_stats_v1",
+  "family_size": 14,
+  "comparisons": [
+    {
+      "comparison_id": "C_S1_DB2_minus_finetuned_dnabert_legacy",
+      "task": "classification",
+      "stage": 1,
+      "cell": "",
+      "cohort": "grouped_OOF",
+      "arm_a": "finetuned_dnabert2",
+      "arm_b": "finetuned_dnabert_legacy",
+      "metric": "auroc",
+      "resampling_unit": "locked_similarity_graph_component"
+    },
+    {
+      "comparison_id": "C_S1_DB2_minus_spaced6_4_logreg",
+      "task": "classification",
+      "stage": 1,
+      "cell": "",
+      "cohort": "grouped_OOF",
+      "arm_a": "finetuned_dnabert2",
+      "arm_b": "spaced6_4_logreg",
+      "metric": "auroc",
+      "resampling_unit": "locked_similarity_graph_component"
+    },
+    {
+      "comparison_id": "C_S2_DB2_minus_finetuned_dnabert_legacy",
+      "task": "classification",
+      "stage": 2,
+      "cell": "",
+      "cohort": "grouped_OOF",
+      "arm_a": "finetuned_dnabert2",
+      "arm_b": "finetuned_dnabert_legacy",
+      "metric": "auroc",
+      "resampling_unit": "locked_similarity_graph_component"
+    },
+    {
+      "comparison_id": "C_S2_DB2_minus_spaced6_4_logreg",
+      "task": "classification",
+      "stage": 2,
+      "cell": "",
+      "cohort": "grouped_OOF",
+      "arm_a": "finetuned_dnabert2",
+      "arm_b": "spaced6_4_logreg",
+      "metric": "auroc",
+      "resampling_unit": "locked_similarity_graph_component"
+    },
+    {
+      "comparison_id": "M_HepG2_internal_legnet_selected_minus_dnabert2_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "HepG2",
+      "cohort": "internal",
+      "arm_a": "legnet_selected",
+      "arm_b": "dnabert2_selected",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    },
+    {
+      "comparison_id": "M_HepG2_internal_dnabert2_selected_minus_mprann_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "HepG2",
+      "cohort": "internal",
+      "arm_a": "dnabert2_selected",
+      "arm_b": "mprann_selected",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    },
+    {
+      "comparison_id": "M_HepG2_DHS_natural_legnet_selected_minus_dnabert2_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "HepG2",
+      "cohort": "DHS_natural",
+      "arm_a": "legnet_selected",
+      "arm_b": "dnabert2_selected",
+      "metric": "spearman",
+      "resampling_unit": "canonical_DNA"
+    },
+    {
+      "comparison_id": "M_HepG2_DHS_natural_dnabert2_selected_minus_mprann_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "HepG2",
+      "cohort": "DHS_natural",
+      "arm_a": "dnabert2_selected",
+      "arm_b": "mprann_selected",
+      "metric": "spearman",
+      "resampling_unit": "canonical_DNA"
+    },
+    {
+      "comparison_id": "D_HepG2_internal_full_minus_own_early2",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "HepG2",
+      "cohort": "internal",
+      "arm_a": "dnabert2_fixedlr_full",
+      "arm_b": "dnabert2_fixedlr_early2",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    },
+    {
+      "comparison_id": "M_K562_internal_legnet_selected_minus_dnabert2_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "K562",
+      "cohort": "internal",
+      "arm_a": "legnet_selected",
+      "arm_b": "dnabert2_selected",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    },
+    {
+      "comparison_id": "M_K562_internal_dnabert2_selected_minus_mprann_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "K562",
+      "cohort": "internal",
+      "arm_a": "dnabert2_selected",
+      "arm_b": "mprann_selected",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    },
+    {
+      "comparison_id": "M_K562_DHS_natural_legnet_selected_minus_dnabert2_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "K562",
+      "cohort": "DHS_natural",
+      "arm_a": "legnet_selected",
+      "arm_b": "dnabert2_selected",
+      "metric": "spearman",
+      "resampling_unit": "canonical_DNA"
+    },
+    {
+      "comparison_id": "M_K562_DHS_natural_dnabert2_selected_minus_mprann_selected",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "K562",
+      "cohort": "DHS_natural",
+      "arm_a": "dnabert2_selected",
+      "arm_b": "mprann_selected",
+      "metric": "spearman",
+      "resampling_unit": "canonical_DNA"
+    },
+    {
+      "comparison_id": "D_K562_internal_full_minus_own_early2",
+      "task": "MPRA",
+      "stage": null,
+      "cell": "K562",
+      "cohort": "internal",
+      "arm_a": "dnabert2_fixedlr_full",
+      "arm_b": "dnabert2_fixedlr_early2",
+      "metric": "pearson",
+      "resampling_unit": "locus_group"
+    }
+  ],
+  "selection_timing": "prespecified for final synthesis after prior outcomes were seen; not prospective confirmation",
+  "primary_metrics": {
+    "classification": "pooled ensemble AUROC",
+    "internal_MPRA": "Pearson",
+    "DHS_natural": "Spearman"
+  },
+  "bootstrap_draws": 2000,
+  "permutation_draws": 9999,
+  "random_seed": 20261015,
+  "confidence_interval": "percentile 95%, whole groups resampled with replacement; Spearman ranks recomputed on duplicated observations",
+  "test": "two-sided whole-group paired prediction-swap permutation; sharp conditional exchangeability null, not a test of algorithm equivalence",
+  "p_value": "(1 + count(abs(permuted difference)>=abs(observed difference))) / (R+1)",
+  "multiple_testing": "Holm across all 14 headline contrasts, including both internal fixed-LR duration controls",
+  "alpha": 0.05,
+  "threshold": 0.5,
+  "undefined_policy": "undefined draws visible and counted; no fit or cohort exclusions; no revised selection",
+  "scope": "fixed fitted models and previously examined cohorts; no selection, hyperparameter-search, training-algorithm, pretraining-membership or fresh-test uncertainty",
+  "dependence": "OOF folds share training data; 15 seed x fold points are not independent replicates; graph grouping does not rule out all biological relatedness",
+  "baselines": "Seven archived single-run baselines kept; no fabricated seed SD. Spaced-mer MPRA baseline outside neural 54-fit grid.",
+  "secondary_policy": "Other old interval/diagnostic results are separately labelled exploratory and unadjusted; no conversion of an old CI into a p-value",
+  "source_sha256": "4092c3717a9e170e72f8f26a70425a033403a8d1eef93606b8d38a535f0beab8"
+}

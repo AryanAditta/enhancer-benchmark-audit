@@ -1,0 +1,5 @@
+task,task_definition,initial_training,historical_test,complete_assay_candidates,retained,removed_or_excluded,groups,folds,positive,negative,train,validation,internal_test,external_DHS_natural,evaluation
+Legacy Stage 1,enhancer vs non-enhancer,2968,400,,2838,130,2810,5,1376,1462,,,,,fixed similarity-grouped OOF; historical test secondary
+Legacy Stage 2,strong vs weak enhancer,1484,200,,1376,108,1373,5,641,735,,,,,fixed similarity-grouped OOF; historical test secondary
+HepG2,continuous 200bp reporter activity,,,64190,33324,30866,,,,,18665,5611,9048,8399,primary9B chromosome holdout; frozen previously examined DHS-natural transfer
+K562,continuous 200bp reporter activity,,,85442,43509,41933,,,,,23560,6804,13145,8399,primary9B chromosome holdout; frozen previously examined DHS-natural transfer

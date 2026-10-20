@@ -1,0 +1,4 @@
+concern,status,evidence,remaining
+Aditta1_training_fairness,investigated_with_explicit_limits,phase37_outputs/ensemble_metrics.csv; phase37_outputs/conditional_paired_intervals.csv,Limited3learning-rate grid; model-specific compute; previously examined cohorts; cap/grid flags must qualify conclusions.
+DNABERT2_two_epoch_duration,paired_trajectory_control_completed,phase35_outputs/checkpoints/*dnabert2*early2.pt; phase37_outputs/conditional_paired_intervals.csv,Training duration measured at fixed lr2e-5; does not prove every possible recipe converges.
+old9C_collapsed_seed,open_historical_root_cause,phase13_outputs/old_9c_k562_collapse_sensitivity.csv,This new primary9B training study does not repair unavailable historical9C epoch logs.

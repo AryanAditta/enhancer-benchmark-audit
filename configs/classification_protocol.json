@@ -1,0 +1,53 @@
+{
+  "protocol": {
+    "attention": "DNABERT2 pinned PyTorch fallback; optional Triton disabled as in historical code",
+    "base_seeds": [
+      20260928,
+      20261016,
+      20261017
+    ],
+    "batch_size": 8,
+    "comparison_policy": "All60fits are fresh local runs. Original20 and historical10 remain separate; no selective reuse by outcome.",
+    "dropout": 0.1,
+    "epochs": 2,
+    "folds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "gradient_accumulation": 2,
+    "gradient_clip": 1.0,
+    "head": "attention-mask mean including unpadded special tokens; dropout0.1; Linear768to2",
+    "historical_parent_protocol": "phase11c_multiseed_grouped5_v1",
+    "input_member_sha256": {
+      "stage1_candidate_manifest.csv": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3",
+      "stage2_candidate_manifest.csv": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952"
+    },
+    "local_runtime": "enhancer; torch2.11.0+cu128; Windows; RTX5060Ti16GB; same frozen software/backend for all60jobs",
+    "loss": "cross_entropy; fp16 autocast; AdamW; accumulation2; divide all minibatch losses by2 including terminal partial accumulation",
+    "lr": 2e-05,
+    "max_tokens": 256,
+    "model_revisions": {
+      "dnabert2": "ec1f874253852eb3907081f57294991b4280ceb6",
+      "dnabert_legacy": "c56e67ea5827e0ddc67ef059addcf71569b1216e"
+    },
+    "models": [
+      "dnabert2",
+      "dnabert_legacy"
+    ],
+    "protocol": "phase31_consistent_local_classification_three_seeds_v1",
+    "purpose": "Complete classification seed study; MPRA activity-training adequacy is a separate open question",
+    "rc_augment_train": true,
+    "score_orientation": "original sequence only",
+    "selection": "final fixed epoch2; outer OOF predictions never select settings, thresholds or epochs",
+    "stages": [
+      1,
+      2
+    ],
+    "transformers": "4.44.2",
+    "weight_decay": 0.01
+  },
+  "protocol_sha256": "745fb8a0c276044f681f68e91fe0e7bdb8fa82031995fd1b0c7f9354efaff97b"
+}

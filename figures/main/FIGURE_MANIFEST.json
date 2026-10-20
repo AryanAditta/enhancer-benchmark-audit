@@ -1,0 +1,440 @@
+{
+  "figures": [
+    {
+      "stem": "Figure1_Study_workflow",
+      "figure": 1,
+      "panel": null,
+      "width_mm": 180,
+      "height_mm": 137,
+      "sources": [
+        "Approved Figure1 proposal"
+      ],
+      "approved_draft_unchanged": true,
+      "exports": {
+        "pdf": {
+          "file": "Figure1_Study_workflow.pdf",
+          "sha256": "dd784672d66880266b503e25d94118e3846d3d6f98a370923e09e02bd3bd4273"
+        },
+        "svg": {
+          "file": "Figure1_Study_workflow.svg",
+          "sha256": "a6727ac9c418b8c25ff542f12fdc6dc1ecc1dcfaff12940dc402462522071910"
+        },
+        "png": {
+          "file": "Figure1_Study_workflow.png",
+          "sha256": "dc3d647bf90474003a59b8418032531545752c437e27d0f0aae5bb2f17631af6"
+        },
+        "tiff": {
+          "file": "Figure1_Study_workflow.tiff",
+          "sha256": "ec842a07843065157b6690a8692cd0442c503bb8c16c16dffdbe55ccf79bb90d"
+        }
+      }
+    },
+    {
+      "stem": "Figure4a_Training_test_identity",
+      "figure": 4,
+      "panel": "a",
+      "width_mm": 180.0,
+      "height_mm": 73.0,
+      "sources": [
+        "final_evidence/benchmark_audit.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure4a_Training_test_identity.pdf",
+          "sha256": "8bed1bec22d60e832cd958eb36180319a48be6f06dde629cdac582c24f0a1c13"
+        },
+        "svg": {
+          "file": "Figure4a_Training_test_identity.svg",
+          "sha256": "6bf383996c0067ba03fae40a5f60845ea8355bbc5a8269aed890ef32d8c172ad"
+        },
+        "png": {
+          "file": "Figure4a_Training_test_identity.png",
+          "sha256": "2b641fe1efcc364ae6e9de44ce5f618b87b1fc0b57ffee0e3fdd17d961eeafac"
+        },
+        "tiff": {
+          "file": "Figure4a_Training_test_identity.tiff",
+          "sha256": "aa52be64b2786afe1493ebc4bbb47af8bdac89fea791a743d1a07dee0eb706bb"
+        }
+      }
+    },
+    {
+      "stem": "Figure4b_Similarity_groups",
+      "figure": 4,
+      "panel": "b",
+      "width_mm": 180.0,
+      "height_mm": 74.0,
+      "sources": [
+        "final_evidence/inputs/stage1_candidate_manifest.csv",
+        "final_evidence/inputs/stage2_candidate_manifest.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure4b_Similarity_groups.pdf",
+          "sha256": "eacae6a95118a926f9221ad6dc67048bf72b66394691826c5c3d5cd10e1df43c"
+        },
+        "svg": {
+          "file": "Figure4b_Similarity_groups.svg",
+          "sha256": "de5bfaca8b55db62e2371cd74b47f746c125c8f3fa27c26c97b36c2449af74d3"
+        },
+        "png": {
+          "file": "Figure4b_Similarity_groups.png",
+          "sha256": "e13cbe1a205161579d0ffba9be7f651b2e096e3277f95dddfda1fb5319700b20"
+        },
+        "tiff": {
+          "file": "Figure4b_Similarity_groups.tiff",
+          "sha256": "7191f808ff9a8766a3f36934f18249013fc5f12791bb027607782f3705ff65b2"
+        }
+      }
+    },
+    {
+      "stem": "Figure4c_Duplicate_removal",
+      "figure": 4,
+      "panel": "c",
+      "width_mm": 180.0,
+      "height_mm": 82.0,
+      "sources": [
+        "phase21_outputs/historical_test_overlap_roster.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure4c_Duplicate_removal.pdf",
+          "sha256": "fcd6e408916673991bd6ad293c2c2c486d15fb01e81f6e83157d190de60c898b"
+        },
+        "svg": {
+          "file": "Figure4c_Duplicate_removal.svg",
+          "sha256": "ce99f478ad9c0f7f8468b60ebcb6d3f093a8b19dcce2773987bc9f80a642fedc"
+        },
+        "png": {
+          "file": "Figure4c_Duplicate_removal.png",
+          "sha256": "493b4566f14c0680ac385699a8723b90b1fe7d91a0c7820abcb28bb7169776c0"
+        },
+        "tiff": {
+          "file": "Figure4c_Duplicate_removal.tiff",
+          "sha256": "e76352c07aba5ee671b87195667a7f3da9992c76ae77f2e79e5a0f59b36aa7d3"
+        }
+      }
+    },
+    {
+      "stem": "Figure5_Seeds_and_ensembles",
+      "figure": 5,
+      "panel": null,
+      "width_mm": 180.0,
+      "height_mm": 82.0,
+      "sources": [
+        "phase32_outputs/seed_metrics_pooled_and_fold.csv",
+        "final_statistics/classification_summary.csv",
+        "final_statistics/adjusted_tests.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure5_Seeds_and_ensembles.pdf",
+          "sha256": "a114c81c9edd20728a20af618a1d119bdf1d0d0d8ea55511f4e968dd0ea737a8"
+        },
+        "svg": {
+          "file": "Figure5_Seeds_and_ensembles.svg",
+          "sha256": "b059de79e42b3b6abbf2ff0791af16f6dfb4be555f681595a30a7ca9b9ef8fc2"
+        },
+        "png": {
+          "file": "Figure5_Seeds_and_ensembles.png",
+          "sha256": "a0a3161ebb1d0591920b0004122d29a3e937f63c551906a3f82a71095eb201a5"
+        },
+        "tiff": {
+          "file": "Figure5_Seeds_and_ensembles.tiff",
+          "sha256": "6953512f8d0c82594d95ef7fbce38cf4fa6336af2007494da6e769bfe4b7ca56"
+        }
+      }
+    },
+    {
+      "stem": "Figure6a_Stage1_classification_exact_GC",
+      "figure": 6,
+      "panel": "a",
+      "width_mm": 180.0,
+      "height_mm": 85.0,
+      "sources": [
+        "final_statistics/exact_gc_fold_metrics.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure6a_Stage1_classification_exact_GC.pdf",
+          "sha256": "bc0ae48f18f81b74b2ebd3ba118b5942c8564beab1fbd3537344235bdb1c1a72"
+        },
+        "svg": {
+          "file": "Figure6a_Stage1_classification_exact_GC.svg",
+          "sha256": "4505c6f60d91aabcf13080b402cb66bee69a009c8595720aced8be43f12bf478"
+        },
+        "png": {
+          "file": "Figure6a_Stage1_classification_exact_GC.png",
+          "sha256": "849fb1bf2c1b19d61c4dd76605e323eab63b20d97e7490bd05ab3b242dcb9cce"
+        },
+        "tiff": {
+          "file": "Figure6a_Stage1_classification_exact_GC.tiff",
+          "sha256": "7b27b909ab8af45b764108bf026273ef22c233b2474f28e8fffac42539c404ad"
+        }
+      }
+    },
+    {
+      "stem": "Figure6b_Stage2_classification_exact_GC",
+      "figure": 6,
+      "panel": "b",
+      "width_mm": 180.0,
+      "height_mm": 85.0,
+      "sources": [
+        "final_statistics/exact_gc_fold_metrics.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure6b_Stage2_classification_exact_GC.pdf",
+          "sha256": "470012d38f5a262f8a9474b5d9c59a66fe45e323619d7b33cd29db07b7b55b25"
+        },
+        "svg": {
+          "file": "Figure6b_Stage2_classification_exact_GC.svg",
+          "sha256": "80bf81d559b583f2037260eeb4dbb4efc35397a6b91f5a1eaf744239238a34dd"
+        },
+        "png": {
+          "file": "Figure6b_Stage2_classification_exact_GC.png",
+          "sha256": "051e0e1db090c9859206b7001ea2c31d0f229a2ca178e9f87287b723a16ca39d"
+        },
+        "tiff": {
+          "file": "Figure6b_Stage2_classification_exact_GC.tiff",
+          "sha256": "8ccae0724ce8c90812506971ef70f325e874820e354758cef07a4ee9ea4d12d1"
+        }
+      }
+    },
+    {
+      "stem": "Figure7a_HepG2_internal_activity",
+      "figure": 7,
+      "panel": "a",
+      "width_mm": 180.0,
+      "height_mm": 76.0,
+      "sources": [
+        "final_tables/main/T4_MPRA_internal.csv",
+        "phase37_outputs/seed_metrics_independent.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure7a_HepG2_internal_activity.pdf",
+          "sha256": "26d1b1ddb821a2e5e896dff4f29bd66095d871dbbd5f58da960252974c1d34ea"
+        },
+        "svg": {
+          "file": "Figure7a_HepG2_internal_activity.svg",
+          "sha256": "c7fba1edf5c63772490e09f9b8b416cf9eca88501930e61f82ab27eaac86c38c"
+        },
+        "png": {
+          "file": "Figure7a_HepG2_internal_activity.png",
+          "sha256": "5a793d552e5ff3810b44e8b63380bea3eb24a99a2c58d1c426aa20bcb49cf619"
+        },
+        "tiff": {
+          "file": "Figure7a_HepG2_internal_activity.tiff",
+          "sha256": "f24bb2d3549c7a2c3f079e96beb8ec99ab483ad7543036f6f73d18052e4624e3"
+        }
+      }
+    },
+    {
+      "stem": "Figure7b_K562_internal_activity",
+      "figure": 7,
+      "panel": "b",
+      "width_mm": 180.0,
+      "height_mm": 76.0,
+      "sources": [
+        "final_tables/main/T4_MPRA_internal.csv",
+        "phase37_outputs/seed_metrics_independent.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure7b_K562_internal_activity.pdf",
+          "sha256": "be126ca39761c4f05e78b5bd8fb03d0a1400bd956b0a13e9b338ba3f99e4bb1e"
+        },
+        "svg": {
+          "file": "Figure7b_K562_internal_activity.svg",
+          "sha256": "1a19b6796ad6ad372420923954bf48a216fa578f491f1cfe1e9c36fd13761d9e"
+        },
+        "png": {
+          "file": "Figure7b_K562_internal_activity.png",
+          "sha256": "b96b8a29aa154e9972215b82648553479aaaa25116eb7ffaeb4eb36f76334d09"
+        },
+        "tiff": {
+          "file": "Figure7b_K562_internal_activity.tiff",
+          "sha256": "b845a344e4f5e0af5fb182a826ca42b08079e8d23c7c3366d70da7eae674cb02"
+        }
+      }
+    },
+    {
+      "stem": "Figure7c_Selected_model_contrast",
+      "figure": 7,
+      "panel": "c",
+      "width_mm": 180.0,
+      "height_mm": 53.00000000000001,
+      "sources": [
+        "final_statistics/adjusted_tests.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure7c_Selected_model_contrast.pdf",
+          "sha256": "beedadafe14b34506277bb61d4159350eb3cff495e9501ad7848674fa90ae5fc"
+        },
+        "svg": {
+          "file": "Figure7c_Selected_model_contrast.svg",
+          "sha256": "2c4d02e4dc477dfe25413a3168fd63efe04fa08a1715e4d94a3caaa6ddd945cb"
+        },
+        "png": {
+          "file": "Figure7c_Selected_model_contrast.png",
+          "sha256": "164420127f627ec87354442a1f85b3a240802d73393bf93045ecce3c1ef245a1"
+        },
+        "tiff": {
+          "file": "Figure7c_Selected_model_contrast.tiff",
+          "sha256": "712fe1ee32b1be63346120e5ddbc3b82f81ed65b8df5c7f8b9465fd3e80ece62"
+        }
+      }
+    },
+    {
+      "stem": "Figure7d_Own_prefix_duration_control",
+      "figure": 7,
+      "panel": "d",
+      "width_mm": 180.0,
+      "height_mm": 53.00000000000001,
+      "sources": [
+        "final_statistics/adjusted_tests.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure7d_Own_prefix_duration_control.pdf",
+          "sha256": "c5e004a8b82482ebecf3f9a8a0c8445c8a1a955376e662adb779a6a5fc41bc10"
+        },
+        "svg": {
+          "file": "Figure7d_Own_prefix_duration_control.svg",
+          "sha256": "541c8b0005496b9905499deb858f0bb0a8823bcc302b10d450068145903d4c46"
+        },
+        "png": {
+          "file": "Figure7d_Own_prefix_duration_control.png",
+          "sha256": "72339059fffc3157b12079e67d7a3b6abc89385c7cd1c22ac667b4f5b3368606"
+        },
+        "tiff": {
+          "file": "Figure7d_Own_prefix_duration_control.tiff",
+          "sha256": "88422e69807bc6356fc3fa653f71ffe72d0227809d2019f6ea24593476528357"
+        }
+      }
+    },
+    {
+      "stem": "Figure8_Transfer_failure_modes",
+      "figure": 8,
+      "panel": null,
+      "width_mm": 180.0,
+      "height_mm": 77.0,
+      "sources": [
+        "final_tables/main/T5_External_transfer.csv"
+      ],
+      "outside_text_candidates": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure8_Transfer_failure_modes.pdf",
+          "sha256": "62b3495d611719f03abf46e4dfe173ba131a9505299e6f83b4b85798eaf85dff"
+        },
+        "svg": {
+          "file": "Figure8_Transfer_failure_modes.svg",
+          "sha256": "031ac47d24baf33786e6249996912724e0501b0abe713a8d701230f0296dc0cb"
+        },
+        "png": {
+          "file": "Figure8_Transfer_failure_modes.png",
+          "sha256": "fd6ee88957fe82a3efd0326ff1f15b504bbba12a091facafcfb243b2963a1d84"
+        },
+        "tiff": {
+          "file": "Figure8_Transfer_failure_modes.tiff",
+          "sha256": "9757753f32a603b9474f1ee3cd3a0c7b4850edc2f787f129922341674733b487"
+        }
+      }
+    },
+    {
+      "stem": "Figure2_Classification_pipeline",
+      "figure": 2,
+      "panel": null,
+      "width_mm": 180.0,
+      "height_mm": 141.0,
+      "sources": [
+        "Current Manuscript Sections3.2/3.3/3.7",
+        "phase31_outputs",
+        "final_statistics/exact_gc_fold_metrics.csv"
+      ],
+      "outside_text_candidates": [],
+      "text_bbox_overlaps": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure2_Classification_pipeline.pdf",
+          "sha256": "88af5f07fed64f3c803fc973c3f1a6bdfd29da4b6130e8084ef1c2d106147203"
+        },
+        "svg": {
+          "file": "Figure2_Classification_pipeline.svg",
+          "sha256": "f1d024d8b360b8f114289f6c238b99077755c0a03bf74dc8a23a9bcd4b48ad60"
+        },
+        "png": {
+          "file": "Figure2_Classification_pipeline.png",
+          "sha256": "14179bceea6c1383463698c28e099d5107e65fcc1048ad26e2abbb50b07b8599"
+        },
+        "tiff": {
+          "file": "Figure2_Classification_pipeline.tiff",
+          "sha256": "6b052b321831aa2f341fc86aa48c5753e9da7ab7a25337b2d74a3c0742049aae"
+        }
+      }
+    },
+    {
+      "stem": "Figure3_Activity_pipeline",
+      "figure": 3,
+      "panel": null,
+      "width_mm": 180.0,
+      "height_mm": 181.0,
+      "sources": [
+        "phase34_inputs/architectures.py",
+        "analysis_tools/mpra_fairness_training.py",
+        "phase34_outputs/training_protocol.json"
+      ],
+      "outside_text_candidates": [],
+      "text_bbox_overlaps": [],
+      "exports": {
+        "pdf": {
+          "file": "Figure3_Activity_pipeline.pdf",
+          "sha256": "3672d17cf63acd6404d9e5570978de4b9cdbcb194385e41bed63beaaa2850718"
+        },
+        "svg": {
+          "file": "Figure3_Activity_pipeline.svg",
+          "sha256": "aa028db1452bafea81d6015f8bf7eaaa427c5599a20b6e773a4f44ce121634b7"
+        },
+        "png": {
+          "file": "Figure3_Activity_pipeline.png",
+          "sha256": "a77fe895493dc9e8a0191fd3a3ae1ff2db31e33746848e828d4172f9c219d0d9"
+        },
+        "tiff": {
+          "file": "Figure3_Activity_pipeline.tiff",
+          "sha256": "dfa5d97b9d8cbeb8feb277422c76045a9b8993354ccd49a01488047fd5d677a0"
+        }
+      }
+    }
+  ],
+  "source_inputs": {
+    "final_evidence/benchmark_audit.csv": "69545cf50e09f09793b649cfb1e08e03a3d8f181d70156a9f42fbf34ac0687e7",
+    "final_evidence/inputs/stage1_candidate_manifest.csv": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3",
+    "final_evidence/inputs/stage2_candidate_manifest.csv": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952",
+    "phase21_outputs/historical_test_overlap_roster.csv": "eb7201ff39a0a19af6107478e921e91814c1dfc44a61e2da8873b694f472731b",
+    "phase32_outputs/seed_metrics_pooled_and_fold.csv": "a83daa13b439194b0341d0c7f57b697e96e474ff4d771aede2eee36506c26ad8",
+    "final_statistics/classification_summary.csv": "7d3b8a04f0c180c86d1dfa9a64ca8c4474e333e44b1dbb826410c0f01b1bf42c",
+    "final_statistics/adjusted_tests.csv": "11c60f17a26329ae23d54af1d4ad95509324000b4a2d27553a73f394ebf3d90c",
+    "final_statistics/exact_gc_fold_metrics.csv": "57dc4cc6d0b04cfa209978b652ce2e5a61484e19a167b48b50bc150c7e0f49eb",
+    "final_tables/main/T4_MPRA_internal.csv": "5e2a9f54953cf5e686a2a789d68cf99e0e41c8ca85a78e199e6dc0578f9e346a",
+    "phase37_outputs/seed_metrics_independent.csv": "12ffcec43ce4ef264b6703d345c1d0357f6569ca4fe093a3f120ed714227fcba",
+    "final_tables/main/T5_External_transfer.csv": "a188f25951e4ae944b4a85e31ed894ff6677201dcfacf63631e5136e3c8ff9c2",
+    "phase34_inputs/architectures.py": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516",
+    "analysis_tools/mpra_fairness_training.py": "83a1ae9a9e03361e4fe517044ee7b3cc76f580db04878e4a12f1f7873c60d311",
+    "phase34_outputs/training_protocol.json": "2d204c4d565b46ebbb1833a00141d045201d59b79b503d43c3e6d9214d1101a9"
+  },
+  "font": "Arial",
+  "raster_dpi": 600,
+  "width_mm": 180
+}

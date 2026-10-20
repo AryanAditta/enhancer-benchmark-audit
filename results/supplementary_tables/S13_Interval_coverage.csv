@@ -1,0 +1,353 @@
+cell_line,model,calibration_source,audit_population,method,n,nominal_coverage,empirical_coverage,mean_width,median_width,table_component,family,subgroup,suppressed
+HepG2,legnet,retained,removed,constant_width,5932,0.90000000000000002,0.88519892110599996,1.60991810195,1.60991810195,overall,,,
+HepG2,legnet,retained,retained,constant_width,6353,0.90000000000000002,0.88052888399200002,1.60991810195,1.60991810195,overall,,,
+HepG2,legnet,retained,removed,seed_scaled,5932,0.90000000000000002,0.88739042481499997,2.3157406085200001,2.0966637223500002,overall,,,
+HepG2,legnet,retained,retained,seed_scaled,6353,0.90000000000000002,0.88698252793999999,2.3255567666100001,2.0919724052499999,overall,,,
+HepG2,legnet,removed,removed,constant_width,5932,0.90000000000000002,0.90407956844199999,1.7260144454599999,1.7260144454599999,overall,,,
+HepG2,legnet,removed,retained,constant_width,6353,0.90000000000000002,0.89941759798499998,1.7260144454599999,1.7260144454599999,overall,,,
+HepG2,legnet,removed,removed,seed_scaled,5932,0.90000000000000002,0.89463924477400003,2.42085517218,2.1918340931200002,overall,,,
+HepG2,legnet,removed,retained,seed_scaled,6353,0.90000000000000002,0.89406579568699995,2.43111689883,2.18692983087,overall,,,
+HepG2,mprann,retained,removed,constant_width,5932,0.90000000000000002,0.88739042481499997,1.63764903386,1.63764903386,overall,,,
+HepG2,mprann,retained,retained,constant_width,6353,0.90000000000000002,0.89060286478799999,1.63764903386,1.63764903386,overall,,,
+HepG2,mprann,retained,removed,seed_scaled,5932,0.90000000000000002,0.89480782198200004,2.4138240656200001,2.1327393969899999,overall,,,
+HepG2,mprann,retained,retained,seed_scaled,6353,0.90000000000000002,0.892176924288,2.44520740335,2.1560974616099999,overall,,,
+HepG2,mprann,removed,removed,constant_width,5932,0.90000000000000002,0.89699932569100005,1.7047451980899999,1.7047451980899999,overall,,,
+HepG2,mprann,removed,retained,constant_width,6353,0.90000000000000002,0.90209349913400005,1.7047451980899999,1.7047451980899999,overall,,,
+HepG2,mprann,removed,removed,seed_scaled,5932,0.90000000000000002,0.89581928523300003,2.4268651290499998,2.14426185638,overall,,,
+HepG2,mprann,removed,retained,seed_scaled,6353,0.90000000000000002,0.89280654808799997,2.4584180201899999,2.1677461166100001,overall,,,
+K562,legnet,retained,removed,constant_width,8930,0.90000000000000002,0.89753639417700004,0.98321834023800003,0.98321834023800003,overall,,,
+K562,legnet,retained,retained,constant_width,9190,0.90000000000000002,0.90544069640900005,0.98321834023800003,0.98321834023800003,overall,,,
+K562,legnet,retained,removed,seed_scaled,8930,0.90000000000000002,0.90257558790600001,1.50520824048,1.35738724792,overall,,,
+K562,legnet,retained,retained,seed_scaled,9190,0.90000000000000002,0.91142546245900002,1.47974751871,1.35071554372,overall,,,
+K562,legnet,removed,removed,constant_width,8930,0.90000000000000002,0.90459126539800006,1.01077942594,1.01077942594,overall,,,
+K562,legnet,removed,retained,constant_width,9190,0.90000000000000002,0.91240478781300005,1.01077942594,1.01077942594,overall,,,
+K562,legnet,removed,removed,seed_scaled,8930,0.90000000000000002,0.89518477043699995,1.4421023264699999,1.30047873477,overall,,,
+K562,legnet,removed,retained,seed_scaled,9190,0.90000000000000002,0.90489662676799998,1.41770904645,1.29408674202,overall,,,
+K562,mprann,retained,removed,constant_width,8930,0.90000000000000002,0.90268756998900002,1.02853375189,1.02853375189,overall,,,
+K562,mprann,retained,retained,constant_width,9190,0.90000000000000002,0.908705114255,1.02853375189,1.02853375189,overall,,,
+K562,mprann,retained,removed,seed_scaled,8930,0.90000000000000002,0.90257558790600001,1.61696610371,1.37448147137,overall,,,
+K562,mprann,retained,retained,seed_scaled,9190,0.90000000000000002,0.90772578890099997,1.6278463990700001,1.3637439412900001,overall,,,
+K562,mprann,removed,removed,constant_width,8930,0.90000000000000002,0.90470324747999997,1.03390091956,1.03390091956,overall,,,
+K562,mprann,removed,retained,constant_width,9190,0.90000000000000002,0.90979325353600005,1.03390091956,1.03390091956,overall,,,
+K562,mprann,removed,removed,seed_scaled,8930,0.90000000000000002,0.91310190369499999,1.7132429836400001,1.4563204086699999,overall,,,
+K562,mprann,removed,retained,seed_scaled,9190,0.90000000000000002,0.91773667029399997,1.7247711100800001,1.4449435479999999,overall,,,
+HepG2,legnet,retained,removed,constant_width,1153,,0.603642671292,1.60991810195,,subgroup,activity_band,high,False
+HepG2,legnet,retained,removed,constant_width,1354,,0.91285081240800003,1.60991810195,,subgroup,activity_band,low,False
+HepG2,legnet,retained,removed,constant_width,3425,,0.96905109489100005,1.60991810195,,subgroup,activity_band,middle,False
+HepG2,legnet,retained,removed,constant_width,258,,0.88372093023300002,1.60991810195,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,retained,removed,constant_width,2257,,0.85600354452799998,1.60991810195,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,retained,removed,constant_width,2434,,0.89112571898100001,1.60991810195,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,retained,removed,constant_width,861,,0.93844367015100005,1.60991810195,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,retained,removed,constant_width,122,,0.93442622950800003,1.60991810195,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,retained,removed,constant_width,1526,,0.87352555701199996,1.60991810195,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,retained,removed,constant_width,4406,,0.88924194280500002,1.60991810195,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,retained,retained,constant_width,1258,,0.57392686804500004,1.60991810195,,subgroup,activity_band,high,False
+HepG2,legnet,retained,retained,constant_width,1284,,0.91433021806899994,1.60991810195,,subgroup,activity_band,low,False
+HepG2,legnet,retained,retained,constant_width,3811,,0.97034898976600004,1.60991810195,,subgroup,activity_band,middle,False
+HepG2,legnet,retained,retained,constant_width,186,,0.86559139784899997,1.60991810195,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,retained,retained,constant_width,2302,,0.84491746307600002,1.60991810195,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,retained,retained,constant_width,2669,,0.89546646684200004,1.60991810195,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,retained,retained,constant_width,1010,,0.91980198019799997,1.60991810195,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,retained,retained,constant_width,186,,0.90860215053799998,1.60991810195,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,retained,retained,constant_width,959,,0.87382690302400001,1.60991810195,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,retained,retained,constant_width,5394,,0.88172043010800005,1.60991810195,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,retained,removed,seed_scaled,1153,,0.75542064180400004,2.7023353433200001,,subgroup,activity_band,high,False
+HepG2,legnet,retained,removed,seed_scaled,1354,,0.89586410635199998,2.0579710128499999,,subgroup,activity_band,low,False
+HepG2,legnet,retained,removed,seed_scaled,3425,,0.92846715328499996,2.2875001131300001,,subgroup,activity_band,middle,False
+HepG2,legnet,retained,removed,seed_scaled,258,,0.87596899224799996,2.2834491253600002,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,retained,removed,seed_scaled,2257,,0.88303057155499998,2.4094912881699999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,retained,removed,seed_scaled,2434,,0.88290879211200002,2.2656551096599999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,retained,removed,seed_scaled,861,,0.91405342624899999,2.2173107982600002,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,retained,removed,seed_scaled,122,,0.89344262295099997,2.3435446208899999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,retained,removed,seed_scaled,1526,,0.87287024901700005,2.2430550143099999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,retained,removed,seed_scaled,4406,,0.89241942805300001,2.3409149654700001,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,retained,retained,seed_scaled,1258,,0.73608903020700001,2.7513138189599999,,subgroup,activity_band,high,False
+HepG2,legnet,retained,retained,seed_scaled,1284,,0.892523364486,2.0458812108100002,,subgroup,activity_band,low,False
+HepG2,legnet,retained,retained,seed_scaled,3811,,0.93492521647899995,2.2792437363800002,,subgroup,activity_band,middle,False
+HepG2,legnet,retained,retained,seed_scaled,186,,0.86559139784899997,2.19480383378,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,retained,retained,seed_scaled,2302,,0.86490008688099995,2.4205119871299998,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,retained,retained,seed_scaled,2669,,0.897714499813,2.3089150226499999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,retained,retained,seed_scaled,1010,,0.90693069306899998,2.1721311668099998,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,retained,retained,seed_scaled,186,,0.91935483871000001,2.3530288005600002,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,retained,retained,seed_scaled,959,,0.88321167883200002,2.27840473475,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,retained,retained,seed_scaled,5394,,0.88765294772000003,2.3339399328199999,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,removed,removed,constant_width,1153,,0.64440589765800005,1.7260144454599999,,subgroup,activity_band,high,False
+HepG2,legnet,removed,removed,constant_width,1354,,0.93648449039899995,1.7260144454599999,,subgroup,activity_band,low,False
+HepG2,legnet,removed,removed,constant_width,3425,,0.978686131387,1.7260144454599999,,subgroup,activity_band,middle,False
+HepG2,legnet,removed,removed,constant_width,258,,0.891472868217,1.7260144454599999,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,removed,removed,constant_width,2257,,0.88125830748800005,1.7260144454599999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,removed,removed,constant_width,2434,,0.90797041906300002,1.7260144454599999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,removed,removed,constant_width,861,,0.95238095238099996,1.7260144454599999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,removed,removed,constant_width,122,,0.93442622950800003,1.7260144454599999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,removed,removed,constant_width,1526,,0.90039318479700003,1.7260144454599999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,removed,removed,constant_width,4406,,0.90535633227400003,1.7260144454599999,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,removed,retained,constant_width,1258,,0.61367249602499996,1.7260144454599999,,subgroup,activity_band,high,False
+HepG2,legnet,removed,retained,constant_width,1284,,0.93847352024899999,1.7260144454599999,,subgroup,activity_band,low,False
+HepG2,legnet,removed,retained,constant_width,3811,,0.98058252427199999,1.7260144454599999,,subgroup,activity_band,middle,False
+HepG2,legnet,removed,retained,constant_width,186,,0.87096774193500004,1.7260144454599999,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,removed,retained,constant_width,2302,,0.86837532580400001,1.7260144454599999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,removed,retained,constant_width,2669,,0.91420007493400002,1.7260144454599999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,removed,retained,constant_width,1010,,0.929702970297,1.7260144454599999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,removed,retained,constant_width,186,,0.93548387096800001,1.7260144454599999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,removed,retained,constant_width,959,,0.89363920750799997,1.7260144454599999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,removed,retained,constant_width,5394,,0.90044493882099996,1.7260144454599999,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,removed,removed,seed_scaled,1153,,0.76669557675599997,2.8249979591000001,,subgroup,activity_band,high,False
+HepG2,legnet,removed,removed,seed_scaled,1354,,0.90620384047299996,2.1513850697799999,,subgroup,activity_band,low,False
+HepG2,legnet,removed,removed,seed_scaled,3425,,0.93313868613100004,2.3913328029400001,,subgroup,activity_band,middle,False
+HepG2,legnet,removed,removed,seed_scaled,258,,0.88759689922499996,2.3870979354099999,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,removed,removed,seed_scaled,2257,,0.89100575985800001,2.5188613205900001,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,removed,removed,seed_scaled,2434,,0.89030402629399996,2.3684962255399999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,removed,removed,seed_scaled,861,,0.91869918699200004,2.31795750118,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,removed,removed,seed_scaled,122,,0.89344262295099997,2.4499212458700002,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,removed,removed,seed_scaled,1526,,0.88401048492800005,2.34487028163,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,removed,removed,seed_scaled,4406,,0.89832047208400001,2.4471722268799998,,subgroup,homopolymer_band,below_6,False
+HepG2,legnet,removed,retained,seed_scaled,1258,,0.745627980922,2.8761996332600002,,subgroup,activity_band,high,False
+HepG2,legnet,removed,retained,seed_scaled,1284,,0.89797507788200004,2.13874649546,,subgroup,activity_band,low,False
+HepG2,legnet,removed,retained,seed_scaled,3811,,0.94174757281599997,2.3827016582099998,,subgroup,activity_band,middle,False
+HepG2,legnet,removed,retained,seed_scaled,186,,0.87096774193500004,2.2944289154900002,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,legnet,removed,retained,seed_scaled,2302,,0.87271937445699999,2.53038226381,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,legnet,removed,retained,seed_scaled,2669,,0.90408392656400005,2.4137197638400001,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,legnet,removed,retained,seed_scaled,1010,,0.91485148514900005,2.2707271058299998,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,legnet,removed,retained,seed_scaled,186,,0.92473118279599997,2.4598359251400002,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,legnet,removed,retained,seed_scaled,959,,0.89051094890500004,2.3818245731699998,,subgroup,homopolymer_band,at_least_6,False
+HepG2,legnet,removed,retained,seed_scaled,5394,,0.89469781238400004,2.4398805881699999,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,retained,removed,constant_width,1153,,0.61405030355599999,1.63764903386,,subgroup,activity_band,high,False
+HepG2,mprann,retained,removed,constant_width,1354,,0.89586410635199998,1.63764903386,,subgroup,activity_band,low,False
+HepG2,mprann,retained,removed,constant_width,3425,,0.97605839416100004,1.63764903386,,subgroup,activity_band,middle,False
+HepG2,mprann,retained,removed,constant_width,258,,0.891472868217,1.63764903386,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,retained,removed,constant_width,2257,,0.86176340274700003,1.63764903386,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,retained,removed,constant_width,2434,,0.89317995069800005,1.63764903386,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,retained,removed,constant_width,861,,0.93263646922200005,1.63764903386,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,retained,removed,constant_width,122,,0.91803278688500001,1.63764903386,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,retained,removed,constant_width,1526,,0.887942332896,1.63764903386,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,retained,removed,constant_width,4406,,0.887199273718,1.63764903386,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,retained,retained,constant_width,1258,,0.60492845787000005,1.63764903386,,subgroup,activity_band,high,False
+HepG2,mprann,retained,retained,constant_width,1284,,0.90809968847400002,1.63764903386,,subgroup,activity_band,low,False
+HepG2,mprann,retained,retained,constant_width,3811,,0.97900813434800005,1.63764903386,,subgroup,activity_band,middle,False
+HepG2,mprann,retained,retained,constant_width,186,,0.860215053763,1.63764903386,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,retained,retained,constant_width,2302,,0.85838401390100005,1.63764903386,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,retained,retained,constant_width,2669,,0.90333458224100005,1.63764903386,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,retained,retained,constant_width,1010,,0.93267326732699996,1.63764903386,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,retained,retained,constant_width,186,,0.90860215053799998,1.63764903386,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,retained,retained,constant_width,959,,0.88738269030200001,1.63764903386,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,retained,retained,constant_width,5394,,0.89117538005200003,1.63764903386,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,retained,removed,seed_scaled,1153,,0.76582827406800003,2.7968353777699999,,subgroup,activity_band,high,False
+HepG2,mprann,retained,removed,seed_scaled,1354,,0.872968980798,2.1080773067999998,,subgroup,activity_band,low,False
+HepG2,mprann,retained,removed,seed_scaled,3425,,0.94686131386899997,2.4057566403699999,,subgroup,activity_band,middle,False
+HepG2,mprann,retained,removed,seed_scaled,258,,0.91472868217100001,2.4351398663200001,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,retained,removed,seed_scaled,2257,,0.89277802392600003,2.57535908327,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,retained,removed,seed_scaled,2434,,0.89112571898100001,2.3808301799299998,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,retained,removed,seed_scaled,861,,0.90243902439000001,2.1157202930099999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,retained,removed,seed_scaled,122,,0.90983606557399999,2.1424343488900002,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,retained,removed,seed_scaled,1526,,0.89449541284400003,2.3938148422999999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,retained,removed,seed_scaled,4406,,0.89491602360400002,2.4207541779200001,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,retained,retained,seed_scaled,1258,,0.76550079491300005,2.9258626517200002,,subgroup,activity_band,high,False
+HepG2,mprann,retained,retained,seed_scaled,1284,,0.88006230529600005,2.1153320457000002,,subgroup,activity_band,low,False
+HepG2,mprann,retained,retained,seed_scaled,3811,,0.93807399632599997,2.39768592782,,subgroup,activity_band,middle,False
+HepG2,mprann,retained,retained,seed_scaled,186,,0.860215053763,2.6681224009100002,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,retained,retained,seed_scaled,2302,,0.89487402258899995,2.6874560833599999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,retained,retained,seed_scaled,2669,,0.89509179468,2.3524918665499999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,retained,retained,seed_scaled,1010,,0.88316831683200003,2.1593056612099999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,retained,retained,seed_scaled,186,,0.89784946236600005,2.1070346954199999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,retained,retained,seed_scaled,959,,0.90093847758099999,2.5271094720499998,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,retained,retained,seed_scaled,5394,,0.89061920652600002,2.43064602332,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,removed,removed,constant_width,1153,,0.63746747614900001,1.7047451980899999,,subgroup,activity_band,high,False
+HepG2,mprann,removed,removed,constant_width,1354,,0.90620384047299996,1.7047451980899999,,subgroup,activity_band,low,False
+HepG2,mprann,removed,removed,constant_width,3425,,0.98072992700700001,1.7047451980899999,,subgroup,activity_band,middle,False
+HepG2,mprann,removed,removed,constant_width,258,,0.90697674418600005,1.7047451980899999,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,removed,removed,constant_width,2257,,0.87284005316799995,1.7047451980899999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,removed,removed,constant_width,2434,,0.90057518488099997,1.7047451980899999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,removed,removed,constant_width,861,,0.94076655052299996,1.7047451980899999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,removed,removed,constant_width,122,,0.94262295082000003,1.7047451980899999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,removed,removed,constant_width,1526,,0.896461336828,1.7047451980899999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,removed,removed,constant_width,4406,,0.89718565592400001,1.7047451980899999,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,removed,retained,constant_width,1258,,0.63990461049299996,1.7047451980899999,,subgroup,activity_band,high,False
+HepG2,mprann,removed,retained,constant_width,1284,,0.91744548286600003,1.7047451980899999,,subgroup,activity_band,low,False
+HepG2,mprann,removed,retained,constant_width,3811,,0.98346890579900004,1.7047451980899999,,subgroup,activity_band,middle,False
+HepG2,mprann,removed,retained,constant_width,186,,0.87634408602199998,1.7047451980899999,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,removed,retained,constant_width,2302,,0.86967854040000003,1.7047451980899999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,removed,retained,constant_width,2669,,0.91569876358199997,1.7047451980899999,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,removed,retained,constant_width,1010,,0.94158415841599996,1.7047451980899999,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,removed,retained,constant_width,186,,0.91935483871000001,1.7047451980899999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,removed,retained,constant_width,959,,0.89781021897799995,1.7047451980899999,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,removed,retained,constant_width,5394,,0.90285502410100005,1.7047451980899999,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,removed,removed,seed_scaled,1153,,0.76669557675599997,2.8119457199400002,,subgroup,activity_band,high,False
+HepG2,mprann,removed,removed,seed_scaled,1354,,0.87370753323499994,2.11946652537,,subgroup,activity_band,low,False
+HepG2,mprann,removed,removed,seed_scaled,3425,,0.94802919708,2.4187541182699999,,subgroup,activity_band,middle,False
+HepG2,mprann,removed,removed,seed_scaled,258,,0.91472868217100001,2.4482960917100001,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,removed,removed,seed_scaled,2257,,0.89366415595899995,2.5892728649899999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,removed,removed,seed_scaled,2434,,0.89194741166799996,2.3936929887199998,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,removed,removed,seed_scaled,861,,0.90476190476200002,2.1271508040099998,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,removed,removed,seed_scaled,122,,0.90983606557399999,2.1540091867800002,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,removed,removed,seed_scaled,1526,,0.89777195281800004,2.40674780276,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,removed,removed,seed_scaled,4406,,0.89514298683600002,2.4338326823699998,,subgroup,homopolymer_band,below_6,False
+HepG2,mprann,removed,retained,seed_scaled,1258,,0.76709062003200001,2.9416700839900001,,subgroup,activity_band,high,False
+HepG2,mprann,removed,retained,seed_scaled,1284,,0.88084112149500005,2.1267604591299998,,subgroup,activity_band,low,False
+HepG2,mprann,removed,retained,seed_scaled,3811,,0.93833639464700003,2.41063980243,,subgroup,activity_band,middle,False
+HepG2,mprann,removed,retained,seed_scaled,186,,0.860215053763,2.6825373510100001,,subgroup,gc_band,"(-0.001, 0.35]",False
+HepG2,mprann,removed,retained,seed_scaled,2302,,0.89530842745399997,2.7019754867199999,,subgroup,gc_band,"(0.35, 0.45]",False
+HepG2,mprann,removed,retained,seed_scaled,2669,,0.89546646684200004,2.3652015731499998,,subgroup,gc_band,"(0.45, 0.55]",False
+HepG2,mprann,removed,retained,seed_scaled,1010,,0.88514851485099999,2.1709716490000002,,subgroup,gc_band,"(0.55, 0.65]",False
+HepG2,mprann,removed,retained,seed_scaled,186,,0.89784946236600005,2.1184182811199999,,subgroup,gc_band,"(0.65, 1.0]",False
+HepG2,mprann,removed,retained,seed_scaled,959,,0.90302398331599998,2.5407625776699998,,subgroup,homopolymer_band,at_least_6,False
+HepG2,mprann,removed,retained,seed_scaled,5394,,0.89098998887699998,2.4437779700100002,,subgroup,homopolymer_band,below_6,False
+K562,legnet,retained,removed,constant_width,1955,,0.70179028132999999,0.98321834023800003,,subgroup,activity_band,high,False
+K562,legnet,retained,removed,constant_width,1729,,0.87680740312299998,0.98321834023800003,,subgroup,activity_band,low,False
+K562,legnet,retained,removed,constant_width,5246,,0.97731605032400004,0.98321834023800003,,subgroup,activity_band,middle,False
+K562,legnet,retained,removed,constant_width,177,,0.94915254237299995,0.98321834023800003,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,retained,removed,constant_width,2397,,0.91447642886900005,0.98321834023800003,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,retained,removed,constant_width,4376,,0.900822669104,0.98321834023800003,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,retained,removed,constant_width,1647,,0.87856709168199998,0.98321834023800003,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,retained,removed,constant_width,333,,0.79879879879899995,0.98321834023800003,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,retained,removed,constant_width,2194,,0.902005469462,0.98321834023800003,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,retained,removed,constant_width,6736,,0.89608076009500004,0.98321834023800003,,subgroup,homopolymer_band,below_6,False
+K562,legnet,retained,retained,constant_width,1725,,0.69333333333299996,0.98321834023800003,,subgroup,activity_band,high,False
+K562,legnet,retained,retained,constant_width,1974,,0.88449848024300004,0.98321834023800003,,subgroup,activity_band,low,False
+K562,legnet,retained,retained,constant_width,5491,,0.97960298670599999,0.98321834023800003,,subgroup,activity_band,middle,False
+K562,legnet,retained,retained,constant_width,104,,0.98076923076900002,0.98321834023800003,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,retained,retained,constant_width,2426,,0.91879637263000002,0.98321834023800003,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,retained,retained,constant_width,4445,,0.91248593925800003,0.98321834023800003,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,retained,retained,constant_width,1680,,0.89464285714299996,0.98321834023800003,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,retained,retained,constant_width,535,,0.80560747663599996,0.98321834023800003,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,retained,retained,constant_width,1411,,0.90786676116200005,0.98321834023800003,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,retained,retained,constant_width,7779,,0.90500064275600001,0.98321834023800003,,subgroup,homopolymer_band,below_6,False
+K562,legnet,retained,removed,seed_scaled,1955,,0.81892583120200002,1.7747163879000001,,subgroup,activity_band,high,False
+K562,legnet,retained,removed,seed_scaled,1729,,0.85135916714899995,1.3439792263400001,,subgroup,activity_band,low,False
+K562,legnet,retained,removed,seed_scaled,5246,,0.95062905070500003,1.45791059223,,subgroup,activity_band,middle,False
+K562,legnet,retained,removed,seed_scaled,177,,0.93220338983100004,1.18273028611,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,retained,removed,seed_scaled,2397,,0.89737171464300003,1.4077728007300001,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,retained,removed,seed_scaled,4376,,0.90585009140799999,1.54404802366,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,retained,removed,seed_scaled,1647,,0.90224650880400004,1.5471699398100001,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,retained,removed,seed_scaled,333,,0.88288288288299999,1.6600356790299999,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,retained,removed,seed_scaled,2194,,0.90565177757500004,1.5136451555299999,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,retained,removed,seed_scaled,6736,,0.90157363420400005,1.5024602310399999,,subgroup,homopolymer_band,below_6,False
+K562,legnet,retained,retained,seed_scaled,1725,,0.82086956521700005,1.73814107611,,subgroup,activity_band,high,False
+K562,legnet,retained,retained,seed_scaled,1974,,0.85764944275599997,1.3569438445699999,,subgroup,activity_band,low,False
+K562,legnet,retained,retained,seed_scaled,5491,,0.959205973411,1.44272066863,,subgroup,activity_band,middle,False
+K562,legnet,retained,retained,seed_scaled,104,,0.90384615384599998,1.07697439555,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,retained,retained,seed_scaled,2426,,0.91714756801300001,1.4223238224800001,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,retained,retained,seed_scaled,4445,,0.91361079865000006,1.4845214327,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,retained,retained,seed_scaled,1680,,0.91309523809500004,1.5272402918600001,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,retained,retained,seed_scaled,535,,0.86355140186900003,1.6296360893499999,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,retained,retained,seed_scaled,1411,,0.90432317505299997,1.4619041690200001,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,retained,retained,seed_scaled,7779,,0.91271371641599996,1.4829840486500001,,subgroup,homopolymer_band,below_6,False
+K562,legnet,removed,removed,constant_width,1955,,0.72122762148300001,1.01077942594,,subgroup,activity_band,high,False
+K562,legnet,removed,removed,constant_width,1729,,0.88259109311700001,1.01077942594,,subgroup,activity_band,low,False
+K562,legnet,removed,removed,constant_width,5246,,0.98017537171199998,1.01077942594,,subgroup,activity_band,middle,False
+K562,legnet,removed,removed,constant_width,177,,0.94915254237299995,1.01077942594,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,removed,removed,constant_width,2397,,0.92240300375499995,1.01077942594,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,removed,removed,constant_width,4376,,0.907449725777,1.01077942594,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,removed,removed,constant_width,1647,,0.88403157255599996,1.01077942594,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,removed,removed,constant_width,333,,0.81681681681700002,1.01077942594,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,removed,removed,constant_width,2194,,0.90975387420200005,1.01077942594,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,removed,removed,constant_width,6736,,0.90290973871699998,1.01077942594,,subgroup,homopolymer_band,below_6,False
+K562,legnet,removed,retained,constant_width,1725,,0.70840579710100005,1.01077942594,,subgroup,activity_band,high,False
+K562,legnet,removed,retained,constant_width,1974,,0.89716312056699998,1.01077942594,,subgroup,activity_band,low,False
+K562,legnet,removed,retained,constant_width,5491,,0.98197049717700002,1.01077942594,,subgroup,activity_band,middle,False
+K562,legnet,removed,retained,constant_width,104,,0.98076923076900002,1.01077942594,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,removed,retained,constant_width,2426,,0.92250618301700005,1.01077942594,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,removed,retained,constant_width,4445,,0.92080989876300001,1.01077942594,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,removed,retained,constant_width,1680,,0.90059523809499997,1.01077942594,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,removed,retained,constant_width,535,,0.820560747664,1.01077942594,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,removed,retained,constant_width,1411,,0.91353649893699995,1.01077942594,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,removed,retained,constant_width,7779,,0.912199511505,1.01077942594,,subgroup,homopolymer_band,below_6,False
+K562,legnet,removed,removed,seed_scaled,1955,,0.80511508951400002,1.70031133432,,subgroup,activity_band,high,False
+K562,legnet,removed,removed,seed_scaled,1729,,0.843840370156,1.2876328450200001,,subgroup,activity_band,low,False
+K562,legnet,removed,removed,seed_scaled,5246,,0.945672893633,1.3967876339600001,,subgroup,activity_band,middle,False
+K562,legnet,removed,removed,seed_scaled,177,,0.92655367231600005,1.1331442728700001,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,removed,removed,seed_scaled,2397,,0.88777638715100005,1.34875187132,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,removed,removed,seed_scaled,4376,,0.89899451553900001,1.47931375022,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,removed,removed,seed_scaled,1647,,0.89617486338800001,1.48230477992,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,removed,removed,seed_scaled,333,,0.876876876877,1.5904386186299999,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,removed,removed,seed_scaled,2194,,0.89699179580699995,1.4501855235200001,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,removed,removed,seed_scaled,6736,,0.89459619952500002,1.43946952743,,subgroup,homopolymer_band,below_6,False
+K562,legnet,removed,retained,seed_scaled,1725,,0.81043478260900004,1.6652694439,,subgroup,activity_band,high,False
+K562,legnet,removed,retained,seed_scaled,1974,,0.84650455927099999,1.30005392112,,subgroup,activity_band,low,False
+K562,legnet,removed,retained,seed_scaled,5491,,0.955563649608,1.3822345485,,subgroup,activity_band,middle,False
+K562,legnet,removed,retained,seed_scaled,104,,0.89423076923099998,1.0318222021300001,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,legnet,removed,retained,seed_scaled,2426,,0.91014014839199997,1.3626928409100001,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,legnet,removed,retained,seed_scaled,4445,,0.90753655792999999,1.4222828139100001,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,legnet,removed,retained,seed_scaled,1680,,0.90595238095200004,1.46321068323,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,legnet,removed,retained,seed_scaled,535,,0.85794392523399998,1.5613135329300001,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,legnet,removed,retained,seed_scaled,1411,,0.89936215450000001,1.40061377989,,subgroup,homopolymer_band,at_least_6,False
+K562,legnet,removed,retained,seed_scaled,7779,,0.90590050135,1.4208098847399999,,subgroup,homopolymer_band,below_6,False
+K562,mprann,retained,removed,constant_width,1955,,0.72838874680300003,1.02853375189,,subgroup,activity_band,high,False
+K562,mprann,retained,removed,constant_width,1729,,0.87969924812,1.02853375189,,subgroup,activity_band,low,False
+K562,mprann,retained,removed,constant_width,5246,,0.97521921464000005,1.02853375189,,subgroup,activity_band,middle,False
+K562,mprann,retained,removed,constant_width,177,,0.95480225988699996,1.02853375189,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,retained,removed,constant_width,2397,,0.92407175636200001,1.02853375189,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,retained,removed,constant_width,4376,,0.90127970749499997,1.02853375189,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,retained,removed,constant_width,1647,,0.90042501517899998,1.02853375189,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,retained,removed,constant_width,333,,0.75075075075099995,1.02853375189,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,retained,removed,constant_width,2194,,0.904740200547,1.02853375189,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,retained,removed,constant_width,6736,,0.90201900237499999,1.02853375189,,subgroup,homopolymer_band,below_6,False
+K562,mprann,retained,retained,constant_width,1725,,0.74318840579699996,1.02853375189,,subgroup,activity_band,high,False
+K562,mprann,retained,retained,constant_width,1974,,0.87183383991899999,1.02853375189,,subgroup,activity_band,low,False
+K562,mprann,retained,retained,constant_width,5491,,0.973957384812,1.02853375189,,subgroup,activity_band,middle,False
+K562,mprann,retained,retained,constant_width,104,,0.98076923076900002,1.02853375189,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,retained,retained,constant_width,2426,,0.91343775762599999,1.02853375189,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,retained,retained,constant_width,4445,,0.92080989876300001,1.02853375189,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,retained,retained,constant_width,1680,,0.91071428571400004,1.02853375189,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,retained,retained,constant_width,535,,0.76635514018700002,1.02853375189,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,retained,retained,constant_width,1411,,0.90290574060899997,1.02853375189,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,retained,retained,constant_width,7779,,0.90975703817999998,1.02853375189,,subgroup,homopolymer_band,below_6,False
+K562,mprann,retained,removed,seed_scaled,1955,,0.84398976982100005,2.13471574169,,subgroup,activity_band,high,False
+K562,mprann,retained,removed,seed_scaled,1729,,0.85020242914999999,1.30042244268,,subgroup,activity_band,low,False
+K562,mprann,retained,removed,seed_scaled,5246,,0.94166984368999995,1.5283468600300001,,subgroup,activity_band,middle,False
+K562,mprann,retained,removed,seed_scaled,177,,0.88135593220300001,1.10885820752,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,retained,removed,seed_scaled,2397,,0.88944513975799999,1.4398673585599999,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,retained,removed,seed_scaled,4376,,0.90927787934199999,1.63689442529,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,retained,removed,seed_scaled,1647,,0.90831815421999995,1.75114525244,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,retained,removed,seed_scaled,333,,0.89189189189200002,2.2363096369600002,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,retained,removed,seed_scaled,2194,,0.89334548769400002,1.5404376823299999,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,retained,removed,seed_scaled,6736,,0.90558194774300005,1.64189237398,,subgroup,homopolymer_band,below_6,False
+K562,mprann,retained,retained,seed_scaled,1725,,0.86086956521699998,2.1747284622,,subgroup,activity_band,high,False
+K562,mprann,retained,retained,seed_scaled,1974,,0.83941236068900005,1.3273480019099999,,subgroup,activity_band,low,False
+K562,mprann,retained,retained,seed_scaled,5491,,0.94700418867199998,1.56407154515,,subgroup,activity_band,middle,False
+K562,mprann,retained,retained,seed_scaled,104,,0.92307692307699996,1.10784615691,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,retained,retained,seed_scaled,2426,,0.88911788953000004,1.4803089550899999,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,retained,retained,seed_scaled,4445,,0.91203599550100001,1.6067729371099999,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,retained,retained,seed_scaled,1680,,0.92321428571399999,1.73811251463,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,retained,retained,seed_scaled,535,,0.90467289719599997,2.2267815926800001,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,retained,retained,seed_scaled,1411,,0.90999291282799999,1.5558838415,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,retained,retained,seed_scaled,7779,,0.90731456485399997,1.6408993838699999,,subgroup,homopolymer_band,below_6,False
+K562,mprann,removed,removed,constant_width,1955,,0.73299232736599995,1.03390091956,,subgroup,activity_band,high,False
+K562,mprann,removed,removed,constant_width,1729,,0.88201272411800002,1.03390091956,,subgroup,activity_band,low,False
+K562,mprann,removed,removed,constant_width,5246,,0.97617232176900004,1.03390091956,,subgroup,activity_band,middle,False
+K562,mprann,removed,removed,constant_width,177,,0.96045197740099997,1.03390091956,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,removed,removed,constant_width,2397,,0.92657488527300003,1.03390091956,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,removed,removed,constant_width,4376,,0.90356489945200003,1.03390091956,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,removed,removed,constant_width,1647,,0.90103217972100003,1.03390091956,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,removed,removed,constant_width,333,,0.75075075075099995,1.03390091956,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,removed,removed,constant_width,2194,,0.90793072014599996,1.03390091956,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,removed,removed,constant_width,6736,,0.90365201900199998,1.03390091956,,subgroup,homopolymer_band,below_6,False
+K562,mprann,removed,retained,constant_width,1725,,0.74550724637700005,1.03390091956,,subgroup,activity_band,high,False
+K562,mprann,removed,retained,constant_width,1974,,0.87386018237100005,1.03390091956,,subgroup,activity_band,low,False
+K562,mprann,removed,retained,constant_width,5491,,0.97432161719199994,1.03390091956,,subgroup,activity_band,middle,False
+K562,mprann,removed,retained,constant_width,104,,0.98076923076900002,1.03390091956,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,removed,retained,constant_width,2426,,0.91508656224200002,1.03390091956,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,removed,retained,constant_width,4445,,0.92148481439800001,1.03390091956,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,removed,retained,constant_width,1680,,0.91190476190500003,1.03390091956,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,removed,retained,constant_width,535,,0.768224299065,1.03390091956,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,removed,retained,constant_width,1411,,0.90574060949699997,1.03390091956,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,removed,retained,constant_width,7779,,0.91052834554600004,1.03390091956,,subgroup,homopolymer_band,below_6,False
+K562,mprann,removed,removed,seed_scaled,1955,,0.86035805626600004,2.2618203054000001,,subgroup,activity_band,high,False
+K562,mprann,removed,removed,seed_scaled,1729,,0.863504916136,1.3778517809199999,,subgroup,activity_band,low,False
+K562,mprann,removed,removed,seed_scaled,5246,,0.94910407929899998,1.6193472012200001,,subgroup,activity_band,middle,False
+K562,mprann,removed,removed,seed_scaled,177,,0.89265536723200001,1.1748814891799999,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,removed,removed,seed_scaled,2397,,0.89820609094699999,1.5255994815,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,removed,removed,seed_scaled,4376,,0.92184643510099995,1.73435787098,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,removed,removed,seed_scaled,1647,,0.91803278688500001,1.85541138443,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,removed,removed,seed_scaled,333,,0.89189189189200002,2.36946327197,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,removed,removed,seed_scaled,2194,,0.90519598906099996,1.6321579314000001,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,removed,removed,seed_scaled,6736,,0.91567695961999995,1.73965340593,,subgroup,homopolymer_band,below_6,False
+K562,mprann,removed,retained,seed_scaled,1725,,0.877101449275,2.3042154505500001,,subgroup,activity_band,high,False
+K562,mprann,removed,retained,seed_scaled,1974,,0.85106382978700001,1.4063805332099999,,subgroup,activity_band,low,False
+K562,mprann,removed,retained,seed_scaled,5491,,0.95447095246799996,1.65719899415,,subgroup,activity_band,middle,False
+K562,mprann,removed,retained,seed_scaled,104,,0.93269230769199996,1.1738091793700001,,subgroup,gc_band,"(-0.001, 0.35]",False
+K562,mprann,removed,retained,seed_scaled,2426,,0.89901071723000003,1.5684490386700001,,subgroup,gc_band,"(0.35, 0.45]",False
+K562,mprann,removed,retained,seed_scaled,4445,,0.92283464566899998,1.70244289876,,subgroup,gc_band,"(0.45, 0.55]",False
+K562,mprann,removed,retained,seed_scaled,1680,,0.930357142857,1.84160265551,,subgroup,gc_band,"(0.55, 0.65]",False
+K562,mprann,removed,retained,seed_scaled,535,,0.91775700934600002,2.3593679119200002,,subgroup,gc_band,"(0.65, 1.0]",False
+K562,mprann,removed,retained,seed_scaled,1411,,0.92133238837700004,1.64852378085,,subgroup,homopolymer_band,at_least_6,False
+K562,mprann,removed,retained,seed_scaled,7779,,0.91708445815700002,1.73860129153,,subgroup,homopolymer_band,below_6,False

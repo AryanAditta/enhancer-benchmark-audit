@@ -1,0 +1,16 @@
+name: enhancer
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.11.0+cu128
+      - transformers==4.44.2
+      - huggingface-hub==0.26.5
+      - einops==0.8.0
+      - numpy==2.4.6
+      - pandas==2.3.3
+      - scipy==1.17.1
+      - scikit-learn==1.8.0

@@ -1,0 +1,9 @@
+﻿Method (Year),Architecture,Stage 1 MCC,Stage 2 MCC,Stage 1 AUC
+iEnhancer-2L (2016) [8],PseKNC + SVM,0.460,0.218,0.806
+iEnhancer-EL (2018) [9],Ensemble SVM,0.496,0.222,0.817
+iEnhancer-ECNN (2019) [11],Ensemble 1D CNN (OHE + k-mer features),0.537,0.368,0.832
+iEnhancer-DCLA (2022) [14],k-mer (k=7) + dna2vec + CNN + BiLSTM + Attention,0.565,0.569,0.827
+Enhancer-LSTMAtt (2022) [33],Residual CNN + BiLSTM + Attention,0.610,0.805,0.859
+iEnhancer-DCSV (2023) [15],Modified DenseNet + Improved CBAM + Ensemble,0.581,0.661,0.853
+iEnhancer-ELM (2023) [20],Multi-scale DNABERT + MLP ensemble,0.661,Not evaluated,0.856
+DeepDualEnhancer (2024) [37],DNABERT + Parallel CNN/BiLSTM + Attention,0.646,0.842,0.866

@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "main_tables": 6,
+  "supplementary_tables": 18,
+  "current_GC_fold_rows": 90,
+  "archived_GC_rows_reproduced": 70,
+  "new_training": false,
+  "source_sha256": "2527d404281a2a12411d2abe01e78aebea742ad58176089cb5ca789a28737bdc"
+}

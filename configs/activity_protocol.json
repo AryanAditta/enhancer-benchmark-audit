@@ -1,0 +1,103 @@
+{
+  "study": "phase35_mpra_training_adequacy_and_equal_candidate_search_v1",
+  "created_date_Dhaka": "2026-10-13",
+  "authorization": "User explicitly requested the MPRA fairness experiment after discussing Aditta point1. This supersedes the earlier no-new-training scope for this follow-up only.",
+  "cells": [
+    "HepG2",
+    "K562"
+  ],
+  "models": [
+    "dnabert2",
+    "legnet",
+    "mprann"
+  ],
+  "seeds": [
+    20260930,
+    20260931,
+    20260932
+  ],
+  "split": "split_9b",
+  "input_bp": 200,
+  "revision": "ec1f874253852eb3907081f57294991b4280ceb6",
+  "lr_grid": {
+    "dnabert2": [
+      1e-05,
+      2e-05,
+      5e-05
+    ],
+    "legnet": [
+      0.005,
+      0.01,
+      0.02
+    ],
+    "mprann": [
+      0.0003,
+      0.001,
+      0.003
+    ]
+  },
+  "epochs": {
+    "dnabert2": 30,
+    "legnet": 20,
+    "mprann": 100
+  },
+  "patience": {
+    "dnabert2": 5,
+    "legnet": null,
+    "mprann": 10
+  },
+  "minimum_epochs": {
+    "dnabert2": 8,
+    "legnet": 20,
+    "mprann": 1
+  },
+  "early_stopping_delta": 0.0001,
+  "checkpoint_selection": "highest finite validation Pearson; ties earliest epoch; early-stop patience uses improvement greater than delta",
+  "recipe_selection": "per model/cell choose learning rate with highest arithmetic mean of all3seed validation Pearson; any undefined seed makes candidate ineligible; ties lowest grid index",
+  "batch": {
+    "dnabert2": 8,
+    "legnet": 1024,
+    "mprann": 128
+  },
+  "accumulation": {
+    "dnabert2": 2,
+    "legnet": 1,
+    "mprann": 1
+  },
+  "optimizers": {
+    "dnabert2": "AdamW weight_decay0.01 constant_lr; clip1",
+    "legnet": "AdamW weight_decay0.1 OneCycleLR pct_start0.3 initial=max_lr/25; clip1",
+    "mprann": "Adam eps1e-7; no clipping"
+  },
+  "precision": "fp16 autocast with GradScaler; overflow skips logged; all model parameters float32",
+  "scaling": "float64 training-only population mean/SD; float32 normalized targets for all models",
+  "augmentation": "one orientation per training record per epoch; DNABERT2 inherited seed+17*epoch+15485863*row parity; CNN deterministic per-epoch random flips",
+  "shuffling": "numpy default_rng(seed+1000003*epoch) permutation; common order across learning rates of same seed",
+  "drop_last": "CNNs use floor batches as Phase12; DNABERT2 keeps partial batch/accumulation as Phase9B",
+  "inference": "arithmetic mean of forward and reverse-complement predictions; batch24 DNABERT2, batch1024 CNNs",
+  "duration_control": "For all DNABERT2 fits save validation-best checkpoint within epochs1\u20132 separately. Primary duration contrast uses fixed lr2e-5 early versus full with same initial weights/order and training prefix, all3seeds per cell.",
+  "expected_training_jobs": 54,
+  "candidate_count_per_model_cell": 3,
+  "seeds_per_candidate": 3,
+  "primary": [
+    "9B test Pearson: fixed-lr2e-5 DNABERT2 full minus its two-epoch prefix ensemble, per cell",
+    "9B test Pearson: validation-selected DNABERT2 ensemble minus validation-selected LegNet ensemble, per cell"
+  ],
+  "secondary": [
+    "MPRAnn comparison",
+    "RMSE MAE Spearman R2",
+    "DHS-natural transfer Spearman",
+    "seed variability",
+    "training cost and budget-cap diagnostics"
+  ],
+  "bootstrap": {
+    "draws": 1000,
+    "seed": 2026101334,
+    "internal_unit": "locus_group_id",
+    "external_unit": "canonical DNA sequence; 1kb interval-group sensitivity",
+    "scope": "conditional on fitted selected models and previously examined populations; not selection/training-algorithm uncertainty; multiple comparisons unadjusted"
+  },
+  "test_policy": "Complete all54validation-only fits; lock every recipe and checkpoint hash before any new test/external inference. No test-driven tuning, extension, exclusion, model selection or grid changes.",
+  "claim_boundary": "Equal number of learning-rate candidates and seeds, not equal GPU-time, update-count, epoch count, pretraining budget or exhaustive optimum. Tests training adequacy on primary9B only. Old9C collapse/convergence, longer context and broader cells remain separate.",
+  "cap_policy": "Flag selected epochs in final3epochs of their budget or improving final validation trend as potentially cap-limited; do not automatically claim convergence or secretly extend from test outcomes."
+}

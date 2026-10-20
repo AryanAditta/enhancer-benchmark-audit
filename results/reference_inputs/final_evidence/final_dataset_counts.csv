@@ -1,0 +1,37 @@
+task,population,n,positive,negative,unit,source
+classification_stage1,supplied_training,2968,1484,1484,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage1,supplied_test,400,200,200,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage1,grouped_candidates,2838,1376,1462,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage1,cleaned_supplied_test,300,100,200,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage2,supplied_training,1484,742,742,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage2,supplied_test,200,100,100,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage2,grouped_candidates,1376,641,735,unique records within source split,locked Phase1 manifest and Phase11A roster
+classification_stage2,cleaned_supplied_test,100,0,100,unique records within source split,locked Phase1 manifest and Phase11A roster
+MPRA_HepG2,retained_test,9048,,,assay elements,Phase34 partition_counts.csv
+MPRA_HepG2,retained_train,18665,,,assay elements,Phase34 partition_counts.csv
+MPRA_HepG2,retained_validation,5611,,,assay elements,Phase34 partition_counts.csv
+MPRA_K562,retained_test,13145,,,assay elements,Phase34 partition_counts.csv
+MPRA_K562,retained_train,23560,,,assay elements,Phase34 partition_counts.csv
+MPRA_K562,retained_validation,6804,,,assay elements,Phase34 partition_counts.csv
+MPRA_HepG2,raw_assay_rows,153025,,,rows,Phase24 attrition audit
+MPRA_HepG2,other_design_exclusions,23671,,,rows,Phase24 attrition audit
+MPRA_HepG2,noncanonical_chrom_exclusions,38,,,rows,Phase24 attrition audit
+MPRA_HepG2,non200_exclusions,36,,,rows,Phase24 attrition audit
+MPRA_HepG2,eligible_orientation_rows,129280,,,rows,Phase24 attrition audit
+MPRA_HepG2,incomplete_orientation_exclusions,900,,,rows,Phase24 attrition audit
+MPRA_HepG2,complete_paired_candidates,64190,,,elements,Phase24 attrition audit
+MPRA_HepG2,exact_or_RC_legacy,3,,,elements,Phase24 attrition audit
+MPRA_HepG2,retained,33324,,,elements,Phase24 attrition audit
+MPRA_HepG2,shared_15mer_with_legacy,30863,,,elements,Phase24 attrition audit
+MPRA_K562,raw_assay_rows,230624,,,rows,Phase24 attrition audit
+MPRA_K562,other_design_exclusions,59033,,,rows,Phase24 attrition audit
+MPRA_K562,noncanonical_chrom_exclusions,0,,,rows,Phase24 attrition audit
+MPRA_K562,non200_exclusions,0,,,rows,Phase24 attrition audit
+MPRA_K562,eligible_orientation_rows,171591,,,rows,Phase24 attrition audit
+MPRA_K562,incomplete_orientation_exclusions,707,,,rows,Phase24 attrition audit
+MPRA_K562,complete_paired_candidates,85442,,,elements,Phase24 attrition audit
+MPRA_K562,exact_or_RC_legacy,1,,,elements,Phase24 attrition audit
+MPRA_K562,retained,43509,,,elements,Phase24 attrition audit
+MPRA_K562,shared_15mer_with_legacy,41932,,,elements,Phase24 attrition audit
+MPRA_HepG2,external_DHS_natural,8399,,,assay elements,Phase37 authenticated ensemble predictions
+MPRA_K562,external_DHS_natural,8399,,,assay elements,Phase37 authenticated ensemble predictions

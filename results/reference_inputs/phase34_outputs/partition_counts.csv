@@ -1,0 +1,7 @@
+cell_line,split_9b,n
+HepG2,test,9048
+HepG2,train,18665
+HepG2,validation,5611
+K562,test,13145
+K562,train,23560
+K562,validation,6804

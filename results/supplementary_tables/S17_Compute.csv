@@ -1,0 +1,7 @@
+cell_line,model,fits,elapsed_seconds,optimizer_updates,training_examples_seen,max_peak_cuda_allocated_bytes,elapsed_hours,scope
+HepG2,dnabert2,9,29033.266000000003,201797,3229045,2450152448,8.0647961111111126,"recorded fit runtime, not pretraining cost or standardized FLOPs"
+HepG2,legnet,9,415.36100000000079,3240,3317760,2623371776,0.11537805555555578,"recorded fit runtime, not pretraining cost or standardized FLOPs"
+HepG2,mprann,9,698.34400000000096,47542,6087680,597144064,0.19398444444444471,"recorded fit runtime, not pretraining cost or standardized FLOPs"
+K562,dnabert2,9,21523.329000000002,184029,2945000,2448884224,5.9787025000000007,"recorded fit runtime, not pretraining cost or standardized FLOPs"
+K562,legnet,9,460.79500000000189,4140,4239360,2623391744,0.12799861111111163,"recorded fit runtime, not pretraining cost or standardized FLOPs"
+K562,mprann,9,522.14100000000326,45614,5840896,597164032,0.14503916666666758,"recorded fit runtime, not pretraining cost or standardized FLOPs"

@@ -1,0 +1,58 @@
+{
+  "AMP_skipped_optimizer_steps": 15,
+  "architecture_sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516",
+  "artifacts": [
+    {
+      "file": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260930__best.csv",
+      "role": "best",
+      "sha256": "cf5aa0fe6b200edc7eba2e619caaa7d550b69fbeb31335350312786840fee735"
+    },
+    {
+      "file": "phase35_outputs/checkpoints/K562__dnabert2__lr1__seed20260930__best.pt",
+      "role": "best",
+      "sha256": "de196bd5caea4b3ccdbe264ec0fcc3a838869b194650f40e925bf8f411de2f30"
+    },
+    {
+      "file": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260930__early2.csv",
+      "role": "early2",
+      "sha256": "6689a97b5c757c792e3392f1eb50f343cb731841ce141272e7c8fef8693bdd63"
+    },
+    {
+      "file": "phase35_outputs/checkpoints/K562__dnabert2__lr1__seed20260930__early2.pt",
+      "role": "early2",
+      "sha256": "051ec7182347ac1f4019d0e7b7e347deb0b135ad2d30f5c4fc4b7ecdefce5690"
+    },
+    {
+      "file": "phase35_outputs/training_logs/K562__dnabert2__lr1__seed20260930.csv",
+      "role": "training_log",
+      "sha256": "4a3910c888ba368026c95a7c7203c44f350d074bb766d9f4fd563a547b613e8e"
+    }
+  ],
+  "cell_line": "K562",
+  "collapsed": false,
+  "early2_selected_epoch": 2,
+  "early2_validation_pearson": 0.6197930801250165,
+  "early_stopped": true,
+  "elapsed_seconds": 4300.156000000001,
+  "epochs_run": 25,
+  "grid_index": 1,
+  "job": "K562__dnabert2__lr1__seed20260930",
+  "learning_rate": 2e-05,
+  "maximum_epochs": 30,
+  "model": "dnabert2",
+  "optimizer_updates": 36810,
+  "peak_cuda_allocated_bytes": 2447886336,
+  "possibly_budget_limited": false,
+  "protocol_sha256": "2d204c4d565b46ebbb1833a00141d045201d59b79b503d43c3e6d9214d1101a9",
+  "revision": "ec1f874253852eb3907081f57294991b4280ceb6",
+  "seed": 20260930,
+  "selected_epoch": 20,
+  "source_sha256": "83a1ae9a9e03361e4fe517044ee7b3cc76f580db04878e4a12f1f7873c60d311",
+  "target_mean": -0.13379501273344652,
+  "target_scale": 0.4388158720190317,
+  "train_record_ids_sha256": "0682f2130cd7dfd9d042c236469ab6bfaae3e57a200414eae09a9727ffc91347",
+  "training_examples_seen": 589000,
+  "validation_pearson": 0.6799125866243783,
+  "validation_prediction_sd": 0.32517299729602817,
+  "validation_record_ids_sha256": "88759093075ca3adb925ccf8bd8b0f8d94d9e59465c72edb1fb995d14f7fe8fd"
+}

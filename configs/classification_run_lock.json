@@ -1,0 +1,9 @@
+{
+  "model_weight_sha256": {
+    "dnabert2": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba",
+    "dnabert_legacy": "e1688c3a3f881daff02a42b487e04612c4ec9ef33f1f02fa5f4e67d7b9865ca9"
+  },
+  "protocol_sha256": "745fb8a0c276044f681f68e91fe0e7bdb8fa82031995fd1b0c7f9354efaff97b",
+  "source_sha256": "e81d87d761d1abd50479dbe54a9d2bacefd5b6478fcb1a9175915c8adbed097f",
+  "statistical_reporting_plan_sha256": "199f8712ceb44c2e5d87eed4627f7af765296264facb5ac4b10fab17dab52e84"
+}

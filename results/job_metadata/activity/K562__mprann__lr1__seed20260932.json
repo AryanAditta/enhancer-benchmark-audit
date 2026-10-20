@@ -1,0 +1,48 @@
+{
+  "AMP_skipped_optimizer_steps": 1,
+  "architecture_sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516",
+  "artifacts": [
+    {
+      "file": "phase35_outputs/validation/K562__mprann__lr1__seed20260932__best.csv",
+      "role": "best",
+      "sha256": "0b4b04994b5f8d095d4af115de23f24d9284a47d248d7170b5390c2b0b3829c4"
+    },
+    {
+      "file": "phase35_outputs/checkpoints/K562__mprann__lr1__seed20260932__best.pt",
+      "role": "best",
+      "sha256": "cedb97d687f02fcc57633b44984aa7f93f17891a333467be64c5bbe1676ea5fd"
+    },
+    {
+      "file": "phase35_outputs/training_logs/K562__mprann__lr1__seed20260932.csv",
+      "role": "training_log",
+      "sha256": "4a76791a35c921e82c2ba9606507531db6ef86682f16d3b7f203fa34f40c175c"
+    }
+  ],
+  "cell_line": "K562",
+  "collapsed": false,
+  "early2_selected_epoch": null,
+  "early2_validation_pearson": null,
+  "early_stopped": true,
+  "elapsed_seconds": 50.34300000000076,
+  "epochs_run": 24,
+  "grid_index": 1,
+  "job": "K562__mprann__lr1__seed20260932",
+  "learning_rate": 0.001,
+  "maximum_epochs": 100,
+  "model": "mprann",
+  "optimizer_updates": 4415,
+  "peak_cuda_allocated_bytes": 597164032,
+  "possibly_budget_limited": false,
+  "protocol_sha256": "2d204c4d565b46ebbb1833a00141d045201d59b79b503d43c3e6d9214d1101a9",
+  "revision": "copied_Phase12_architecture",
+  "seed": 20260932,
+  "selected_epoch": 14,
+  "source_sha256": "83a1ae9a9e03361e4fe517044ee7b3cc76f580db04878e4a12f1f7873c60d311",
+  "target_mean": -0.13379501273344652,
+  "target_scale": 0.4388158720190317,
+  "train_record_ids_sha256": "0682f2130cd7dfd9d042c236469ab6bfaae3e57a200414eae09a9727ffc91347",
+  "training_examples_seen": 565248,
+  "validation_pearson": 0.6501655194660381,
+  "validation_prediction_sd": 0.2727622337425077,
+  "validation_record_ids_sha256": "88759093075ca3adb925ccf8bd8b0f8d94d9e59465c72edb1fb995d14f7fe8fd"
+}

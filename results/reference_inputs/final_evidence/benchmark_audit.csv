@@ -1,0 +1,3 @@
+stage,supplied_train_n,supplied_test_n,exact_train_test_overlap,reverse_complement_train_test_overlap,exact_or_rc_overlap,duplicated_strong_records,duplicated_weak_records,additional_test_related_training_excluded,candidate_n,candidate_groups,mixed_label_candidate_groups,mixed_label_candidate_records,group_rule
+1,2968,400,100,0,100,100,0,30,2838,2810,2,6,connected components of exact LCS>=160 in either orientation; not percent local identity
+2,1484,200,100,0,100,100,0,8,1376,1373,0,0,connected components of exact LCS>=160 in either orientation; not percent local identity

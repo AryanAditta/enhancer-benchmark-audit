@@ -1,0 +1,802 @@
+[
+  {
+    "source": "public_release/enhancer-leakage-study/inputs/phase21_outputs/historical_test_overlap_roster.csv",
+    "source_sha256": "eb7201ff39a0a19af6107478e921e91814c1dfc44a61e2da8873b694f472731b",
+    "destination": "results/reference_inputs/phase21_outputs/historical_test_overlap_roster.csv",
+    "public_sha256": "44bc8bf86386ff987642ada25ed4cf9f128d4825bf9b19981c87e187b80b9939",
+    "changes": [
+      "DNA sequence omitted; exact/RC/canonical hashes and GC counts retained"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "public_release/enhancer-leakage-study/inputs/phase37_outputs/verified_ensemble_predictions.csv.gz",
+    "source_sha256": "b168806c52f65b48d3670c05ade00ada101774ae1c473738c308352d1593bd06",
+    "destination": "results/reference_inputs/phase37_outputs/verified_ensemble_predictions.csv.gz",
+    "public_sha256": "0b31262cd3604faec09dafbfd83bf9e3918db28d684ff2780505b09aaebd9887",
+    "changes": [
+      "DNA-valued group IDs replaced by opaque ordinal IDs preserving exact group membership and lexicographic order"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "public_release/enhancer-leakage-study/inputs/final_evidence/inputs/stage1_candidate_manifest.csv",
+    "source_sha256": "e295155300fafc34528bc1868c6fad6ec78f3912c5b07e034710e81c3b4ac4b3",
+    "destination": "results/reference_inputs/final_evidence/inputs/stage1_candidate_manifest.csv",
+    "public_sha256": "3a0597645816cdd47306e0ae984ed36c54cc2d03cdd3d58c4f4abc3ea9078ca4",
+    "changes": [
+      "DNA sequence omitted; exact/RC/canonical hashes and GC counts retained"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "public_release/enhancer-leakage-study/inputs/final_evidence/inputs/stage2_candidate_manifest.csv",
+    "source_sha256": "e25291665c8c42522b662855d3774a0e425e37f603c2ab1f22f4a2c241def952",
+    "destination": "results/reference_inputs/final_evidence/inputs/stage2_candidate_manifest.csv",
+    "public_sha256": "526b36ad50658c2ee36c2d4d327e050709a9214177aa15d9422a08a0360fc035",
+    "changes": [
+      "DNA sequence omitted; exact/RC/canonical hashes and GC counts retained"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "public_release/enhancer-leakage-study/data_manifests/duplicate_manifest.csv",
+    "source_sha256": "eb7201ff39a0a19af6107478e921e91814c1dfc44a61e2da8873b694f472731b",
+    "destination": "data/manifests/duplicate_manifest.csv",
+    "public_sha256": "44bc8bf86386ff987642ada25ed4cf9f128d4825bf9b19981c87e187b80b9939",
+    "changes": [
+      "DNA sequence omitted; exact/RC/canonical hashes and GC counts retained"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "public_release/enhancer-leakage-study/predictions/MPRA_current_ensembles.csv.gz",
+    "source_sha256": "b168806c52f65b48d3670c05ade00ada101774ae1c473738c308352d1593bd06",
+    "destination": "results/predictions/MPRA_current_ensembles.csv.gz",
+    "public_sha256": "b87849af751ab0de5604f6cef32c0da3ba58cbdbc9184a60ce7bf82dfb21b082",
+    "changes": [
+      "DNA-valued group IDs replaced by opaque ordinal IDs preserving exact group membership and lexicographic order"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase36_outputs/all_evaluation_predictions.csv.gz",
+    "source_sha256": "519bbcc2e925d7b61a06e704466977783f816b76989ff4800eeb03b665286392",
+    "destination": "results/predictions/activity_all_seed_evaluations.csv.gz",
+    "public_sha256": "1cbe6758d87986a20abcea70cbfabd0bdc3deb8fc1839c542e02509314797f6a",
+    "changes": [
+      "DNA-valued resampling groups replaced by opaque IDs preserving group membership and sorted order; all scores, observations, checkpoint hashes and metadata retained"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase34_inputs/phase9_full_activity_all_cells.csv",
+    "source_sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76",
+    "destination": "data/manifests/activity_validation_truth.csv.gz",
+    "public_sha256": "93453ab0d746af7220c792bfc219aea77bf29eaa89e14a8c24a3c16400fdc5ac",
+    "changes": [
+      "Only the two cells validation IDs and measured activities retained; DNA and all training/test rows omitted"
+    ],
+    "rows_unchanged": false
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260930__best.csv",
+    "source_sha256": "ed95d2714e500f11073d16209d669127ae9e48c9ec7369d5130574e8c1f12502",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "b331ad31c63cc0fea6826d901066ec3ca9326b1c7199a26bb42bb0ca9bb9460f",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260930__early2.csv",
+    "source_sha256": "7793b233535c6e6029a22c2d6a422ba8661d6e25964c06412ce020d9b1f34917",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260930__early2.csv.gz",
+    "public_sha256": "1da4595d11a2812d3353de135bd5c17317423b601b1cc537b82c9f1b8355c7c7",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260931__best.csv",
+    "source_sha256": "e1fb4de8bad2281ce030990cf12fd62c223c12207e452157ceee67d1e39f92cf",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "fdaa498796a7ead0ea4c41b5f6c5c31653b5e2631132c6843ac029fd3a2d5724",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260931__early2.csv",
+    "source_sha256": "23105dc787fe06b9adf292c3d73e778d7f6a6720f6d750fff72e94530ddaddb5",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260931__early2.csv.gz",
+    "public_sha256": "d7c331a004530547af4ef90d2657ce5d5d80dfbf8974d12c639f81c6d2cf4bdc",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260932__best.csv",
+    "source_sha256": "64292962561bb84fcf89ba23d5234fc7cff82ad5cb275e5ea7fdaa1eac5f4490",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "49fee3243cab8db2931cd89acc799fe2dcc38973c064879a4ffddd2ccfe809ee",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr0__seed20260932__early2.csv",
+    "source_sha256": "f198d887bb293f37252cb6faa70b128996ba29b422c3d20aab835050549f999d",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr0__seed20260932__early2.csv.gz",
+    "public_sha256": "46d300ded0f5265fb0988598b3d155609aaafece1a889ed78dc2e231c111d6c0",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260930__best.csv",
+    "source_sha256": "30346008c5e2346ed1f656e538b769175dcd53966b7ef5a09c98f3bdf8317ff7",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "5946d5f04766b4f2480eb9797c5342cc3a58233468193fdae38f65de22a9c005",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260930__early2.csv",
+    "source_sha256": "468fd520327311e134098e7121f6db169e8b6eab0c8743a8b1b249074b650e26",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260930__early2.csv.gz",
+    "public_sha256": "fedc0cbb253d63789aea135b72764bd99d13d6dff9a2583529c57ad9bcb30ac7",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260931__best.csv",
+    "source_sha256": "0e21e55ac0e018123d96d543524039f03a927b6953a348dabc18fe68c4248af0",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "ee460aa2ed42b680159a7d8fc7b865df9282997100bbb6d6829ea835e132e9e9",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260931__early2.csv",
+    "source_sha256": "ee89906e8f26c5a0f518bea96dccebeb0a9ffd3f71e479cf3737cd35c1901c0f",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260931__early2.csv.gz",
+    "public_sha256": "450a94d7ec300dc67b2ebfc8c6f6afd81869dbd8df6297556a3f86af308bbb29",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260932__best.csv",
+    "source_sha256": "f27851f9600ea8fd066b555cc0d0c78c28dd18d99a8bb5956c3d3f06db2274ec",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "cace5897bc770ca4bbec28dbaa5f18c837735b324ccefe936fb2344be7d67d95",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr1__seed20260932__early2.csv",
+    "source_sha256": "1428f8aecb98ff9852ef0cd73d2595d0153d497a478467a31a2dcc7d40b56f0d",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr1__seed20260932__early2.csv.gz",
+    "public_sha256": "ebdd3a328f2c9bf1d6b0165e305f35c4479a04a877e0d03e66048f5dc671203d",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260930__best.csv",
+    "source_sha256": "0bb265c9e63913af63f22d693530c013c247b292a76cdd8a3c5c4112e8336bf0",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "5775a3b3f2a40f3c776e000a450ed1954134eb5267625aa8d7547a7b458cda84",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260930__early2.csv",
+    "source_sha256": "24a9802a3518c7d3a4efde285ec5fe25a4c2ce06fbd45308c3a60b9c356c076e",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260930__early2.csv.gz",
+    "public_sha256": "536504be9ee813a65964a3b7f217d0b30aaf04ca51d268f73538f98f9e557f06",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260931__best.csv",
+    "source_sha256": "e47022c15f936531c815f5d197554c27ad9abaf1260713c1dfff838b0ba0b6d8",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "ad1e3045c7a4480cc072cdfd0b9368d8b1d6279962feb45915a4de541a96c93c",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260931__early2.csv",
+    "source_sha256": "b0635fd3dbfc8dd802c8ff085075b920e703c1f1cd503a4926be1501d6d60fc9",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260931__early2.csv.gz",
+    "public_sha256": "10091df8fe2e72911bd8aac92e8e5c6b365705d87c4712752f2d9e11367ac17b",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260932__best.csv",
+    "source_sha256": "acffa46dfa61a7e15ce9c78a61b0fd867260dd9535b5d181676edd3d456b98e7",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "e7fb30789b39f0a4632d02eaa909a4368c7092f4fae94a15682720bed62a51db",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__dnabert2__lr2__seed20260932__early2.csv",
+    "source_sha256": "acffa46dfa61a7e15ce9c78a61b0fd867260dd9535b5d181676edd3d456b98e7",
+    "destination": "results/validation_predictions/HepG2__dnabert2__lr2__seed20260932__early2.csv.gz",
+    "public_sha256": "ba8cf33930fa4af841be969f4ed5dbd15b922b3f58404dc5694f9cd29b1b6a2f",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr0__seed20260930__best.csv",
+    "source_sha256": "ec18eabd6df5de84e8e92891557553a691739ed68602ddc3082b539a63e6726b",
+    "destination": "results/validation_predictions/HepG2__legnet__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "2ff4faaf8841de5a71e86c2c95bfa311db15132f4abc6ce35d93760a0eb717fd",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr0__seed20260931__best.csv",
+    "source_sha256": "7e6561a0f986f3df339c80f516cdc522c6abfae5b7f3d83d550714c16708d5a5",
+    "destination": "results/validation_predictions/HepG2__legnet__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "d2efe437cecc2d03e0a669026e132da6e3bc8672afe0938a74dc820262089df2",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr0__seed20260932__best.csv",
+    "source_sha256": "2a61a51bbb4ce851ae0327e4e3b1dd04c79e7e7d03137cc86e35d998b64c0dca",
+    "destination": "results/validation_predictions/HepG2__legnet__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "fce8e397a35c029293a65b720cbab73c2d8001a28a8ce7fe2673de2a38142633",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr1__seed20260930__best.csv",
+    "source_sha256": "2ceccb360a9935fd5793772676872dbcf7fb7f21adf6528e722c384908a66d53",
+    "destination": "results/validation_predictions/HepG2__legnet__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "ece8b452d95633796939a51d4afbc4ecc4690ebe1a498042b3084d92f5caff37",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr1__seed20260931__best.csv",
+    "source_sha256": "b7fd1906aa74e146cd5eb59e3f7ce8fe1a85556c53e6dccfb4d48c8426630191",
+    "destination": "results/validation_predictions/HepG2__legnet__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "d4145ce4126a6f810803bbb3bccb801c5b94df7433770106a19b32905d155a10",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr1__seed20260932__best.csv",
+    "source_sha256": "cf68941cf2b284238f812fd8bf1de452be515a744a4a43952f0bf5f378735d2a",
+    "destination": "results/validation_predictions/HepG2__legnet__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "fe284ad5a3cbab57ef9a8635e843265208e3da15475dfbdffc340db72eb41fec",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr2__seed20260930__best.csv",
+    "source_sha256": "c1ea93c2176bea60fedd7f5672df0f0502e7de4cf8c69cae4f46af178e9bbdb9",
+    "destination": "results/validation_predictions/HepG2__legnet__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "fa41a97e8912068ffc66474cd36efb2c1a4c335aedc9e04bf84c8336c29a8ce9",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr2__seed20260931__best.csv",
+    "source_sha256": "40f0c7717c03538d544dc893175607f0c368e899740874f20b76b5e5f37f7edd",
+    "destination": "results/validation_predictions/HepG2__legnet__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "6b597a144df482360beeb716d9dc367a8adb41fd11a64aa862664d7c496d5d52",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__legnet__lr2__seed20260932__best.csv",
+    "source_sha256": "fdb6dd8c3b9814c7cc3a4862089106117aacdbb978c05f05d16802acd46b8861",
+    "destination": "results/validation_predictions/HepG2__legnet__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "0d25732ade5524bf4796a41240e54a81e7e7a2fa9d51d4f174a2fe953842953d",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr0__seed20260930__best.csv",
+    "source_sha256": "4fe16a93bbc74eb39c8bbfd74468112169cdaada8d5076eb4b3ae388306b1a80",
+    "destination": "results/validation_predictions/HepG2__mprann__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "e7a66fb5a25d2b00a33a76ca37bd8a1838038de8cebdb88a0a5c59444e3086f3",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr0__seed20260931__best.csv",
+    "source_sha256": "7cacdf55775db1f77522a9723300536585d972c547b0e7a0eeaad032c094aa6d",
+    "destination": "results/validation_predictions/HepG2__mprann__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "0489b071b5364f73655e2fcb449c263b429a083cab71d344329d50be25f7351c",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr0__seed20260932__best.csv",
+    "source_sha256": "1e06442ae61c65e7cd2d38e45db46ed9a56b000ebc43234d65dd80889d8e35a8",
+    "destination": "results/validation_predictions/HepG2__mprann__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "4fa1ad996660f7fa823b4ab460b24c45365d361bc49ce017ca18d8a17f5aead7",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr1__seed20260930__best.csv",
+    "source_sha256": "52606379603f94b43bf7ceea74b701a040fdcaab43e35011b1058341cda100d3",
+    "destination": "results/validation_predictions/HepG2__mprann__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "b80a938328fd43c073bf4cd199ff24e8f55468372a249ee409c42a2366d27252",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr1__seed20260931__best.csv",
+    "source_sha256": "48989bb65c3541dc7853c5da129eda79ed7cea797809625cb37d7c0e5e20da60",
+    "destination": "results/validation_predictions/HepG2__mprann__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "d4bee50469c35de0b98f9f009b9fad2b809ced4246e25210acab5e9190e807cc",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr1__seed20260932__best.csv",
+    "source_sha256": "b5df0597686691c5d4bfbde2ad52cc4099675bffb5ed663861e20b77336f188a",
+    "destination": "results/validation_predictions/HepG2__mprann__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "2f39af960064187484bfba2aedca13d297782f8d7900d54000e71aaf6e928714",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr2__seed20260930__best.csv",
+    "source_sha256": "7c15517b9096176abed85485f68d7680aa24ac416b3238955b5347c77e8faa57",
+    "destination": "results/validation_predictions/HepG2__mprann__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "c343b26d3579b8ea845eb37314edb8a087098538485290890325865775c8900f",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr2__seed20260931__best.csv",
+    "source_sha256": "badcac508856ed32a6a95edcaa2e529821a500c995f2d8a6691a814d5c88c269",
+    "destination": "results/validation_predictions/HepG2__mprann__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "9c08b871ff4625d0855bd84951bcb38813cd788e44a0aaf569a759d4207bdce6",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/HepG2__mprann__lr2__seed20260932__best.csv",
+    "source_sha256": "5d4396a275ca97a835d412ad0e21f2d66ae53927ddd4e6cc1e6075f9a061b634",
+    "destination": "results/validation_predictions/HepG2__mprann__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "7b320a8ddb7942432f303075489c6dc73b78a88544547bc06a58bde8ceb95fca",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260930__best.csv",
+    "source_sha256": "63c339c23e2747960732d356fd47a42f23a7af4dfe0929b438780bbbd2603c4d",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "7d2852e07d7d659e5a8bb8f8eade1a20ebb144a87844c00719c0566d8d225893",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260930__early2.csv",
+    "source_sha256": "6e0c05ef39812167f330d39527030fe88730e90b5dfd7b62b688bd35245cb649",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260930__early2.csv.gz",
+    "public_sha256": "42c55ca1fa86462b4c18bd5c0271ecf55658036a99a4dc887e0efe1f86769289",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260931__best.csv",
+    "source_sha256": "06c9fd8b186fb323eaf39bec8d12826b3c2431226278c0f3899cb884923e83d5",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "46b87cb775f35eeacd7ae6cabe1d536e0df4e420d15b320b4e900eeee34d4bb3",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260931__early2.csv",
+    "source_sha256": "de1dd48ac78238868be316585002aef7418f36603859619be33170e13a0e8657",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260931__early2.csv.gz",
+    "public_sha256": "a6a6668fd5f0c956df5b196792f45456cdf61c92dc9ccdec8a1f4eee3105b018",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260932__best.csv",
+    "source_sha256": "f7a6cce8bbf12fd1ebb721e9480e4aa07e03bca19b14ce761670f5ab5e853f34",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "81c8403f03b011018804c5545287446bebc2b3e2d0c633f250e45cff4f8db406",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr0__seed20260932__early2.csv",
+    "source_sha256": "5d15dbbb79ac04d03bfc2209434e96619f8e8c799b1e71f1681241df97740791",
+    "destination": "results/validation_predictions/K562__dnabert2__lr0__seed20260932__early2.csv.gz",
+    "public_sha256": "0bda88951431e580848e8db4b0982020357a0f98ba509a924ab8fbe28f3e3ae1",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260930__best.csv",
+    "source_sha256": "cf5aa0fe6b200edc7eba2e619caaa7d550b69fbeb31335350312786840fee735",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "783ad9c253056ced734df80f76ca27e7ffa7ab8e5064f0b3ee429bf9a17ab41b",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260930__early2.csv",
+    "source_sha256": "6689a97b5c757c792e3392f1eb50f343cb731841ce141272e7c8fef8693bdd63",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260930__early2.csv.gz",
+    "public_sha256": "e20b5bd8effc1d0cf118850bc58b167e32bcc708a8058ec9b787939ee582b438",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260931__best.csv",
+    "source_sha256": "dd883843399c94c193efdb4a1b5d39ea423b7f3e9ae7d86d8eb4a150555fca71",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "f036da7e19a2c9572a78dd18cf3c6b1228b5bcc231a252da5bf2962414aac50c",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260931__early2.csv",
+    "source_sha256": "d25766396d42179964d3d74030b97423fffbb657d8ad4db005c5b75e45090dad",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260931__early2.csv.gz",
+    "public_sha256": "068426a2ce6c5557701e37bfd7906afd2f0ac13741e1ebdd89314aeeda6007ff",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260932__best.csv",
+    "source_sha256": "9a73017c0a771d8218dbdb1571e949f5542f62227ddb1e1c14bc2bff5c237cc9",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "fc02197a21c8fd4467ab540b6a04d717bcdfdbbef7cc8a415be6c0c84eab870e",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr1__seed20260932__early2.csv",
+    "source_sha256": "fb3eebd64525b531cf9e737e61f5e71436ac4ddd47ce4fc0dbbfbcd33d10d02e",
+    "destination": "results/validation_predictions/K562__dnabert2__lr1__seed20260932__early2.csv.gz",
+    "public_sha256": "e8ba29c129a4974210c3d9325dcf5ee63675ba8783de0776d1f9d6ad265afc2f",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260930__best.csv",
+    "source_sha256": "5a76d361a51ea4d81c1831072ab2c203fe31876ea843035685a2110737c49662",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "55e0de8849877fea49bf57ff7f6a30eaa97898b60682a2258ed9739b3978efc8",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260930__early2.csv",
+    "source_sha256": "b5e997c2e38a96e4de6bce6855de26901c7d0c28d281fb1f40ff62b18269c4f8",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260930__early2.csv.gz",
+    "public_sha256": "5e714a4f4f8308da78b0ee0cca66ad76c26c38f20a05cd6d2eea2272def197e2",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260931__best.csv",
+    "source_sha256": "5ac1a1dfabeb714eef56a8fa4c250c091908bd4ef33ef8b6c3f9f3c3042c2c0e",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "0dbae5470abe4bbc731fa3e52b358b796c8777704b83879d6d34c9fba4255820",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260931__early2.csv",
+    "source_sha256": "b33ec02fa8f8ccc41a3d094263565d2092fe0716a2e4aeeee11b5d641a1d36ce",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260931__early2.csv.gz",
+    "public_sha256": "993e66f297d3a3f52ed611c3d47979084f285a2d141d91544ea17ba4b2655abb",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260932__best.csv",
+    "source_sha256": "ee91ffbfb93cf8bffb4833040af9b559a0ecbbec7940fbebc85bb124e3d7e2fd",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "638886040196290346459649e5c2f83746ef19537ea023ff8662c322d884d099",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__dnabert2__lr2__seed20260932__early2.csv",
+    "source_sha256": "025eaf6328fccd35b70d49d0291b3f42c09e3e1a6d76bffc038624036a5340c8",
+    "destination": "results/validation_predictions/K562__dnabert2__lr2__seed20260932__early2.csv.gz",
+    "public_sha256": "f3e737457212ef2ee009de055fab8a71f6063e8db5c9502f3d17963dafa507f2",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr0__seed20260930__best.csv",
+    "source_sha256": "b2979648557e3cf463d912c137c5177077fb2ed3f696f0768a4843f4165ecf11",
+    "destination": "results/validation_predictions/K562__legnet__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "a18ca098adb5613056ffef8ed816a72f197882df7d3476892ab5692ccc7267b5",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr0__seed20260931__best.csv",
+    "source_sha256": "17bcafc89e35e7980e398f3c92a4b03d27ca59f8bd0e4264b15617f3a9373f13",
+    "destination": "results/validation_predictions/K562__legnet__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "43f3248e789c3eed72ee79a7baa65f7ed7db67c0c84dd84eda9d1cafb50e1285",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr0__seed20260932__best.csv",
+    "source_sha256": "fce20a2c875d86fb92bb24d5f86289484f37f63e1684f89ec773b4b6c797ccc6",
+    "destination": "results/validation_predictions/K562__legnet__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "ad06ddd3c58b345c22adbb084a9707953fb563ed2923f379167cb3288116c6d2",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr1__seed20260930__best.csv",
+    "source_sha256": "29b82cd7e4abd741724def4f8c6ffc92f34d85812c00feaf4947eb5290714347",
+    "destination": "results/validation_predictions/K562__legnet__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "a8b7142493a2ce9334f2f728c52801fa6df903505c13470aeced095de28e5f20",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr1__seed20260931__best.csv",
+    "source_sha256": "fff62ddc16f4f9a551f5bba1267bb3517b1d2265917f542d4e018d7666430a3b",
+    "destination": "results/validation_predictions/K562__legnet__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "dc9b878c45e70af8f3f3af9c412b2e15b9f6df417c2d0af78d0573852777954e",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr1__seed20260932__best.csv",
+    "source_sha256": "2ed240dcd6322b4da2a34ef93701232348679fed8d323009e924485e746e2cf5",
+    "destination": "results/validation_predictions/K562__legnet__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "85ba65590f2e726dfc74261608b752694fa9c98dd4bcc3713e175837f8c0b87b",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr2__seed20260930__best.csv",
+    "source_sha256": "9d3217c7ceaf4834dfe682f05cba40ba32535b74a8a7d347f7b2490a46cf3d68",
+    "destination": "results/validation_predictions/K562__legnet__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "80d73e68f2506990360ae38ce11352873b096fc91d5a423d5aba9f26e188dba5",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr2__seed20260931__best.csv",
+    "source_sha256": "20b2c04ff45fe65d7b0782741af7e783ab62b130ebb37de212cee3a687a03f4a",
+    "destination": "results/validation_predictions/K562__legnet__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "0d00d2f755efa4079d10fe7c9038c82359f723bef6922ae93b05bed9e2dcfb51",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__legnet__lr2__seed20260932__best.csv",
+    "source_sha256": "08f159fb28ae55a056b36eb1a91262ed4e5d4847812691177b7eab893f1168f8",
+    "destination": "results/validation_predictions/K562__legnet__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "2947a8eab31d4d7f64527cabfd4ba2764696b6b9d047428e94bef028d971974b",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr0__seed20260930__best.csv",
+    "source_sha256": "a4bb121cc0dc0acac9e0e39c6d0829c272404839500c247c2ff7fc2abab1ddb3",
+    "destination": "results/validation_predictions/K562__mprann__lr0__seed20260930__best.csv.gz",
+    "public_sha256": "e30391cf154d759cde0830fdf06b641f832351c9229ee2dbdb78d63a0247578a",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr0__seed20260931__best.csv",
+    "source_sha256": "1d32f2e96b83c05bcaa20bc47d3c9dad5ef73dcef28712f1800aebbddbaa87c1",
+    "destination": "results/validation_predictions/K562__mprann__lr0__seed20260931__best.csv.gz",
+    "public_sha256": "ecadf06f88c93665088e98e0554f6f969a317d9266ac79ce7af58afac5ac449b",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr0__seed20260932__best.csv",
+    "source_sha256": "5d2c8b2cc2f1e9a2225981d954133bc406fc8f8c1bbdca1e054c6eaa67e81506",
+    "destination": "results/validation_predictions/K562__mprann__lr0__seed20260932__best.csv.gz",
+    "public_sha256": "a876aeb3b7c0973d43525da80a6ba99a89d2bc199563dba3366d3b4dba7ce3d7",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr1__seed20260930__best.csv",
+    "source_sha256": "a25ac5404776d3a9e6ff8f5a1932ad25878cebfece3736c7288ab02c33bc8ce3",
+    "destination": "results/validation_predictions/K562__mprann__lr1__seed20260930__best.csv.gz",
+    "public_sha256": "8d168d408d1b6344ec53f47b36d871522f2ef9ddac1f397b4eda5ed2a79951ad",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr1__seed20260931__best.csv",
+    "source_sha256": "79869e0ed41afd0dac53cc651b68c024fd52eeea828fbf8c8b9774f80cb6930b",
+    "destination": "results/validation_predictions/K562__mprann__lr1__seed20260931__best.csv.gz",
+    "public_sha256": "215c5aaa62dd0b1a3ff12940fac9f3492d39619fdb7a5f0e41f1b23742b73bfe",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr1__seed20260932__best.csv",
+    "source_sha256": "0b4b04994b5f8d095d4af115de23f24d9284a47d248d7170b5390c2b0b3829c4",
+    "destination": "results/validation_predictions/K562__mprann__lr1__seed20260932__best.csv.gz",
+    "public_sha256": "3db6d80a102d2d93f5cec6645e559098257f82b9adee5df45f6a70a061e76c91",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr2__seed20260930__best.csv",
+    "source_sha256": "7312b13feea9a5c683db52d5a1f721f0a7bb43a5378bddcee290b012fd92057e",
+    "destination": "results/validation_predictions/K562__mprann__lr2__seed20260930__best.csv.gz",
+    "public_sha256": "470fe8533987c3a42b9ea0cede2b2d7af7bf9661a072f955535538162f5292ee",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr2__seed20260931__best.csv",
+    "source_sha256": "90746062182d11ab340a56e2151a79dd83eeadd8b11ad0de5c82ec35b5827ea4",
+    "destination": "results/validation_predictions/K562__mprann__lr2__seed20260931__best.csv.gz",
+    "public_sha256": "d5eba03722433a649fc14972ff945b6fcd10f985dd6201d4b4a039760897bce3",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  },
+  {
+    "source": "phase35_outputs/validation/K562__mprann__lr2__seed20260932__best.csv",
+    "source_sha256": "8dfce8673aeccd35c896e6b16bd6079dc0fc0211e4b2e758f51a3f6abe3525ea",
+    "destination": "results/validation_predictions/K562__mprann__lr2__seed20260932__best.csv.gz",
+    "public_sha256": "2708a42d04c2c1b1348427a5789fdb3bbfaf1ee7d16041a968b96f74d783ad46",
+    "changes": [
+      "Lossless gzip/CSV representation of authenticated validation predictions; numerical values preserved"
+    ],
+    "rows_unchanged": true
+  }
+]

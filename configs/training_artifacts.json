@@ -1,0 +1,292 @@
+[
+  {
+    "path": "phase34_inputs/sources/phase9b.ipynb",
+    "bytes": 39667,
+    "sha256": "497e5686e8e32318d3ca1120dccc8f1f5894aa51d43e223d51453995295ee820"
+  },
+  {
+    "path": "phase34_inputs/sources/phase12.ipynb",
+    "bytes": 121283,
+    "sha256": "b45d1a8f2e80ad305e5588d5c80723498421a38eb8a9b5f7d5b17fea4864b4c9"
+  },
+  {
+    "path": "phase34_inputs/architectures.py",
+    "bytes": 7164,
+    "sha256": "36f8c7eab86e09bfee313873880de22e93886427bfcafe485f6a6748671a6516"
+  },
+  {
+    "path": "phase34_inputs/historical/phase9b_results.zip",
+    "bytes": 9601052,
+    "sha256": "b8b709835b897f4ba235657350ac4ebc4777225f12c3e3be33eb2772796ecdae"
+  },
+  {
+    "path": "phase34_inputs/historical/phase12_provenance.json",
+    "bytes": 9359,
+    "sha256": "98317b4a83fbbbbef6dda339ff2b9623d0a73f4484830736c1b2cc978fcfa619"
+  },
+  {
+    "path": "phase34_inputs/historical/phase12_validation_choices.csv",
+    "bytes": 1469,
+    "sha256": "1cde83b5db472ee9f8ee549d535d18a071bd8839c75a87530d40a341a3dcfaf7"
+  },
+  {
+    "path": "phase34_inputs/historical/phase12_internal_predictions_new_arms.csv",
+    "bytes": 53243836,
+    "sha256": "538d9ef74a0aff9fa79cc666350321c33834b71666375506ca8483dd6bc4d0b4"
+  },
+  {
+    "path": "phase34_inputs/historical/phase12_external_scores_new_arms.csv",
+    "bytes": 15791554,
+    "sha256": "81970b5029bb896d4e04a1a426f50fa0123aa9d2e2fdd8e3c673ff9ddbe556ee"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/bert_layers.py",
+    "bytes": 40690,
+    "sha256": "317ad7e9667980ac724c07f0174ba265c8446ca5230f6b473068ff1b911edcf9"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/bert_padding.py",
+    "bytes": 6099,
+    "sha256": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/config.json",
+    "bytes": 904,
+    "sha256": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/configuration_bert.py",
+    "bytes": 1011,
+    "sha256": "95fc868641b87bbcd7a32d2cd7b9f4769c27592e129daf167d14b5b8c74ec4c5"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/flash_attn_triton.py",
+    "bytes": 42729,
+    "sha256": "60f2cdef4b934e724b69e20a8821300030f88388d6b4674a9a1a95709b542560"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/generation_config.json",
+    "bytes": 90,
+    "sha256": "c993e393c12525ea015019130f83c90502efaa6de8d019e94856555614d9fae3"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/model_api_revision.json",
+    "bytes": 2764,
+    "sha256": "9a46c0ecd82cf63736170bb5d5ed6f546529a1d73c689a687d3117dc8a8f6197"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/pytorch_model.bin",
+    "bytes": 468354983,
+    "sha256": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/README.md",
+    "bytes": 1305,
+    "sha256": "5c4a6b32ffc689065a5627472e7f94ff53462ec6f5c5b651f277c950aeaa9c40"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/tokenizer.json",
+    "bytes": 167908,
+    "sha256": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+  },
+  {
+    "path": "phase34_inputs/models/dnabert2/tokenizer_config.json",
+    "bytes": 158,
+    "sha256": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+  },
+  {
+    "path": "phase34_inputs/phase9a_audit_and_provenance.json",
+    "bytes": 4950,
+    "sha256": "39118ed7b2dc50631f87dcb0c470249c649609d3dd7ab8c885b10064c66deff2"
+  },
+  {
+    "path": "phase34_inputs/phase9_full_activity_all_cells.csv",
+    "bytes": 32606184,
+    "sha256": "4a359a715f7a3f1fbcf0d044cc08446137df584c9ab4a43a2de18637bb341a76"
+  },
+  {
+    "path": "phase34_inputs/phase9_frozen_splits.csv",
+    "bytes": 11477624,
+    "sha256": "1ecc2d271817edd3000890be718a3f3a9bcc6b63a71550dfa718dbed84d0ff61"
+  },
+  {
+    "path": "phase34_inputs/phase10_external_frozen_set.csv",
+    "bytes": 16458844,
+    "sha256": "00d3521b5f087df56e97b792e7b961ffcb9a80e346fdb4c8360dc0182dc273f8"
+  },
+  {
+    "path": "phase34_inputs/phase10_provenance.json",
+    "bytes": 7878,
+    "sha256": "b3f6a5d1801e1143ff58ac5394e18f18cac38d5513a7ea0916b0e964c429f8c8"
+  },
+  {
+    "path": "phase34_inputs/phase10_inclusion_audit.json",
+    "bytes": 1027,
+    "sha256": "8e9374e06b56233cdaa3ca23931ec7e4b440a199b90d68f14e9194789c56af35"
+  },
+  {
+    "path": "phase34_inputs/method_sources/dnabert2_README.md",
+    "bytes": 9791,
+    "sha256": "734a8cec5f667d74d421bf3b273ad7e256216109636da45aa7ceba21cd34de16"
+  },
+  {
+    "path": "phase34_inputs/method_sources/legnet_README.md",
+    "bytes": 5974,
+    "sha256": "7410126d8d2f1771a59e48018ae1c4147aa0ce71086fbf4e507bf8c3d7c9ece9"
+  },
+  {
+    "path": "phase34_inputs/method_sources/mprann_README.md",
+    "bytes": 9409,
+    "sha256": "8c9616cb9464c9f1e47b5f7045367fb3e01037f650badbb0db52a6e9f6bccc78"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/README.md",
+    "bytes": 1305,
+    "sha256": "5c4a6b32ffc689065a5627472e7f94ff53462ec6f5c5b651f277c950aeaa9c40"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/bert_layers.py",
+    "bytes": 40690,
+    "sha256": "317ad7e9667980ac724c07f0174ba265c8446ca5230f6b473068ff1b911edcf9"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/bert_padding.py",
+    "bytes": 6099,
+    "sha256": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/config.json",
+    "bytes": 904,
+    "sha256": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/configuration_bert.py",
+    "bytes": 1011,
+    "sha256": "95fc868641b87bbcd7a32d2cd7b9f4769c27592e129daf167d14b5b8c74ec4c5"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/flash_attn_triton.py",
+    "bytes": 42729,
+    "sha256": "60f2cdef4b934e724b69e20a8821300030f88388d6b4674a9a1a95709b542560"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/generation_config.json",
+    "bytes": 90,
+    "sha256": "c993e393c12525ea015019130f83c90502efaa6de8d019e94856555614d9fae3"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/pytorch_model.bin",
+    "bytes": 468354983,
+    "sha256": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/tokenizer.json",
+    "bytes": 167908,
+    "sha256": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/tokenizer_config.json",
+    "bytes": 158,
+    "sha256": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/README.md",
+    "bytes": 34,
+    "sha256": "546938f5c4e6576195e4d21576d6ee9a833b14cb91749bcb89372e2d1673dc82"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/config.json",
+    "bytes": 1445,
+    "sha256": "4263c6ae1df85a5d119bad7636a0a7701c17ad2bdd110a3bbbc801a5c5e6bd88"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/configuration_bert.py",
+    "bytes": 807,
+    "sha256": "703fe5ca1034c04d5fb0064c23f909d0b34339b2e0c83f6503eeeb9b5ff9d78c"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/dnabert_layer.py",
+    "bytes": 5438,
+    "sha256": "40e2d82fdb296c87f944427225e9012bb4b25bfb1b5614d2e66ec79c2078a344"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/pytorch_model.bin",
+    "bytes": 359199902,
+    "sha256": "e1688c3a3f881daff02a42b487e04612c4ec9ef33f1f02fa5f4e67d7b9865ca9"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/special_tokens_map.json",
+    "bytes": 112,
+    "sha256": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/tokenizer_config.json",
+    "bytes": 40,
+    "sha256": "ec70da9a619641c3b56e62cb949b8a07f2fdafdb8389b2c72649fb235a5580b3"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/vocab.txt",
+    "bytes": 28703,
+    "sha256": "d8f61c247fc10f9b8c7f6baf4d31876f30076d4aaf9f31ff47b9e68badd62e61"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert2/model_api_revision.json",
+    "bytes": 2764,
+    "sha256": "9a46c0ecd82cf63736170bb5d5ed6f546529a1d73c689a687d3117dc8a8f6197"
+  },
+  {
+    "path": "phase30_inputs/models/dnabert_legacy/model_api_revision.json",
+    "bytes": 2583,
+    "sha256": "4067c9d8805f503d752638a33fdd8846ff79b83dcf8fd86701f33f8d3efd084c"
+  },
+  {
+    "path": "phase30_inputs/historical_sources/1_ enhancer_audit_v1_outputs.zip",
+    "bytes": 668593,
+    "sha256": "72aaf60b40304dcf5007f7f4c839ddbf032385e9b7a99fb2d5fc652a3b33fa7c"
+  },
+  {
+    "path": "phase30_outputs/summary.json",
+    "bytes": 321,
+    "sha256": "6eb9bc1456e78472519a215c39f24178f0d913b8660cdd571032b046fb2074cb"
+  },
+  {
+    "path": "phase30_outputs/training_protocol.json",
+    "bytes": 2065,
+    "sha256": "ee733570f5cef93533cdb1c466c6b2526126821d9b7f7cb48693cd4d53a29ede"
+  },
+  {
+    "path": "phase30_outputs/statistical_reporting_plan.json",
+    "bytes": 1388,
+    "sha256": "199f8712ceb44c2e5d87eed4627f7af765296264facb5ac4b10fab17dab52e84"
+  },
+  {
+    "path": "phase34_outputs/training_protocol.json",
+    "bytes": 4357,
+    "sha256": "2d204c4d565b46ebbb1833a00141d045201d59b79b503d43c3e6d9214d1101a9"
+  },
+  {
+    "path": "phase34_outputs/copied_input_manifest.csv",
+    "bytes": 5623,
+    "sha256": "b331b16a4d88238d7d9e0e09fb94281dbb4059e36ef6e941df89e549578e2bd7"
+  },
+  {
+    "path": "phase34_outputs/protected_before.json",
+    "bytes": 4243,
+    "sha256": "ddd42575b6ccdb3d612eb263e3fe132b888e8c441150341762ced393188efd83"
+  }
+]

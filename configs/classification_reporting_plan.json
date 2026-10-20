@@ -1,0 +1,28 @@
+{
+  "bootstrap_repeats": 1000,
+  "bootstrap_seed_formula": "2026101300+stage",
+  "bootstrap_unit": "frozen similarity_group_id",
+  "calibration_plot": "10fixed equal-width probability bins; n<30 suppressed; descriptive only",
+  "collapse_policy": "retain all runs; flag scoreSD<1e-5; no selective exclusion, tuning or stopping based on OOF scores",
+  "decision_threshold": 0.5,
+  "declared_before_new_training": true,
+  "ensembles": "arithmetic mean of3seed OOF probabilities on identical IDs; separate from mean seed/fold metrics",
+  "historical_results": "descriptive separate comparisons; no mixing into local seed SD",
+  "interval_scope": "fixed trained OOF model predictions on previously examined candidates; exploratory unadjusted; not algorithm-level confidence",
+  "metrics": [
+    "AUROC",
+    "AUPRC",
+    "Brier",
+    "accuracy",
+    "balanced_accuracy",
+    "MCC",
+    "F1",
+    "sensitivity",
+    "specificity",
+    "confusion_counts"
+  ],
+  "mixed_label_sensitivity": "exclude the known6Stage1records at evaluation only; no retraining",
+  "previously_examined_dataset": true,
+  "primary_purpose": "classification seed stability: mean-fold AUROC per seed; sampleSD across3seeds; fold variation separately",
+  "secondary_contrasts": "DNABERT2 ensemble minus originalDNABERT ensemble, separately by stage; archived baselines labelled single-run"
+}
