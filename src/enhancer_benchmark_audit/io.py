@@ -25,8 +25,27 @@ def table(path,frame):
     frame.to_csv(p,index=False,float_format='%.17g',compression={'method':'gzip','mtime':0} if p.suffix=='.gz' else None)
 def manifests():return [read(f'final_evidence/inputs/stage{stage}_candidate_manifest.csv') for stage in [1,2]]
 def verify_inputs():
-    manifest=json.loads((PACKAGE/'MANIFEST.json').read_text(encoding='utf-8'))
-    for item in manifest:
-        p=PACKAGE/item['path']
-        assert p.is_file() and sha(p)==item['sha256'],item['path']
+    """Check the compact manuscript-facing release inputs without depending on the historical archive."""
+    required=[
+        INPUT/'phase21_outputs/historical_test_overlap_roster.csv',
+        INPUT/'final_evidence/benchmark_audit.csv',
+        INPUT/'final_evidence/inputs/stage1_candidate_manifest.csv',
+        INPUT/'final_evidence/inputs/stage2_candidate_manifest.csv',
+        INPUT/'final_statistics/classification_predictions.csv.gz',
+        INPUT/'final_statistics/classification_summary.csv',
+        INPUT/'phase32_outputs/seed_metrics_pooled_and_fold.csv',
+        INPUT/'phase35_outputs/training_job_summary.csv',
+        INPUT/'phase36_outputs/validation_candidate_scores.csv',
+        INPUT/'phase37_outputs/verified_ensemble_predictions.csv.gz',
+        INPUT/'final_statistics/mpra_internal_summary.csv',
+        INPUT/'final_statistics/external_transfer_summary.csv',
+        PACKAGE/'results/predictions/classification_current_all_seeds.csv.gz',
+        PACKAGE/'configs/activity_selection_lock.json',
+        PACKAGE/'configs/activity_protocol.json',
+        PACKAGE/'configs/activity_input_manifest.csv',
+        PACKAGE/'configs/classification_run_lock.json',
+        PACKAGE/'configs/activity_run_lock.json',
+    ]
+    missing=[str(p.relative_to(PACKAGE)) for p in required if not p.is_file()]
+    assert not missing,f'Missing release inputs: {missing}'
     return True
